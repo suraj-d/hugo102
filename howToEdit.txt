@@ -1,0 +1,35 @@
+change site url, logo, name, homepage links, footer links, contact info, opening hours
+-config.toml
+
+edit home page content
+-data/homepage.yml
+
+edit footer contact info
+-data/contact.yml
+
+edit faq questions
+-data/faq.yml
+
+add product
+-content/product
+-create new .md file
+
+new blog
+-content/blog
+-create new .md file
+
+edit terms and condition
+-content/terms-condition
+-edit _index.md
+
+edit faq page top line
+-content/faq
+-edit line in _index.md
+
+edit contact
+-content/contact
+-edit _index.md
+
+media folder
+-static/images
+-create new folder page wise or add directly in images folder
