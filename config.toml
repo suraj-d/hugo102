@@ -94,11 +94,11 @@ mapMarker = "images/marker.png"
 # Google Analitycs
 googleAnalitycsID = "" # Your ID
 # Contact Information
-mobile = "0124857985320"
-email = "demo@email.com"
-location = "Dhaka, Bangladedsh"
+mobile = "9820927720"
+email = "sunfashionandlifestyle@gmail.com"
+location = "Surat, Gujarat, India"
 # copyright
-copyright = "| Copyright &copy; 2019 [Gethugothemes](https://gethugothemes.com) All Rights Reserved |"
+copyright = "| Copyright &copy; 2019 Sun Fashion All Rights Reserved |"
 
   # Preloader
   [params.preloader]
