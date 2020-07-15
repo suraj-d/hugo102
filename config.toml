@@ -1,7 +1,7 @@
 ######################## default configuration ####################
 baseURL = "https://sun101.netlify.app/"
 languageCode = "en-us"
-title = "Hargo | Hugo Ecommerce Site"
+title = "Sun Fashion | Ethnic wear store"
 theme = "hargo"
 summaryLength = "20"
 paginate = 10
@@ -85,7 +85,7 @@ logo = "images/logo.png"
 home = "Home"
 # Meta data
 description = "This is meta description"
-author = "Themefisher"
+author = "sun fashion"
 # google map
 gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"
 mapLatitude = "51.5223477"
