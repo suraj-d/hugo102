@@ -1,9 +1,8 @@
 ############################ banner ##########################
 banner:
   enable : true
-  title : "Best Beauty Cream For Your Skin"
-  content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-          dolore magna aliquyam erat, sed dia"
+  title : "Designer Ethnic Wear Collection"
+  content : "Beautiful 3 piece Dress material, available in vivid color combination to make you look elegant and stylish amoung your friends and family"
   image : "images/banner.png"
   # button
   button:
@@ -39,29 +38,33 @@ cta:
 ######################## raw material #######################
 material:
   enable : true
-  title : "Ingredients Of Our Products"
-  subtitle : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-          dol."
+  title : "Types of Fabric we use"
+  subtitle : "Some of the fabric we use in our prduction"
   materialItem:
     # material item loop
-    - title : "Matcha Seeds"
+    - title : "Jaam Cotton"
       image : "images/material/material-1.png"
       content : "Lorem ipsum dolor sit amet,be consetetur sadipscing elitr, sed diam nonumy eirmod tem"
       
     # material item loop
-    - title : "Aloe Vera"
+    - title : "Poly Silk"
       image : "images/material/material-2.png"
       content : "Lorem ipsum dolor sit amet,be consetetur sadipscing elitr, sed diam nonumy eirmod tem"
       
     # material item loop
-    - title : "Turmeric"
+    - title : "Chanderi Silk"
       image : "images/material/material-3.png"
       content : "Lorem ipsum dolor sit amet,be consetetur sadipscing elitr, sed diam nonumy eirmod tem"
       
     # material item loop
-    - title : "Tulshi leaf"
+    - title : "Linen Cotton"
       image : "images/material/material-4.png"
       content : "Lorem ipsum dolor sit amet,be consetetur sadipscing elitr, sed diam nonumy eirmod tem"
+      
+    # material item loop
+    - title : "Nazneen"
+      image : "images/material/material-1.png"
+      content : "Nazneen description"
 
 ########################### Advantage #########################
 advantage:
