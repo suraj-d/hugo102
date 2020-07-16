@@ -17,8 +17,9 @@ sections:
 - type: directory
   path: content/products
   label: Products
-  create: all
+  create: documents
   match: "**/*"
+  new_doc_ext: ".md"
 - type: directory
   path: content/faq
   label: Faq
