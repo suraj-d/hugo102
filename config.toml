@@ -2,7 +2,7 @@
 baseURL = "https://sun101.netlify.app/"
 languageCode = "en-us"
 title = "Sun Fashion | Ethnic wear store"
-theme = "hargo"
+#theme = "hargo"
 summaryLength = "20"
 paginate = 10
 disqusShortname = ""
