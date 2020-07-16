@@ -37,9 +37,9 @@ sections:
   match: "**/*"
 upload_dir: static/images
 public_path: "/images"
-front_matter_path: 'archetypes'
+front_matter_path: '/archetypes'
 use_front_matter_path: true
-file_template: ":filename:"
+file_template: ":filename:.md"
 build:
   preview_env:
   - HUGO_ENV=staging
