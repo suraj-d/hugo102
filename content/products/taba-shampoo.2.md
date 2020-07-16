@@ -14,7 +14,7 @@ priceBefore: "25.00$"
 shortDescription: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut"
 
 #product ID
-productID: "8"
+productID: "0008"
 
 # type must be "products"
 type: "products"

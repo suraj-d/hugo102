@@ -13,7 +13,7 @@ price: "Rs. 600"
 shortDescription: "Cotton dress material with handwork design and nazneen dupatta"
 
 #product ID
-productID: "10"
+productID: "0010"
 
 # type must be "products"
 type: "products"
