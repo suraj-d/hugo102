@@ -10,7 +10,7 @@ fields:
   label: date
 - type: text
   name: description
-  label: description
+  label: meta description in product lisy
 - type: text
   name: price
   label: price
