@@ -17,8 +17,9 @@ sections:
 - type: directory
   path: content/products
   label: Products
-  create: all
+  create: documents
   match: "**/*"
+  new_doc_ext: md
 - type: directory
   path: content/faq
   label: Faq
@@ -36,8 +37,8 @@ sections:
   match: "**/*"
 upload_dir: static/images
 public_path: "/images"
-front_matter_path: 'archetypes'
-use_front_matter_path: true
+front_matter_path: ''
+use_front_matter_path: false
 file_template: ":filename:"
 build:
   preview_env:
