@@ -20,11 +20,18 @@
               <span class="lead text-primary">{{ .Params.Price }}</span>
               <s>{{ .Params.PriceBefore }}</s>
             </div>
+            
+            <button class="btn btn-primary">
+			<a href="https://wa.me/?text={{ .Params.Title }}%0DLink: {{.Permalink}}" data-action="share/whatsapp/share" class="btn-primary">Share via Whatsapp</a>
+			</button>
+            	
+            	<!--			
             <button class="snipcart-add-item btn btn-sm btn-outline-primary" data-item-id="{{ .Params.ProductID }}"
               data-item-name="{{ .Title }}" {{ range first 1 .Params.Images }} data-item-image="{{ .image | absURL }}"
               {{ end }} data-item-price="{{ .Params.Price }}" data-item-url="{{ .Permalink }}">
               Add to cart
             </button>
+            -->
           </div>
         </div>
       </div>
@@ -36,4 +43,5 @@
 <!--
 {{ partial "cta.html" . }}
 -->
+
 {{ end }}
