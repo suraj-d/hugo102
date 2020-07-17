@@ -12,7 +12,6 @@ images:
 - image: images/products/white-walker-4.jpeg
 - image: images/products/white-walker-5.jpeg
 - image: images/products/white-walker-6.jpeg
-
 ---
 BRAND - 24 CARAT SUIT
 
