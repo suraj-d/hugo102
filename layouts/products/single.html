@@ -27,6 +27,11 @@
         </div>
         <h5>Short Description</h5>
         <p>{{ .Params.ShortDescription | markdownify }}</p>
+		
+		<button class="btn btn-primary">
+		<a href="https://wa.me/?text={{ .Params.Title }}%0DLink: {{.Permalink}}" data-action="share/whatsapp/share" class="btn-primary">Share via Whatsapp</a>
+		</button>
+
         <button class="snipcart-add-item btn btn-primary" data-item-id="{{ .Params.ProductID }}"
           data-item-name="{{ .Title }}" {{ range first 1 .Params.Images }} data-item-image="{{ .image | absURL }}"
           {{ end }} data-item-price="{{ .Params.Price }}" data-item-url="{{ .Permalink }}">
