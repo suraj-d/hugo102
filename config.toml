@@ -84,7 +84,7 @@ disqusShortname = ""
 logo = "images/logo.png"
 home = "Home"
 # Meta data
-description = "This is meta description"
+description = "cotton dress material suit material ladies suit ethinc wear salwar kameez chudidar patiyala"
 author = "sun fashion"
 # google map
 gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"
@@ -120,7 +120,7 @@ copyright = "| Copyright &copy; 2019 Sun Fashion All Rights Reserved |"
   [[params.social]]
   icon = "ti-twitter-alt"
   link = "#"
-  
+	
   [[params.social]]
   icon = "ti-youtube"
   link = "#"
