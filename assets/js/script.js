@@ -88,5 +88,4 @@
     $(this).parent().find('.ti-minus').removeClass('ti-minus').addClass('ti-plus');
   });
 
-
 })(jQuery);
