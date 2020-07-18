@@ -1,10 +1,25 @@
 <!DOCTYPE html>
-<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+<html prefix="og: http://ogp.me/ns#" lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
     {{- partial "head.html" . -}}
+   
+    <!-- <head itemscope itemtype="{{ .Site.BaseURL}}">
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/> -->
+
+        <!-- All meta tages and links -->
+        <!-- {{ partial "meta" . }}
+        {{ partial "css-links" . }}
+    </head> -->
+   
     <body>
-        {{- partial "preloader.html" . -}}
-        {{- partial "header.html" . -}}
-        {{- block "main" . }}{{- end }}
-        {{- partial "footer.html" . -}}
+        {{ partial "preloader" . }}
+        {{ partial "header" . }}
+        <main id="main">
+            {{ block "main" . }}
+            
+            {{ end }}
+        </main>
+        {{ partial "footer" . }}
     </body>
 </html>
