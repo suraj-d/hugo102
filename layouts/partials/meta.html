@@ -1,0 +1,81 @@
+{{ "<!-- title tags -->" | safeHTML }}
+        <title itemprop="name">{{ .Title }} </title>
+        <meta property="og:title" content="{{ .Title}} "/>
+        <meta name="twitter:title" content="{{ .Title}} "/>
+        <meta itemprop="name" content="{{ .Title}} "/>
+        <meta name="application-name" content="{{ .Title}} "/>
+        <meta property="og:site_name" content="{{ .Site.Params.sitename }}"/>
+
+        {{ "<!-- description tags -->" | safeHTML }}
+        <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}">
+        <meta itemprop="description" content="{{ .Site.Params.description }}"/>
+        <meta property="og:description" content="{{ .Site.Params.description }}"/>
+        <meta name="twitter:description" content="{{ .Site.Params.description }}"/>
+
+        
+        {{ "<!-- link tags -->" | safeHTML }}
+        <base href="{{ .Permalink }}">
+        <link rel="canonical" href="{{ .Permalink }}" itemprop="url" />
+        <meta name="url" content="{{ .Permalink }}" />
+        <meta name="twitter:url" content="{{ .Permalink }}" />
+        <meta property="og:url" content="{{ .Permalink }}"/>
+
+        
+        {{ "<!-- image tags -->" | safeHTML }}
+        {{ with .Params.image }} 
+		<meta itemprop="image" content="{{ . | absURL }}" />
+		<meta property="og:image" content="{{ . | absURL }}" /> 
+		<meta name="twitter:image" content="{{ . | absURL }}" />
+		<meta name="twitter:image:src" content="{{ . | absURL }}" /> 
+		{{ else }}
+		<meta itemprop="image" content="{{ .Site.Params.ogimage | absURL }}" />
+		<meta property="og:image" content="{{ .Site.Params.ogimage | absURL }}" />
+		<meta name="twitter:image" content="{{ .Site.Params.ogimage | absURL }}" />
+		<meta name="twitter:image:src" content="{{ .Site.Params.ogimage | absURL }}" /> 
+		{{ end }}
+		
+		
+        {{ "<!-- date tags -->" | safeHTML }}
+        <meta property="og:updated_time" content={{ .Lastmod.Format "2006-01-02T15:04:05Z0700" | safeHTML }} />
+		
+		{{ "<!-- Sitemap & RSS Feed tags -->" | safeHTML }}
+		<link rel="sitemap" type="application/xml" title="Sitemap" href="{{ .Site.BaseURL }}sitemap.xml" /> 
+		{{ with .OutputFormats.Get "RSS" }}
+		<link href="{{ .Permalink }}" rel="alternate" type="application/rss+xml" title="{{ $.Site.Title }}" />
+		<link href="{{ .Permalink }}" rel="feed" type="application/rss+xml" title="{{ $.Site.Title }}" />
+		{{ end }}
+		
+		
+		{{ "<!-- Article page tags -->" | safeHTML }}
+        
+		{{ "<!-- Webpage tags -->" | safeHTML }}
+		<meta property="og:type" content="website" /> 
+		{{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
+		
+		{{ "<!-- Favicon tags -->" | safeHTML }}
+		<link rel="shortcut icon" href="{{ `images/favicon.png` | absURL }} " type="image/x-icon">
+		<link rel="icon" href="{{ `images/favicon.png` | absURL }} " type="image/x-icon">
+
+		
+		{{ "<!-- Search engine crawler tags -->" | safeHTML }}
+		<meta name="robots" content="index,follow" /> 
+		<meta name="googlebot" content="index,follow" />
+
+		{{ "<!-- Manifest File tags -->" | safeHTML }}
+		<link rel="manifest" href="{{ .Site.BaseURL }}manifest.json" />
+
+		{{ "<!-- Theme Color tags -->" | safeHTML }}
+
+		<meta name="theme-color" content="#7251a7" /> 
+		<meta name="msapplication-TileColor" content="#7251a7" />
+
+		<meta name="keywords" content="" />
+		<meta name="imagemode" content="force" />
+		<meta name="coverage" content="Worldwide" /> 
+		<meta name="distribution" content="Global" />
+		<meta name="HandheldFriendly" content="True" /> 
+		<meta name="msapplication-tap-highlight" content="no" />
+		<meta name="apple-mobile-web-app-title" content="{{ .Site.Params.sitename }}" /> 
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+		<meta name="apple-touch-fullscreen" content="yes" />
