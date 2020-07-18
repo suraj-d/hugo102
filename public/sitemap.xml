@@ -18,11 +18,6 @@
   </url>
   
   <url>
-    <loc>https://sun101.netlify.app/</loc>
-    <lastmod>2019-10-17T11:22:16+06:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://sun101.netlify.app/blog/post-2/</loc>
     <lastmod>2019-10-17T11:22:16+06:00</lastmod>
   </url>
@@ -34,6 +29,11 @@
   
   <url>
     <loc>https://sun101.netlify.app/products/</loc>
+    <lastmod>2019-10-17T11:22:16+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sun101.netlify.app/</loc>
     <lastmod>2019-10-17T11:22:16+06:00</lastmod>
   </url>
   
@@ -68,12 +68,12 @@
   </url>
   
   <url>
-    <loc>https://sun101.netlify.app/products/taba-shampoo.1/</loc>
+    <loc>https://sun101.netlify.app/products/taba-facewash1/</loc>
     <lastmod>2019-10-17T11:22:16+06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://sun101.netlify.app/products/taba-shampoo.2/</loc>
+    <loc>https://sun101.netlify.app/products/taba-facewash2/</loc>
     <lastmod>2019-10-17T11:22:16+06:00</lastmod>
   </url>
   
@@ -83,7 +83,27 @@
   </url>
   
   <url>
+    <loc>https://sun101.netlify.app/products/taba-shampoo1/</loc>
+    <lastmod>2019-10-17T11:22:16+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sun101.netlify.app/products/taba-shampoo2/</loc>
+    <lastmod>2019-10-17T11:22:16+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sun101.netlify.app/products/taba-shampoo3/</loc>
+    <lastmod>2019-10-17T11:22:16+06:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://sun101.netlify.app/terms-conditions/</loc>
+    <lastmod>2019-10-17T11:22:16+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sun101.netlify.app/products/white-walker/</loc>
     <lastmod>2019-10-17T11:22:16+06:00</lastmod>
   </url>
   
