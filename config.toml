@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://sun101.netlify.app/"
+baseURL = "https://sunfashion.netlify.app/"
 title = "Sun Fashion | Ethnic wear store"
 
 languageCode = "en-us"
@@ -128,7 +128,7 @@ copyright = "| Copyright &copy; 2019 Sun Fashion All Rights Reserved |"
   # Social Site
   [[params.social]]
   icon = "ti-facebook"
-  link = "#"
+  link = "https://www.facebook.com/SunFashionNLifestyle/"
   
   [[params.social]]
   icon = "ti-twitter-alt"
@@ -140,11 +140,11 @@ copyright = "| Copyright &copy; 2019 Sun Fashion All Rights Reserved |"
   
   [[params.social]]
   icon = "ti-instagram"
-  link = "#"
+  link = "https://www.instagram.com/sun_.fashion/"
   
   [[params.social]]
   icon = "ti-pinterest"
-  link = "#"
+  link = "https://in.pinterest.com/sun_fashion/"
 
   # Contact Form
   [params.contact]
