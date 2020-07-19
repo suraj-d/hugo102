@@ -8,9 +8,9 @@
 
         {{ "<!-- description tags -->" | safeHTML }}
         <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}">
-        <meta itemprop="description" content="{{ .Site.Params.description }}"/>
-        <meta property="og:description" content="{{ .Site.Params.description }}"/>
-        <meta name="twitter:description" content="{{ .Site.Params.description }}"/>
+        <meta itemprop="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}"/>
+        <meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}"/>
+        <meta name="twitter:description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}"/>
 
         
         {{ "<!-- link tags -->" | safeHTML }}
@@ -47,14 +47,88 @@
 		
 		
 		{{ "<!-- Article page tags -->" | safeHTML }}
+		<!-- To make sure this renders only in the article page, we check the section -->
+{{ if eq .Section "blog" }} 
+
+  <!-- Pagination meta tags for list pages only -->
+  {{ $paginator := .Paginate (where .Pages "Section" "blog") }}
+  {{ if $paginator }}
+    <link rel="first" href="{{ $paginator.First.URL }}">
+    <link rel="last" href="{{ $paginator.Last.URL }}">
+    {{ if $paginator.HasPrev }}
+      <link rel="prev" href="{{ $paginator.Prev.URL }}">
+    {{end }}
+    {{ if $paginator.HasNext }}
+      <link rel="next" href="{{ $paginator.Next.URL }}">
+    {{end }}
+  {{end }}
+
+  <meta property="og:type" content="blog" />
+  <meta property="article:publisher" content="{{ .Site.Params.author }}" /> 
+  <meta property="og:article:published_time" content={{ .Date.Format "2006-01-02T15:04:05Z0700" | safeHTML }} /> 
+  <meta property="article:published_time" content={{ .Date.Format "2006-01-02T15:04:05Z0700" | safeHTML }} />
+  
+  {{ with.Params.author }} 
+    <meta property="og:article:author" content="{{humanize . }}" />
+    <meta property="article:author" content="{{humanize . }}" /> 
+    <meta name="author" content="{{humanize . }}" /> 
+  {{ end }}
+  
+  {{ with.Params.category }} 
+    <meta name="news_keywords" content="{{ index . 0 }}" />
+    <meta property="article:section" content="{{ index . 0 }}" /> 
+  {{ end }}
+
+  <script defer type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Blog",
+      "headline": {{ .Title }},
+      "author": {
+        "@type": "Person",
+        "name": "{{ .Site.Params.author }}"
+      },
+			"datePublished": "{{ .Date.Format "2006-01-02" }}",
+			"description": {{ .Description }},
+			"wordCount": {{ .WordCount }},
+			"mainEntityOfPage": "True",
+			"dateModified": "{{ .Lastmod.Format "2006-01-02" }}",
+			"image": {
+				"@type": "imageObject",
+				"url": "{{ . | absURL }}"
+			},
+			"publisher": {
+				"@type": "Organization",
+				"name": "{{ .Site.Params.Sitename }}",
+				"logo": {
+				"@type": "imageObject",
+				"url": "{{ `images/favicon.ico` | absURL }}"
+				}
+			}
+			}
+		</script>
+		{{ end }}
         
 		{{ "<!-- Webpage tags -->" | safeHTML }}
 		<meta property="og:type" content="website" /> 
-		{{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
+		<meta name="author" content="{{ .Site.Params.author }}" />
+		<script defer type="application/ld+json">
+		{ 
+			"@context": "http://schema.org", 
+			"@type": "WebSite", 
+			"url": "{{ .Permalink }}", 
+			"sameAs": [
+			"{{ .Site.Params.facebook }}", 
+			"{{ .Site.Params.github }}"
+			], 
+			"name": "{{ .Title }}", 
+			"logo": "{{ `images/favicon.ico` | absURL }}" 
+		}
+		</script>
 		
 		{{ "<!-- Favicon tags -->" | safeHTML }}
-		<link rel="shortcut icon" href="{{ `images/favicon.png` | absURL }} " type="image/x-icon">
-		<link rel="icon" href="{{ `images/favicon.png` | absURL }} " type="image/x-icon">
+		<link rel="shortcut icon" href="{{ `images/favicon.ico` | absURL }} " type="image/x-icon">
+		<link rel="icon" href="{{ `images/favicon.ico` | absURL }} " type="image/x-icon">
 
 		
 		{{ "<!-- Search engine crawler tags -->" | safeHTML }}
