@@ -98,7 +98,7 @@ home = "Home"
 sitename = "Sun Fashion"
 # Meta data
 description = "cotton dress material suit material ladies suit ethinc wear salwar kameez chudidar patiyala"
-author = "sun fashion"
+author = "Sun Fashion"
 # google map
 gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"
 mapLatitude = "51.5223477"
