@@ -1,5 +1,6 @@
 {{ "<!-- Google Map API -->" | safeHTML }}
 <script src="{{ .Site.Params.gmapAPI | absURL }}"></script>
+
 {{ "<!-- JS Plugins -->" | safeHTML }}
 {{ range .Site.Params.plugins.js}}
 <script src="{{ .link | absURL }}"></script>
