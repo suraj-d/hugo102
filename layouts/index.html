@@ -34,7 +34,7 @@
         {{ end }}
       </div>
       <div class="col-lg-7 col-md-6 order-1 order-lg-2">
-        <img src="{{ .image | absURL }}" class="img-fluid" alt="">
+        <img src="{{ .image | absURL }}" alt="{{ .Title }}" class="img-fluid" alt="">
       </div>
     </div>
   </div>
@@ -50,7 +50,7 @@
   <div class="container">
     <div class="row justify-content-around align-items-center">
       <div class="col-lg-5 col-md-6">
-        <img class="img-fluid" src="{{ .image | absURL }}" alt="">
+        <img class="img-fluid" src="{{ .image | absURL }}" alt="{{ .Title }}">
       </div>
       <div class="col-md-6 col-lg-5">
         <h2>{{ .title | markdownify }}</h2>
@@ -82,7 +82,7 @@
       {{ range .materialItem }}
       <div class="col-lg-3 col-md-4 col-sm-6">
         <div class="card border-0 text-center">
-          <img src="{{ .image | absURL }}" alt="material" class="card-img-top border-0">
+          <img src="{{ .image | absURL }}" alt=".Title" class="card-img-top border-0">
           <div class="card-body">
             <h4>{{ .title | markdownify }}</h4>
             <p>{{ .content | markdownify }}</p>
@@ -113,7 +113,7 @@
         </ul>
       </div>
       <div class="col-md-6">
-        <img src="{{ .image | absURL}}" class="img-fluid" alt="">
+        <img src="{{ .image | absURL}}" class="img-fluid" alt="{{ .Title }}">
       </div>
     </div>
   </div>
