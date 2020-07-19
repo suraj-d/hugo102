@@ -34,7 +34,7 @@
         {{ end }}
       </div>
       <div class="col-lg-7 col-md-6 order-1 order-lg-2">
-        <img src="{{ .image | absURL }}" alt="{{ .Title }}" class="img-fluid" alt="">
+        <img src="{{ .image | absURL }}" alt="{{ .title | markdownify }}" class="img-fluid">
       </div>
     </div>
   </div>
@@ -50,7 +50,7 @@
   <div class="container">
     <div class="row justify-content-around align-items-center">
       <div class="col-lg-5 col-md-6">
-        <img class="img-fluid" src="{{ .image | absURL }}" alt="{{ .Title }}">
+        <img class="img-fluid" src="{{ .image | absURL }}" alt="{{ .title | markdownify }}">
       </div>
       <div class="col-md-6 col-lg-5">
         <h2>{{ .title | markdownify }}</h2>
@@ -82,7 +82,7 @@
       {{ range .materialItem }}
       <div class="col-lg-3 col-md-4 col-sm-6">
         <div class="card border-0 text-center">
-          <img src="{{ .image | absURL }}" alt=".Title" class="card-img-top border-0">
+          <img src="{{ .image | absURL }}" alt="{{.title | markdownify}}" class="card-img-top border-0">
           <div class="card-body">
             <h4>{{ .title | markdownify }}</h4>
             <p>{{ .content | markdownify }}</p>
@@ -113,7 +113,7 @@
         </ul>
       </div>
       <div class="col-md-6">
-        <img src="{{ .image | absURL}}" class="img-fluid" alt="{{ .Title }}">
+        <img src="{{ .image | absURL}}" class="img-fluid" alt="{{ .title | markdownify }}">
       </div>
     </div>
   </div>
@@ -130,7 +130,7 @@
     <div class="row align-items-center justify-content-between">
       <div class="col-lg-5 col-md-6">
         <div class="img-border rounded mb-5 mb-md-0">
-          <img src="{{ .videoThumb | absURL }}" alt="video thumb" class="img-fluid rounded">
+          <img src="{{ .videoThumb | absURL }}" alt="{{.title | markdownify}}" class="img-fluid rounded">
           <a data-toggle="modal" data-src="{{ .videoURL | safeURL }}" data-target="#videoModal2"
             class="text-color video-modal content-center"><i class="ti-control-play bg-gradient btn-play-lg"></i></a>
           <!-- Modal -->
@@ -171,7 +171,7 @@
         <div class="card border-0 text-center">
           <a href="{{ .Permalink }}">
             {{ range first 1 .Params.Images }}
-            <img src="{{ .image | absURL }}" alt="{{ .Title }}" class="card-img-top">
+            <img src="{{ .image | absURL }}" alt="{{ .title | markdownify }}" class="card-img-top">
             {{ end }}
           </a>
           <div class="card-body">

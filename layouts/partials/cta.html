@@ -1,7 +1,7 @@
 <!-- call to  action -->
 {{ with .Site.Data.homepage.cta }}
 <section class="py-4 bg-gradient position-relative">
-  <img src="{{ .overlayImage | absURL }}" class="img-fluid overlay-image" alt="">
+  <img src="{{ .overlayImage | absURL }}" class="img-fluid overlay-image" alt="{{.title | markdownify}}">
   <div class="container">
     <div class="row">
       <div class="col-lg-8 col-md-7">
@@ -12,7 +12,7 @@
         {{ end }}
       </div>
       <div class="col-lg-4 col-md-5 position-relative">
-        <img class="cta-image" src="{{ .image | absURL }}" alt="">
+        <img class="cta-image" src="{{ .image | absURL }}" alt="{{.title | markdownify}}">
       </div>
     </div>
   </div>
