@@ -93,7 +93,7 @@ disqusShortname = ""
 
 #################### default parameters ################################
 [params]
-logo = "images/logo.png"
+logo = "images/logo.jpeg"
 home = "Home"
 sitename = "Sun Fashion"
 legalname = "Sun Fashion and Lifestyle"
