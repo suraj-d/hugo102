@@ -103,9 +103,9 @@ description = "cotton dress material suit material ladies suit ethinc wear salwa
 author = "Sun Fashion"
 
 # google map
-gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"
-mapLatitude = "51.5223477"
-mapLongitude = "-0.1622023"
+gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyC3oZE7gFiOY2VdduQNHKoFvvRXpY3DYpw&libraries=places"
+mapLatitude = "21.193995"
+mapLongitude = "72.841687"
 mapMarker = "images/marker.png"
 
 # Google Analitycs, create new property
