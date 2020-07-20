@@ -22,17 +22,21 @@
 
         
         {{ "<!-- image tags -->" | safeHTML }}
-        {{ with .Params.image }} 
-		<meta itemprop="image" content="{{ . | absURL }}" />
-		<meta property="og:image" content="{{ . | absURL }}" /> 
-		<meta name="twitter:image" content="{{ . | absURL }}" />
-		<meta name="twitter:image:src" content="{{ . | absURL }}" /> 
-		{{ else }}
-		<meta itemprop="image" content="{{ .Site.Params.ogimage | absURL }}" />
-		<meta property="og:image" content="{{ .Site.Params.ogimage | absURL }}" />
-		<meta name="twitter:image" content="{{ .Site.Params.ogimage | absURL }}" />
-		<meta name="twitter:image:src" content="{{ .Site.Params.ogimage | absURL }}" /> 
+        {{ with .Params.Images }}
+        {{ range first 1 . }}         
+		<meta itemprop="image" content="{{ .image | absURL }}" />
+		<meta property="og:image" content="{{ .image | absURL }}" /> 
+		<meta name="twitter:image" content="{{ .image  | absURL }}" />
+		<meta name="twitter:image:src" content="{{ .image  | absURL }}" /> 
 		{{ end }}
+		{{else}}
+		<meta itemprop="image" content="{{ .Site.Params.Logo | absURL }}" />
+		<meta property="og:image" content="{{ .Site.Params.Logo | absURL }}" /> 
+		<meta name="twitter:image" content="{{ .Site.Params.Logo  | absURL }}" />
+		<meta name="twitter:image:src" content="{{ .Site.Params.Logo  | absURL }}" /> 
+
+		{{end}}
+		
 		
 		
         {{ "<!-- date tags -->" | safeHTML }}
