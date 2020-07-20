@@ -33,3 +33,7 @@ edit contact
 media folder
 -static/images
 -create new folder page wise or add directly in images folder
+
+enable map
+-enable in data/contact
+-uncomment in layouts/partials/js.html
