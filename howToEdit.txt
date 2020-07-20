@@ -40,6 +40,7 @@ enable map
 
 enable snipcart
 -uncomment in layouts/partials/js.html
+-uncomment cart in layouts/partials/header.html
 
 enable ratting
 -enable in config.toml
