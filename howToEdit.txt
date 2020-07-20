@@ -37,3 +37,9 @@ media folder
 enable map
 -enable in data/contact
 -uncomment in layouts/partials/js.html
+
+enable snipcart
+-uncomment in layouts/partials/js.html
+
+enable ratting
+-enable in config.toml
