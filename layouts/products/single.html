@@ -28,15 +28,16 @@
         <h5>Short Description</h5>
         <p>{{ .Params.ShortDescription | markdownify }}</p>
 				
-		<button class=" btn btn-primary">
-		<a href="https://wa.me/?text={{ .Params.Title }}%0D%0ALink: {{.Permalink}}" data-action="share/whatsapp/share" style="color:white;">Share via Whatsapp</a>
-		</button> 
-
+		<a class="btn btn-primary" href="https://wa.me/?text={{ .Params.Title }}%0D%0ALink: {{.Permalink}}" data-action="share/whatsapp/share" target="_blank" role="button">Share Via Whatsapp</a>
+		
+		<!--
         <button class="snipcart-add-item btn btn-primary" data-item-id="{{ .Params.ProductID }}"
           data-item-name="{{ .Title }}" {{ range first 1 .Params.Images }} data-item-image="{{ .image | absURL }}"
           {{ end }} data-item-price="{{ .Params.Price }}" data-item-url="{{ .Permalink }}">
           Add to cart
         </button>
+        -->
+        
       </div>
       <div class="col-12 mt-5">
         <ul class="nav nav-tabs border-bottom-0" id="myTab" role="tablist">
