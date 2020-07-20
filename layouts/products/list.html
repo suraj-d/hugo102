@@ -21,7 +21,7 @@
             <p>{{ .Params.Description }}</p>
             <div class="mb-4">
               <span class="lead text-primary">{{ .Params.Price }}</span>
-              <s>{{ .Params.PriceBefore }}</s>
+              <del>{{ .Params.PriceBefore }}</del>
             </div>
             
 			<a class="btn btn-sm btn-outline-primary" href="https://wa.me/?text={{ .Params.Title }}%0D%0ALink: {{.Permalink}}" data-action="share/whatsapp/share" target="_blank" role="button" rel="noreferrer noopener" aria-label="share via whatsapp">Share Via Whatsapp</a>

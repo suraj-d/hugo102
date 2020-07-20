@@ -26,7 +26,7 @@
         {{ end }}
         <div class="my-4">
           <span class="lead text-primary font-weight-medium">{{ .Params.Price }}</span>
-          <s>{{ .Params.PriceBefore }}</s>
+          <del>{{ .Params.PriceBefore }}</del>
         </div>
         <h5>Short Description</h5>
         <p>{{ .Params.ShortDescription | markdownify }}</p>
