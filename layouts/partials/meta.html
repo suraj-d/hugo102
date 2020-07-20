@@ -118,7 +118,9 @@
 			"@type": "WebSite", 
 			"url": "{{ .Permalink }}", 
 			"sameAs": [
-			"{{ .Site.Params.facebook }}"
+			{{ range where .Site.Params.social ".link" "!=" "#"  }}
+			"{{ .link | safeURL }}",
+			{{ end }}
 			], 
 			"name": "{{ .Title }}", 
 			"logo": "{{ `images/favicon.ico` | absURL }}" 
