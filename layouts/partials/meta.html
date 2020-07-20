@@ -82,7 +82,7 @@
 		<script defer type="application/ld+json">
 			{
 			"@context": "http://schema.org",
-			"@type": "Blog",
+			"@type": "Article",
 			"headline": {{ .Title }},
 			"author": {
 			"@type": "Person",
@@ -94,14 +94,14 @@
 			"mainEntityOfPage": "True",
 			"dateModified": "{{ .Lastmod.Format "2006-01-02" }}",
 			"image": {
-				"@type": "imageObject",
+				"@type": "ImageObject",
 				"url": "{{ . | absURL }}"
 			},
 			"publisher": {
 				"@type": "Organization",
 				"name": "{{ .Site.Params.Sitename }}",
 				"logo": {
-				"@type": "imageObject",
+				"@type": "ImageObject",
 				"url": "{{ `images/favicon.ico` | absURL }}"
 				}
 			}
@@ -123,7 +123,22 @@
 			{{ end }}
 			], 
 			"name": "{{ .Site.Params.Sitename }}", 
-			"logo": "{{ `images/logo.png` | absURL }}" 
+			"description": "{{ .Site.Params.Description }}",
+			"publisher": {
+				"@type": "Organization",
+				"legalName": "{{ .Site.Params.Legalname }}",
+				"alternateName": "{{ .Site.Params.Sitename }}",
+				"logo": {
+					"@type": "ImageObject",
+					"url": "{{ `images/favicon.ico` | absURL }}"
+					},
+				"location": {
+					"@type": "PostalAddress",
+					"streetAddress": "Ring Road",
+					"addressRegion": "Surat",
+					"postalCode": "395002"
+					}
+						}
 		}
 		</script>
 		
