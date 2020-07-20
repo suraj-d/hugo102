@@ -6,7 +6,7 @@ price: Rs. 600
 shortDescription: Cotton dress material with handwork design and nazneen dupatta
 productID: '0010'
 images:
-- image: images/products/white-walker-1.jpeg
+- image: images/products/white-walker-1.jpeg 
 - image: images/products/white-walker-2.jpeg
 - image: images/products/white-walker-3.jpeg
 - image: images/products/white-walker-4.jpeg
