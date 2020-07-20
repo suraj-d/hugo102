@@ -11,7 +11,10 @@
             <li class="list-inline-item"><i class="ti-calendar text-primary mr-2"></i>
               {{ .PublishDate.Format "02 Jan, 2006" }}</li>
           </ul>
-          <img src="{{ .Params.Image | absURL }}" alt="{{ .Title }}" class="img-fluid w-100 mb-4">
+			<!--get and resize image-->
+          	{{ $src:= resources.Get .Params.Image }}
+			{{ $small:= $src.Resize "730x jpg q85 Box" }}
+          <img src="{{ $small.RelPermalink }}" alt="{{ .Title }}" class="img-fluid w-100 mb-4">
           <div class="content">
             {{.Content}}
           </div>

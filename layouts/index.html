@@ -34,7 +34,10 @@
         {{ end }}
       </div>
       <div class="col-lg-7 col-md-6 order-1 order-lg-2">
-        <img src="{{ .image | absURL }}" alt="{{ .title | markdownify }}" class="img-fluid">
+		<!--get and resize image-->
+		{{ $src:= resources.Get .image }}
+		{{ $small:= $src.Resize "635x q85 Box" }}
+        <img src="{{ $small.RelPermalink }}" alt="{{ .title | markdownify }}" class="img-fluid">
       </div>
     </div>
   </div>
@@ -50,7 +53,10 @@
   <div class="container">
     <div class="row justify-content-around align-items-center">
       <div class="col-lg-5 col-md-6">
-        <img class="img-fluid" src="{{ .image | absURL }}" alt="{{ .title | markdownify }}">
+		<!--get and resize image-->
+		{{ $src:= resources.Get .image }}
+		{{ $small:= $src.Resize "445x q85 Box" }}
+        <img class="img-fluid" src="{{ $small.RelPermalink }}" alt="{{ .title | markdownify }}">
       </div>
       <div class="col-md-6 col-lg-5">
         <h2>{{ .title | markdownify }}</h2>
@@ -82,7 +88,10 @@
       {{ range .materialItem }}
       <div class="col-lg-3 col-md-4 col-sm-6">
         <div class="card border-0 text-center">
-          <img src="{{ .image | absURL }}" alt="{{ .title | markdownify }}" class="card-img-top border-0">
+			<!--get and resize image-->
+		{{ $src:= resources.Get .image }}
+		{{ $small:= $src.Resize "255x q85 Box" }}
+          <img src="{{ $small.RelPermalink }}" alt="{{ .title | markdownify }}" class="card-img-top border-0">
           <div class="card-body">
             <h4>{{ .title | markdownify }}</h4>
             <p>{{ .content | markdownify }}</p>
@@ -113,7 +122,10 @@
         </ul>
       </div>
       <div class="col-md-6">
-        <img src="{{ .image | absURL}}" class="img-fluid" alt="{{ .title | markdownify }}">
+		<!--get and resize image-->
+		{{ $src:= resources.Get .image }}
+		{{ $small:= $src.Resize "540x q85 Box" }}
+        <img src="{{ $small.RelPermalink }}" class="img-fluid" alt="{{ .title | markdownify }}">
       </div>
     </div>
   </div>
@@ -130,7 +142,10 @@
     <div class="row align-items-center justify-content-between">
       <div class="col-lg-5 col-md-6">
         <div class="img-border rounded mb-5 mb-md-0">
-          <img src="{{ .videoThumb | absURL }}" alt="{{.title | markdownify}}" class="img-fluid rounded">
+		<!--get and resize image-->
+		{{ $src:= resources.Get .videoThumb }}
+		{{ $small:= $src.Resize "445x q85 Box" }}
+          <img src="{{ $small.RelPermalink }}" alt="{{.title | markdownify}}" class="img-fluid rounded">
           <a data-toggle="modal" data-src="{{ .videoURL | safeURL }}" data-target="#videoModal2"
             class="text-color video-modal content-center"><i class="ti-control-play bg-gradient btn-play-lg"></i></a>
           <!-- Modal -->
@@ -171,8 +186,10 @@
         <div class="card border-0 text-center">
           <a href="{{ .Permalink }}">
             {{ range first 1 .Params.Images }}
-            
-            <img src="{{ .image | absURL }}" alt="product list" class="card-img-top">
+			<!--get and resize image-->
+			{{ $src:= resources.Get .image }}
+			{{ $small:= $src.Resize "350x q85 Box" }}
+            <img src="{{ $small.RelPermalink }}" alt="product-image" class="card-img-top">
             {{ end }}
           </a>
           <div class="card-body">
@@ -219,7 +236,10 @@
       <div class="col-4">
         <div class="card border-primary text-center">
           <div class="card-body">
-            <img src="{{ .image | absURL }}" class="client-img" alt="{{ .name | markdownify }}">
+ 			<!--get and resize image-->
+			{{ $src:= resources.Get .image }}
+			{{ $small:= $src.Resize "98x q85 Box" }}
+            <img src="{{ $small.RelPermalink }}" class="client-img" alt="{{ .name | markdownify }}">
             <p class="quoted">{{ .content | markdownify }}</p>
             <h6 class="font-weight-medium">{{ .name | markdownify }}</h6>
             <small>{{ .designation | markdownify }}</small>

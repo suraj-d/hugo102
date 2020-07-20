@@ -2,7 +2,10 @@
   <div class="container">
     <div class="row border-bottom pb-5 justify-content-between">
       <div class="col-12 text-center section-sm">
-        <a href="{{ .Site.BaseURL }}"><img src="{{ .Site.Params.logo | absURL }}" class="img-fluid"
+		  	<!--get and resize image-->
+			{{ $src:= resources.Get .Site.Params.logo }}
+			{{ $small:= $src.Resize "150x q95 Box" }}
+        <a href="{{ .Site.BaseURL }}"><img src="{{ $small.RelPermalink }}" class="img-fluid"
             alt="{{ .Site.Title }}"></a>
       </div>
       <div class="col-md-3 col-sm-6">
