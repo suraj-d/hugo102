@@ -31,7 +31,7 @@
         <h5>Short Description</h5>
         <p>{{ .Params.ShortDescription | markdownify }}</p>
 				
-		<a class="btn btn-primary" href="https://wa.me/?text={{ .Params.Title }}%0D%0ALink: {{.Permalink}}" data-action="share/whatsapp/share" target="_blank" role="button" aria-label="share via whatsapp">Share Via Whatsapp</a>
+		<a class="btn btn-primary" href="https://wa.me/?text={{ .Params.Title }}%0D%0ALink: {{.Permalink}}" data-action="share/whatsapp/share" target="_blank" role="button" rel="noreferrer noopener" aria-label="share via whatsapp">Share Via Whatsapp</a>
 		
 		<!--
         <button class="snipcart-add-item btn btn-primary" data-item-id="{{ .Params.ProductID }}"
