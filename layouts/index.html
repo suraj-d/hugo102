@@ -181,16 +181,19 @@
         <h2>{{ .title | markdownify }}</h2>
         {{ end }}
       </div>
-      {{ range last 6 (where .Site.RegularPages "Type" "products") }}
+      <!-- get pages where type is product and sort it by product id-->
+      {{ $productPageOnly:= where .Site.RegularPages "Type" "eq" "products"}}
+      {{ range first 6 ( sort $productPageOnly ".Params.ProductId" "desc"  ) }}
       <div class="col-lg-4 col-sm-6 mb-4">
         <div class="card border-0 text-center">
           <a href="{{ .Permalink }}">
             {{ range first 1 .Params.Images }}
 			<!--get and resize image-->
 			{{ $src:= resources.Get .image }}
-			{{ $small:= $src.Resize "350x q85 Box" }}
+			{{ $small:= $src.Fill "350x400 center q85 Box" }}
             <img src="{{ $small.RelPermalink }}" alt="product-image" class="card-img-top">
             {{ end }}
+          
           </a>
           <div class="card-body">
             <a href="{{ .Permalink }}" class="h4">{{ .Title }}</a>
