@@ -13,7 +13,7 @@
           	{{ $src:= resources.Get .image }}
 			{{ $small:= $src.Resize "443x590  q85 Box" }}
           <div data-image="{{ $small.RelPermalink }}">
-            <img class="img-fluid w-100" src="{{ $small.RelPermalink }}" alt="product-image">
+            <img class="img-fluid w-100 " src="{{ $small.RelPermalink }}" alt="product-image">
           </div>
           {{ end }}
         </div>
