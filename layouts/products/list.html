@@ -13,7 +13,7 @@
 			<!--get and resize image-->
 			{{ $src:= resources.Get .image }}
 			{{ $small:= $src.Fill "350x400 center q85 Box" }}
-			<img src="{{ $small.RelPermalink }}" alt="product-image" class="card-img-top">
+			<img src="{{ $small.RelPermalink }}" alt="product-image" class="card-img-top rounded">
             {{ end }}
           </a>
           <div class="card-body">
