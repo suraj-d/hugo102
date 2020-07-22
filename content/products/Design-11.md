@@ -1,5 +1,5 @@
 ---
-title: " Design #11"
+title: "Design #11"
 date: 2020-07-22T13:04:35+05:30
 draft: false
 
