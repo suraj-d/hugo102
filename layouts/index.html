@@ -34,10 +34,10 @@
         {{ end }}
       </div>
       <div class="col-lg-7 col-md-6 order-1 order-lg-2">
-		<!--get and resize image-->
-		{{ $src:= resources.Get .image }}
-		{{ $small:= $src.Resize "635x q85 Box" }}
-        <img src="{{ $small.RelPermalink }}" alt="{{ .title | markdownify }}" class="img-fluid">
+    <!--get and resize image-->
+		{{ $src:= resources.Get .image}}
+		{{ $small:= $src.Fill "600x600 center q85 Box" }}
+        <img src="{{ $small.RelPermalink }}" alt="{{ .title | markdownify }}" class="img-fluid rounded">
       </div>
     </div>
   </div>
@@ -55,8 +55,8 @@
       <div class="col-lg-5 col-md-6">
 		<!--get and resize image-->
 		{{ $src:= resources.Get .image }}
-		{{ $small:= $src.Resize "445x q85 Box" }}
-        <img class="img-fluid" src="{{ $small.RelPermalink }}" alt="{{ .title | markdownify }}">
+		{{ $small:= $src.Fill "445x500 center q85 Box" }}
+        <img class="img-fluid rounded" src="{{ $small.RelPermalink }}" alt="{{ .title | markdownify }}">
       </div>
       <div class="col-md-6 col-lg-5">
         <h2>{{ .title | markdownify }}</h2>
@@ -90,7 +90,7 @@
         <div class="card border-0 text-center">
 			<!--get and resize image-->
 		{{ $src:= resources.Get .image }}
-		{{ $small:= $src.Resize "255x255 q85 Box" }}
+		{{ $small:= $src.Fill "255x255 center q85 Box" }}
           <img src="{{ $small.RelPermalink }}" alt="{{ .title | markdownify }}" class="card-img-top border-0 rounded">
           <div class="card-body">
             <h4>{{ .title | markdownify }}</h4>
@@ -124,8 +124,8 @@
       <div class="col-md-6">
 		<!--get and resize image-->
 		{{ $src:= resources.Get .image }}
-		{{ $small:= $src.Resize "540x q85 Box" }}
-        <img src="{{ $small.RelPermalink }}" class="img-fluid" alt="{{ .title | markdownify }}">
+		{{ $small:= $src.Fill "500x500 center q85 Box" }}
+        <img src="{{ $small.RelPermalink }}" class="img-fluid rounded" alt="{{ .title | markdownify }}">
       </div>
     </div>
   </div>
@@ -173,7 +173,7 @@
 
 <!-- products -->
 {{ if .Site.Data.homepage.products.enable }}
-<section class="section pb-0">
+<section class="section pb-5">
   <div class="container">
     <div class="row">
       <div class="col-12 text-center mb-4">
@@ -190,7 +190,7 @@
             {{ range first 1 .Params.Images }}
 			<!--get and resize image-->
 			{{ $src:= resources.Get .image }}
-			{{ $small:= $src.Fill "350x400 center q85 Box" }}
+			{{ $small:= $src.Fill "350x420 center q85 Box" }}
             <img src="{{ $small.RelPermalink }}" alt="product-image" class="card-img-top rounded">
             {{ end }}
           
