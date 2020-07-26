@@ -44,3 +44,6 @@ enable snipcart
 
 enable ratting
 -enable in config.toml
+
+enable blog
+-uncomment in config.toml
