@@ -1,6 +1,6 @@
 <!-- call to  action -->
 {{ with .Site.Data.homepage.cta }}
-<section class="py-4 bg-gradient position-relative">
+<section class="pt-5 pb-2 bg-gradient position-relative">
 	<!--get and resize image-->
 	{{ $src:= resources.Get .overlayImage }}
 	{{ $smallOverlay:= $src }}
@@ -17,8 +17,8 @@
       <div class="col-lg-4 col-md-5 position-relative">
 			<!--get and resize image-->
 			{{ $src:= resources.Get .image }}
-			{{ $small:= $src.Resize "480x q85 Box" }}
-        <img class="cta-image" src="{{ $small.RelPermalink }}" alt="{{.title | markdownify}}">
+			{{ $small:= $src.Fill "400x350 center q85 Box" }}
+        <img class="cta-image rounded" src="{{ $small.RelPermalink }}" alt="{{.title | markdownify}}">
       </div>
     </div>
   </div>
