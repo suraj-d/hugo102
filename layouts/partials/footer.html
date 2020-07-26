@@ -31,7 +31,7 @@
         <!-- social icon -->
         <ul class="list-inline">
           {{ range .Site.Params.social }}
-          <li class="list-inline-item pr-2 pl-2"><a href="{{ .link | safeURL }}"><i class="{{ .icon }} text-primary "></i></a></li>
+          <li class="list-inline-item pr-2 pl-2 pb-2"><a href="{{ .link | safeURL }}"><i class="{{ .icon }} text-primary "></i></a></li>
           {{ end }}
         </ul>
       </div>
