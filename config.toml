@@ -43,7 +43,7 @@ disqusShortname = ""
   URL = "products"
   weight = 1
   
-  [[menu.main]]
+  #[[menu.main]]
   #name = "Blog"
   #URL = "blog"
   #weight = 2
@@ -64,10 +64,10 @@ disqusShortname = ""
   URL = "products"
   weight = 1
   
-  [[menu.footer]]
-  name = "Blog"
-  URL = "blog"
-  weight = 2
+  #[[menu.footer]]
+  #name = "Blog"
+  #URL = "blog"
+  #weight = 2
   
   [[menu.footer]]
   name = "FAQ"
@@ -154,5 +154,5 @@ icon = "ti-pinterest"
 link = "https://in.pinterest.com/sun_fashion/"
 
 # Contact Form
-[params.contact]
-formAction = "#" # contact form works with formspree.io
+#[params.contact]
+#formAction = "#" # contact form works with formspree.io
