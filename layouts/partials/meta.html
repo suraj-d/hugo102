@@ -1,10 +1,11 @@
 {{ "<!-- title tags -->" | safeHTML }}
         <title itemprop="name">{{ .Title }} </title>
-        <meta property="og:title" content="{{ .Title}} "/>
-        <meta name="twitter:title" content="{{ .Title}} "/>
+        <meta property="og:title" content="{{ .Params.Url }} "/>
+        <meta name="twitter:title" content="{{ .Params.Url }} "/>
         <meta itemprop="name" content="{{ .Title}} "/>
         <meta name="application-name" content="{{ .Title}} "/>
-        <meta property="og:site_name" content="{{ .Site.Params.sitename }}"/>
+		<meta property="og:site_name" content="{{ .Site.Params.sitename }}"/>
+		
 
         {{ "<!-- description tags -->" | safeHTML }}
         <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}">
@@ -127,6 +128,7 @@
 			{{ end }}
 			], 
 			"name": "{{ .Site.Params.Sitename }}", 
+			"alternateName": "dress material salwar suit manufacturer wholesaler "
 			"description": "{{ .Site.Params.Description }}",
 			"publisher": {
 				"@type": "Organization",
@@ -163,7 +165,7 @@
 		<meta name="theme-color" content="#7251a7" /> 
 		<meta name="msapplication-TileColor" content="#7251a7" />
 
-		<meta name="keywords" content="" />
+		<meta name="keywords" content="{{ .Site.Params.Keywords}}" />
 		<meta name="imagemode" content="force" />
 		<meta name="coverage" content="Worldwide" /> 
 		<meta name="distribution" content="Global" />
