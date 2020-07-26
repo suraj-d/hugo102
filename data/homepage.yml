@@ -3,7 +3,7 @@ banner:
   enable : true
   title : "Designer Ethnic Wear Collection"
   content : "Beautiful 3 piece Dress material, available in vivid color combination to make you look elegant and stylish amoung your friends and family"
-  image : "images/banner.png"
+  image : "images/products/D25-1.jpeg" #square image
   # button
   button:
     enable : true
@@ -18,8 +18,8 @@ banner:
 about:
   enable : true
   title : "About Our Product"
-  content : "Manufacturing designer dress material"
-  image : "images/about.png"
+  content : "Manufacturing designer ethnic wear, salwar suits, patiyala for women. Available in bulk quantity for wholesaler, retailers and resellers."
+  image : "images/products/D11-1.jpeg" #square image
 
 
 ###################### Call to action ########################
@@ -27,7 +27,7 @@ cta:
   enable : true
   title : "Check out our latest collection"
   content : "Available for limited time only. Grab one while you still can!"
-  image : "images/cta.png"
+  image : "images/products/white-walker-1.jpeg"
   overlayImage : "images/cta-overlay.png"
   button:
     label : "All Products"
@@ -69,7 +69,7 @@ advantage:
   enable : true
   title : "Advantages Of Using <br> Our Product"
   #subtitle : ""
-  image : "images/advantage.png"
+  image : "images/products/white-walker-1.jpeg"
   advantageList:
     # advantage list loop
     - listItem : "Best quality dress materials"
