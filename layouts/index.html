@@ -90,8 +90,8 @@
         <div class="card border-0 text-center">
 			<!--get and resize image-->
 		{{ $src:= resources.Get .image }}
-		{{ $small:= $src.Resize "255x q85 Box" }}
-          <img src="{{ $small.RelPermalink }}" alt="{{ .title | markdownify }}" class="card-img-top border-0">
+		{{ $small:= $src.Resize "255x255 q85 Box" }}
+          <img src="{{ $small.RelPermalink }}" alt="{{ .title | markdownify }}" class="card-img-top border-0 rounded">
           <div class="card-body">
             <h4>{{ .title | markdownify }}</h4>
             <p>{{ .content | markdownify }}</p>
