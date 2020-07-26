@@ -6,7 +6,6 @@
         <meta name="application-name" content="{{ .Title }}"/>
 		<meta property="og:site_name" content="{{ .Site.Params.sitename }}"/>
 		
-
         {{ "<!-- description tags -->" | safeHTML }}
         <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}"/>
         <meta itemprop="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}"/>
@@ -128,7 +127,7 @@
 			{{ end }}
 			], 
 			"name": "{{ .Site.Params.Sitename }}", 
-			"alternateName": "dress material salwar suit manufacturer wholesaler "
+			"alternateName": "dress material salwar suit manufacturer wholesaler",
 			"description": "{{ .Site.Params.Description }}",
 			"publisher": {
 				"@type": "Organization",
@@ -165,7 +164,7 @@
 		<meta name="theme-color" content="#7251a7" /> 
 		<meta name="msapplication-TileColor" content="#7251a7" />
 
-		<meta name="keywords" content="" />
+		<meta name="keywords" content="{{ .Site.Params.Keywords}}" />
 		<meta name="imagemode" content="force" />
 		<meta name="coverage" content="Worldwide" /> 
 		<meta name="distribution" content="Global" />
