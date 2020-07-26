@@ -7,12 +7,12 @@ draft: false
 # meta description for google search product list page
 description : "desc. in list page"
 
+# Product Short Description
+shortDescription: "desc. in item page"
+
 # product Price
 price: "Rs. "
 priceBefore: ""
-
-# Product Short Description
-shortDescription: "desc. in item page"
 
 # product ID
 productID: "0001"
