@@ -1,14 +1,15 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
+url: "link url- search in google"
 date: {{.Date}}
 draft: false
 
-# meta description for product list page
+# meta description for google search product list page
 description : "desc. in list page"
 
 # product Price
 price: "Rs. "
-priceBefore: "Rs. "
+priceBefore: ""
 
 # Product Short Description
 shortDescription: "desc. in item page"
@@ -21,6 +22,7 @@ type: "products"
 
 # product Images
 # first image will be shown in the product page
+# add multiple image with - image: "image path with extension"
 images:
   - image: "images/products/productName-2.png"
   - image: "images/products/productName-1.png"
