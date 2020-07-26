@@ -88,4 +88,41 @@
     $(this).parent().find('.ti-minus').removeClass('ti-minus').addClass('ti-plus');
   });
 
+$('.contactUs').click(function () {
+    var name, location, message,contactNumber, url
+    
+    name = $('#name').val();
+    location = $('#location').val();
+    message = $('#message').val();
+    contactNumber = 9820927720;
+    url ="https://wa.me/91"+contactNumber+"?text=Hi, ";
+
+    if (name != "" || location != "" || message != "") {
+           
+      if(name != ""){
+        url += "I am "+name;
+      }
+      
+      if(location != "" && name == ""){
+        url += "I am from "+location;
+      }else if(location != "" && name !=""){
+        url += " from "+location;
+      }
+           
+      if (message != "") {
+        url += "%0D%0A"+message;
+      }
+          
+      window.open(url,"_blank"); 
+
+      $('#name').val("");
+      $('#location').val("");
+      $('#message').val("");
+
+    }else{
+      alert("Enter your name, location and message.")
+    }
+
+  })
+
 })(jQuery);
