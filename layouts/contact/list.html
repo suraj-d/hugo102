@@ -9,7 +9,7 @@
       <div class="col-lg-4 col-sm-6">
         {{ with .Site.Data.contact.contact.office }}
         <h3 class="mb-4">{{ .title | markdownify }}</h3>
-        <p>{{ .content | markdownify }}</p>
+        <p><a class="text-color" href="https://maps.app.goo.gl/YA5mZ8KdyrjLJNii9" target="_blank" role="button" rel="noreferrer noopener">{{ .content | markdownify }}</a></p>
         {{ end }}
 
         <ul class="list-unstyled">
@@ -18,7 +18,8 @@
              {{ .Site.Params.mobile }}</a></li>
           <li class="mb-3"><a class="text-color" href="mailto:{{ .Site.Params.email }}"><i
                 class="ti-email text-primary mr-2"></i>{{ .Site.Params.email }}</a></li>
-          <li class="mb-3"><i class="ti-location-pin text-primary mr-2"></i>{{ .Site.Params.location }}
+          <li class="mb-3"><a class="text-color" href="https://maps.app.goo.gl/YA5mZ8KdyrjLJNii9" target="_blank" role="button" rel="noreferrer noopener"><i 
+                class="ti-location-pin text-primary mr-2"></i>{{ .Site.Params.location }}</a>
           </li>
         </ul>
       </div>
