@@ -1,6 +1,6 @@
 ######################## default configuration ####################
 baseURL = "https://sunfashion.netlify.app/"
-title = "Sun Fashion | Ethnic wear store"
+title = "Ethnic Wear Online, Buy designer ethnic wear for women in India - Sun Fashion"
 
 languageCode = "en-us"
 DefaultContentLanguage = "en"
@@ -44,9 +44,9 @@ disqusShortname = ""
   weight = 1
   
   [[menu.main]]
-  name = "Blog"
-  URL = "blog"
-  weight = 2
+  #name = "Blog"
+  #URL = "blog"
+  #weight = 2
   
   [[menu.main]]
   name = "FAQ"
