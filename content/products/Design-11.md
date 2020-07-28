@@ -1,33 +1,35 @@
 ---
+# product ID
+productID: "0003"
+
 title: "Design #11"
-url: "Linen cotton dress material chiken salwar"
 date: 2020-07-22T13:04:35+05:30
 draft: false
-
-# meta description for product list page
-description : "Linen cotton dress material with 2.5 mtr chiken bottom"
-
-# product Price
-price: "Rs. 630"
-priceBefore: ""
-
-# Product Short Description
-shortDescription: "Linen cotton dress material with 2.5 mtr chiken bottom"
-
-# product ID
-productID: "0011"
 
 # type must be "products"
 type: "products"
 
 # product Images
 # first image will be shown in the product page
+# add multiple image with - image: "image path with extension"
 images:
   - image: "images/products/D11-1.jpeg"
   - image: "images/products/D11-2.jpeg"
   - image: "images/products/D11-3.jpeg"
   - image: "images/products/D11-4.jpeg"
   - image: "images/products/D11-5.jpeg"
+
+# product Price
+price: "Rs. 630"
+priceBefore: ""
+
+url: "Linen cotton dress material chiken salwar"
+
+# meta description for product list page
+description : "Linen cotton dress material with 2.5 mtr chiken bottom"
+
+# Product Short Description
+shortDescription: "Linen cotton dress material with 2.5 mtr chiken bottom"
 ---
 BRAND - 24 CARAT SUIT
 

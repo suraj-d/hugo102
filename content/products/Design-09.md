@@ -1,0 +1,49 @@
+---
+# product ID
+productID: "0001"
+
+title: "Design #09"
+date: 2020-07-27T10:17:01+05:30
+draft: false
+
+# type must be "products"
+type: "products"
+
+# product Images
+# first image will be shown in the product page
+# add multiple image with - image: "image path with extension"
+images:
+  - image: "images/products/D09-1.jpeg"
+  - image: "images/products/D09-2.jpeg"
+  - image: "images/products/D09-3.jpeg"
+  - image: "images/products/D09-4.jpeg"
+  - image: "images/products/D09-5.jpeg"
+
+# product Price
+price: "Rs. 530"
+priceBefore: ""
+
+url: "selby cotton salwar suit with jacquard dupatta wholesale"
+
+# meta description for google search product list page
+description : "Shelby cotton salwar suit with jacquard dupatta, 2.5 mtr cotton bottom"
+
+# Product Short Description
+shortDescription: "Beautiful shelby cotton salwar suit with matching 2.5 mtr cotton bottom and jacquard dupatta."
+---
+BRAND - 24 CARAT SUIT
+
+DESIGN #09
+
+🌷🌷🌷🌷🌷🌷🌷🌷🌷🌷
+
+FABRIC DETAIL
+
+TOP- SELBY COTTON (2 MTR)
+
+BOTTOM- COTTON (2.50 MTR)
+
+DUPATTA- CHANDERI JACQUARD (2.20 MTR)
+
+RATE -530/-
+

@@ -1,0 +1,52 @@
+---
+# product ID
+productID: "0005"
+
+title: "Design #14"
+date: 2020-07-28T08:26:51+05:30
+draft: false
+
+# type must be "products"
+type: "products"
+
+# product Images
+# first image will be shown in the product page
+# add multiple image with - image: "image path with extension"
+images:
+  - image: "images/products/D14-1.jpeg"
+  - image: "images/products/D14-2.jpeg"
+  - image: "images/products/D14-3.jpeg"
+  - image: "images/products/D14-4.jpeg"
+  - image: "images/products/D14-5.jpeg"
+
+# product Price
+price: "Rs. 580"
+priceBefore: ""
+
+url: "jaam cotton dress material with banarasi dupatta"
+
+# meta description for google search product list page
+description : "Jaam cotton dress material with banarasi dupatta and 2.5 mtr bottom"
+
+# Product Short Description
+shortDescription: "Beautiful jaam cotton dress material with 36\" banarasi dupatta and matching 2.5 mtr cotton bottom."
+---
+BRAND - 24 CARAT SUIT
+
+DESIGN #14
+
+💐💐💐💐💐💐💐💐💐💐
+
+NEW COLLECTION
+
+🌷🌷🌷🌷🌷🌷🌷🌷🌷🌷
+
+FABRIC DETAIL
+
+TOP- JAAM COTTON (2 MTR)
+
+BOTTOM- COTTON (2.50 MTR)
+
+DUPATTA- JACQUARD BANARASI (36" WIDTH - 2.20 MTR)
+
+RATE- 580/-
