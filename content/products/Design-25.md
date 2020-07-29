@@ -21,7 +21,7 @@ priceBefore: ""
 
 title: "Jaam cotton salwar suit (Design #25)"
 
-url: "Jaam cotton salwar suit with 2.10 mtr salwar"
+url: "Jaam cotton salwar suit with 2.50 mtr salwar"
 
 # meta description for google search product list page
 description : "Jaam cotton dress material with work dupatta, 2.10 mtr cotton salwar"
