@@ -15,7 +15,6 @@ images:
   - image: "images/products/productName-3.jpeg"
   - image: "images/products/productName-4.jpeg"
   - image: "images/products/productName-5.jpeg"
-  - image: "images/products/productName-6.jpeg"
 
 # product Price
 price: "Rs. "
