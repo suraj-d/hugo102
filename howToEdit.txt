@@ -47,3 +47,6 @@ enable ratting
 
 enable blog
 -uncomment in config.toml
+
+enable review
+-uncomment list in layouts/products/single.html
