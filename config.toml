@@ -1,6 +1,6 @@
 ######################## default configuration ####################
 baseURL = "https://sunfashion.netlify.app/"
-title = "Ethnic Wear Online, Buy designer ethnic wear for women in India - Sun Fashion"
+title = "Designer Ethnic Wear Online for Women in India - Sun Fashion"
 
 languageCode = "en-us"
 DefaultContentLanguage = "en"
@@ -99,7 +99,7 @@ sitename = "Sun Fashion"
 legalname = "Sun Fashion and Lifestyle"
 
 # Meta data
-description = "Dress material manufacturer from surat. Salwar suit, patiyala available in bluk for wholesaler, retailer, reseller"
+description = "Dress material manufacturer from surat. Cotton dress material, Salwar suit, patiyala available in bluk for wholesaler, retailer, reseller"
 keywords = "Wholesale Salwar Kameez, Wholesale Salwar Suit, Salwar Suit Surat, Cotton suit, Patiyala"
 author = "Sun Fashion"
 
