@@ -1,10 +1,7 @@
 ---
 # product ID
 productID: "0001"
-
-title: "{{ replace .Name "-" " " | title }}"
 date: {{.Date}}
-draft: true
 
 # type must be "products"
 type: "products"
@@ -24,6 +21,8 @@ images:
 price: "Rs. "
 priceBefore: ""
 
+title: "{{ replace .Name "-" " " | title }}"
+
 url: "link_Url_Search_In_Google"
 
 # meta description for google search product list page
@@ -31,6 +30,8 @@ description : "desciption_In_List_Page"
 
 # Product Short Description
 shortDescription: "desciption_In_Item_Page"
+
+draft: true
 ---
 **product_Description_Remove_This_Line
 
