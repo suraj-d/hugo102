@@ -23,6 +23,7 @@ priceBefore: ""
 
 title: "{{ replace .Name "-" " " | title }}"
 
+# wholesale at end 
 url: "link_Url_Search_In_Google"
 
 # meta description for google search product list page
