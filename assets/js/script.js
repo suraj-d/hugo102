@@ -146,7 +146,7 @@ $('.contactUs').click(function () {
     document.execCommand('copy');
     // Remove temporary element
     document.body.removeChild(el);
-    $('#copyButton').html('Descripton Copied');
+    $('#copyButton').html('Description Copied');
   
    })
 
