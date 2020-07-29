@@ -88,6 +88,7 @@
     $(this).parent().find('.ti-minus').removeClass('ti-minus').addClass('ti-plus');
   });
 
+  // Form send to whatsapp
 $('.contactUs').click(function () {
     var name, location, message,contactNumber, url
     
@@ -112,9 +113,11 @@ $('.contactUs').click(function () {
       if (message != "") {
         url += "%0D%0A"+message;
       }
-          
+      
+      //open in new page
       window.open(url,"_blank"); 
-
+      
+      //clear text field
       $('#name').val("");
       $('#location').val("");
       $('#message').val("");
@@ -124,5 +127,27 @@ $('.contactUs').click(function () {
     }
 
   })
+
+  //copy description
+   $('.copyText').click(function () {
+    //get text from desc
+    var copyText = document.querySelector('.content').innerText
+    //create new text area
+    var el = document.createElement('textarea');
+    // Set value (string to be copied)
+    el.value = copyText;
+    // Set non-editable to avoid focus and move outside of view
+    el.setAttribute('readonly', '');
+    el.style = {position: 'absolute', left: '-9999px'};
+    document.body.appendChild(el);
+    // Select text inside element
+    el.select();
+    // Copy text to clipboard
+    document.execCommand('copy');
+    // Remove temporary element
+    document.body.removeChild(el);
+    $('#copyButton').html('Descripton Copied');
+  
+   })
 
 })(jQuery);
