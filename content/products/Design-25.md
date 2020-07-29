@@ -1,10 +1,7 @@
 ---
 # product ID
 productID: "0025"
-
-title: "Design #25"
 date: 2020-07-26T15:30:41+05:30
-draft: false
 
 # type must be "products"
 type: "products"
@@ -22,6 +19,8 @@ images:
 price: "Rs. 500"
 priceBefore: ""
 
+title: "Jaam cotton salwar suit (Design #25)"
+
 url: "Jaam cotton salwar suit with 2.10 mtr salwar"
 
 # meta description for google search product list page
@@ -29,6 +28,8 @@ description : "Jaam cotton dress material with work dupatta, 2.10 mtr cotton sal
 
 # Product Short Description
 shortDescription: "Beautiful jaam cotton dress material with work dupatta and 2.10 mtr cotton salwar"
+
+draft: false
 ---
 BRAND - 24 CARAT SUIT
 
