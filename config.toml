@@ -45,10 +45,10 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   URL = "products"
   weight = 1
   
-  [[menu.main]]
-  name = "Blog"
-  URL = "blog"
-  weight = 2
+  #[[menu.main]]
+  #name = "Blog"
+  #URL = "blog"
+  #weight = 2
   
   [[menu.main]]
   name = "FAQ"
