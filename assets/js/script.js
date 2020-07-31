@@ -150,4 +150,35 @@ $('.contactUs').click(function () {
   
    })
 
+   //bulk image download from textilezone.in
+  /*  function download_as_now(){
+		var images = new Array();
+		jQuery.each(jQuery('.woocommerce-product-gallery__image a'), function(index, val) {
+			var link = document.createElement('a');
+			console.log(jQuery(this).attr('href'));
+			images.push(jQuery(this).attr('href'));
+			link.href = jQuery(this).attr('href');
+			var url = jQuery(this).attr('href');
+			link.download = url.substring(url.lastIndexOf('/')+1);
+			document.body.appendChild(link);
+			link.click();
+			document.body.removeChild(link);
+		});
+		if(jQuery('.woocommerce-product-gallery__image a').length == 0){
+			jQuery.each(jQuery('.gallery-item a'), function(index, val) {
+				var link = document.createElement('a');
+				console.log(jQuery(this).attr('href'));
+				images.push(jQuery(this).attr('href'));
+				link.href = jQuery(this).attr('href');
+				var url = jQuery(this).attr('href');
+				link.download = url.substring(url.lastIndexOf('/')+1);
+				document.body.appendChild(link);
+				link.click();
+				document.body.removeChild(link);
+			});
+		}
+  }
+  
+  */
+
 })(jQuery);
