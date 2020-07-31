@@ -13,6 +13,8 @@ enableRobotsTXT = true
 canonifyURLs = true
 disqusShortname = ""
 
+disableKinds = ["taxonomy", "taxonomyTerm"]
+
 ############################# Plugins ##############################
 [params.plugins]
 
@@ -43,10 +45,10 @@ disqusShortname = ""
   URL = "products"
   weight = 1
   
-  #[[menu.main]]
-  #name = "Blog"
-  #URL = "blog"
-  #weight = 2
+  [[menu.main]]
+  name = "Blog"
+  URL = "blog"
+  weight = 2
   
   [[menu.main]]
   name = "FAQ"
@@ -58,6 +60,11 @@ disqusShortname = ""
   URL = "contact"
   weight = 4
 
+  [[menu.main]]
+  name = "Search"
+  URL = "search"
+  weight = 5
+
   ############# footer menu #############
   [[menu.footer]]
   name = "Products"
@@ -68,7 +75,7 @@ disqusShortname = ""
   #name = "Blog"
   #URL = "blog"
   #weight = 2
-  
+
   [[menu.footer]]
   name = "FAQ"
   URL = "faq"
@@ -90,6 +97,11 @@ disqusShortname = ""
     languageName = "English"
     languageCode = "en-us"
     weight = 1
+
+#################### output ############################################
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  page = ["HTML", "RSS"]
 
 #################### default parameters ################################
 [params]
