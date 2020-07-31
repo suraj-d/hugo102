@@ -1,0 +1,34 @@
+{{ define "main" }}
+
+{{ partial "page-title.html" . }}
+
+<section class="section pt-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-1 ">
+        
+      </div>
+      <div class="col-md-10">
+        <div class="sticky-top top-100">
+        <h3 class="mb-4">Search Products</h3>
+      </div>
+    </div>
+      <div >
+          <label for="searchBox">
+              Enter your Search
+          </label>
+          <input placeholder="Enter search text" type="text" name="searchBox" id="searchBox" class="w-75 float-left" >
+          <button id="btnGo" class="btn btn-primary ml-3 float-left" >Go</button>
+          <div>&nbsp;</div>
+
+          <div class="sep"></div>
+          <a name="resultsArea"></a>
+          <div id="results">
+
+          </div>
+  </div>
+</section>
+
+<!--{{ partial "cta.html" . }}
+-->
+{{ end }}
