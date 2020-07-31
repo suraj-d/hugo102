@@ -1,0 +1,16 @@
+{{- $.Scratch.Add "index" slice -}}
+{{- range where .Site.RegularPages "Type" "products" -}}
+
+{{ $def_par:=dict "title" .Title "subtitle" .Params.shortDescription "description" .Params.description "tags" .Params.tags  "content" .Content "permalink" .Permalink}}
+
+{{- range first 1 .Params.Images -}}
+{{ $src:= resources.Get .image }}
+{{- $img_par:= dict "image" $src.RelPermalink -}}
+
+{{ $index_par:= merge $def_par $img_par}}
+
+{{- $.Scratch.Add "index"  $index_par -}}
+
+{{- end -}}    
+{{- end -}}
+{{- $.Scratch.Get "index" | jsonify -}}
