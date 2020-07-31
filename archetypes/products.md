@@ -31,6 +31,8 @@ description : "desciption_In_List_Page"
 # Product Short Description
 shortDescription: "desciption_In_Item_Page"
 
+tags: []
+
 draft: true
 ---
 **product_Description_Remove_This_Line
