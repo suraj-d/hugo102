@@ -50,3 +50,6 @@ enable blog
 
 enable review
 -uncomment list in layouts/products/single.html
+
+search setup
+link: https://blog.jeremylikness.com/blog/dynamic-search-in-a-static-hugo-website/
