@@ -4,8 +4,9 @@
 {{ $def_par:=dict "title" .Title "subtitle" .Params.shortDescription "description" .Params.description "tags" .Params.tags  "content" .Content "permalink" .Permalink}}
 
 {{- range first 1 .Params.Images -}}
-{{ $src:= resources.Get .image }}
-{{- $img_par:= dict "image" $src.RelPermalink -}}
+{{- $src:= resources.Get .image -}}
+{{- $small:= $src.Fill "500x600 center q95 Box" -}}
+{{- $img_par:= dict "image" $small.RelPermalink -}}
 
 {{ $index_par:= merge $def_par $img_par}}
 
