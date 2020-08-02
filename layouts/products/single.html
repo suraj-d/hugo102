@@ -18,7 +18,7 @@
           {{ end }}
         </div>
       </div>
-      <div class="col-lg-5 offset-lg-1">
+      <div class="col-lg-6 offset-lg-1">
                 
         <h4 class="font-weight-medium mb-3">{{ .Title }}</h4>
         
@@ -34,8 +34,16 @@
           <span class="lead text-primary font-weight-medium">{{ .Params.Price }}</span>
           <del>{{ .Params.PriceBefore }}</del>
         </div>
-        		
-		<a class="btn btn-primary mb-2 mt-2" href="https://wa.me/?text={{.Params.Title}}%0D%0ALink: {{.Permalink}}" data-action="share/whatsapp/share" target="_blank" role="button" rel="noreferrer noopener" aria-label="share via whatsapp">Share Via Whatsapp</a>
+            <div class="row my-2 p-2">
+
+              <div class="mr-1 mb-1">
+                <a class="btn btn-primary" href="https://wa.me/919820927720?text=Hi,%0D%0ASend update for {{ .Params.Title }}%0D%0ALink: {{.Permalink}}" data-action="share/whatsapp/share" target="_blank" role="button" rel="noreferrer noopener" aria-label="get update on whatsapp">Get update on Whatsapp</a>      	
+              </div>
+              
+              <div>
+                <a class="btn btn-primary " href="https://wa.me/?text={{.Params.Title}}%0D%0ALink: {{.Permalink}}" data-action="share/whatsapp/share" target="_blank" role="button" rel="noreferrer noopener" aria-label="share via whatsapp">Share Via Whatsapp</a>
+              </div>
+            </div>
 		
 		<!--
         <button class="snipcart-add-item btn btn-primary" data-item-id="{{ .Params.ProductID }}"
