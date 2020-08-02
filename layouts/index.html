@@ -203,8 +203,13 @@
               <del>{{ .Params.PriceBefore }}</del>
             </div>
 
-            
-			<a class="btn btn-sm btn-outline-primary" href="https://wa.me/?text={{ .Params.Title }}%0D%0ALink: {{.Permalink}}" data-action="share/whatsapp/share" target="_blank" rel="noreferrer noopener" role="button" aria-label="share via whatsapp">Share Via Whatsapp</a>
+            <div class="mb-1">
+              <a class="btn btn-sm btn-outline-primary" href="https://wa.me/919820927720?text=Hi,%0D%0ASend update for {{ .Params.Title }}%0D%0ALink: {{.Permalink}}" data-action="share/whatsapp/share" target="_blank" role="button" rel="noreferrer noopener" aria-label="get update on whatsapp">Get update on Whatsapp</a>      	
+            </div>
+
+            <div>
+              <a class="btn btn-sm btn-outline-primary" href="https://wa.me/?text={{ .Params.Title }}%0D%0ALink: {{.Permalink}}" data-action="share/whatsapp/share" target="_blank" rel="noreferrer noopener" role="button" aria-label="share via whatsapp">Share Via Whatsapp</a>
+            </div>
 
 			<!--
             <button class="snipcart-add-item btn btn-sm btn-outline-primary" data-item-id="{{ .Params.ProductID }}"
