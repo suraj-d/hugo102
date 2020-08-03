@@ -37,6 +37,12 @@
   }
 }
 
+.btn-primary:disabled {
+  color: $white;
+  background-color: $primary-gradient;
+  border-color: $primary-color;
+}
+
 .btn-outline-primary {
   background: transparent;
   color: $text-color;
