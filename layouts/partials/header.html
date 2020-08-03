@@ -5,7 +5,7 @@
     <nav class="navbar navbar-expand-lg navbar-light">
 		<!--get and resize image-->
 		{{ $src:= resources.Get .Site.Params.logo }}
-		{{ $small:= $src.Resize "150x q95 Box" }}
+		{{ $small:= $src.Fill "150x59 q95 Box" }}
       <a class="navbar-brand" href="{{ .Site.BaseURL }}">
 		  <img class="img-fluid" src="{{ $small.RelPermalink }}" alt="{{ .Site.Title }}">
 		</a>
