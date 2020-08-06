@@ -111,7 +111,7 @@ $('.contactUs').click(function () {
       }
            
       if (message != "") {
-        url += "%0D%0A"+message;
+        url += "%0A"+message;
       }
       
       //open in new page
