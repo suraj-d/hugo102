@@ -37,7 +37,7 @@
 		{{else}}
 		<!--get and resize image-->
 		{{ $src:= resources.Get .Site.Params.Logo }}
-		{{ $small:= $src.Resize "500x center q85 Box" }}
+		{{ $small:= $src.Fit "500x center q85 Box" }}
 		<meta itemprop="image" content="{{ $small.RelPermalink }}" />
 		<meta property="og:image" content="{{ $small.RelPermalink }}" /> 
 		<meta property="og:image:width" content="500" />
