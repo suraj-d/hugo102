@@ -23,21 +23,27 @@
         
         {{ "<!-- image tags -->" | safeHTML }}
         {{ with .Params.Images }}
-        {{ range first 1 . }}         
-		<meta itemprop="image" content="{{ .image | absURL }}" />
-		<meta property="og:image" content="{{ .image | absURL }}" /> 
+		{{ range first 1 . }}   
+		<!--get and resize image-->
+		{{ $src:= resources.Get .image }}
+		{{ $small:= $src.Fill "800x900 center q85 Box" }}      
+		<meta itemprop="image" content="{{ $small.RelPermalink }}" />
+		<meta property="og:image" content="{{ $small.RelPermalink }}" /> 
 		<meta property="og:image:width" content="800" />
 		<meta property="og:image:height" content="900" />
-		<meta name="twitter:image" content="{{ .image  | absURL }}" />
-		<meta name="twitter:image:src" content="{{ .image  | absURL }}" /> 
+		<meta name="twitter:image" content="{{ $small.RelPermalink }}" />
+		<meta name="twitter:image:src" content="{{ $small.RelPermalink }}" /> 
 		{{ end }}
 		{{else}}
-		<meta itemprop="image" content="{{ .Site.Params.Logo | absURL }}" />
-		<meta property="og:image" content="{{ .Site.Params.Logo | absURL }}" /> 
-		<meta property="og:image:width" content="593" />
-		<meta property="og:image:height" content="229" />
-		<meta name="twitter:image" content="{{ .Site.Params.Logo  | absURL }}" />
-		<meta name="twitter:image:src" content="{{ .Site.Params.Logo  | absURL }}" /> 
+		<!--get and resize image-->
+		{{ $src:= resources.Get .Site.Params.Logo }}
+		{{ $small:= $src.Resize "500x center q85 Box" }}
+		<meta itemprop="image" content="{{ $small.RelPermalink }}" />
+		<meta property="og:image" content="{{ $small.RelPermalink }}" /> 
+		<meta property="og:image:width" content="500" />
+		
+		<meta name="twitter:image" content="{{ $small.RelPermalink }}" />
+		<meta name="twitter:image:src" content="{{ $small.RelPermalink }}" /> 
 
 		{{end}}
 		
