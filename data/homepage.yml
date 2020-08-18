@@ -37,7 +37,7 @@ cta:
 material:
   enable : true
   title : "Types of Fabric we use"
-  subtitle : "Some of the fabric we use in our prduction"
+  subtitle : "Some of the fabric we use in our production"
   materialItem:
     # material item loop
     - title : "Jaam Cotton"
