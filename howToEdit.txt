@@ -1,6 +1,10 @@
 change site url, logo, name, homepage links, footer links, contact info, opening hours
 -config.toml
 
+update baseURL
+-config.toml
+static/.htaccess update redirect rule
+
 edit home page content
 -data/homepage.yml
 
