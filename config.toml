@@ -6,7 +6,8 @@ languageCode = "en-us"
 DefaultContentLanguage = "en"
 #theme = "hargo"
 summaryLength = "20"
-paginate = 10
+Paginate = 10
+PaginatePath = "products"
 
 enableEmoji = true
 enableRobotsTXT = true
