@@ -5,6 +5,9 @@ update baseURL
 -config.toml
 static/.htaccess update redirect rule
 
+hide page on google
+layouts/robots.txt Disallow: page name
+
 edit home page content
 -data/homepage.yml
 
