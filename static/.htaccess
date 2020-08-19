@@ -14,3 +14,9 @@ AddOutputFilterByType DEFLATE image/gif
 AddOutputFilterByType DEFLATE image/jpeg
 AddOutputFilterByType DEFLATE image/svg+xml
 </IfModule>
+
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^sunfashion\.store [NC]
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://www.sunfashion.store/$1 [R,L]
+
