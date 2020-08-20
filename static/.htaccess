@@ -16,7 +16,5 @@ AddOutputFilterByType DEFLATE image/svg+xml
 </IfModule>
 
 RewriteEngine On
-RewriteCond %{HTTPS_HOST} ^yourdomain\.com [NC]
 RewriteCond %{SERVER_PORT} 80
 RewriteRule ^(.*)$ https://www.sunfashion.store/$1 [R,L]
-
