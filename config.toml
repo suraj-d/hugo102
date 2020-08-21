@@ -45,52 +45,72 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   name = "Products"
   URL = "products"
   weight = 1
+
+  [[menu.main]]
+  name = "For Wholesaler"
+  URL = "wholesale"
+  weight = 2
+
+  [[menu.main]]
+  name = "For Reseller"
+  URL = "reseller"
+  weight = 3
   
   #[[menu.main]]
   #name = "Blog"
   #URL = "blog"
-  #weight = 2
+  #weight = 4
   
   [[menu.main]]
   name = "FAQ"
   URL = "faq"
-  weight = 3
+  weight = 5
   
   [[menu.main]]
   name = "Contact"
   URL = "contact"
-  weight = 4
+  weight = 6
 
   [[menu.main]]
   name = "Search"
   URL = "search"
-  weight = 5
+  weight = 7
 
   ############# footer menu #############
   [[menu.footer]]
   name = "Products"
   URL = "products"
   weight = 1
+
+  [[menu.footer]]
+  name = "For Wholesaler"
+  URL = "wholesale"
+  weight = 2
   
+  [[menu.footer]]
+  name = "For Reseller"
+  URL = "reseller"
+  weight = 3
+
   #[[menu.footer]]
   #name = "Blog"
   #URL = "blog"
-  #weight = 2
+  #weight = 4
 
   [[menu.footer]]
   name = "FAQ"
   URL = "faq"
-  weight = 3
+  weight = 5
   
   [[menu.footer]]
   name = "Terms & Conditions"
   URL = "terms-conditions"
-  weight = 4
+  weight = 6
   
   [[menu.footer]]
   name = "Contact"
   URL = "contact"
-  weight = 5
+  weight = 7
 
 #################### language ##########################################
 [languages]
