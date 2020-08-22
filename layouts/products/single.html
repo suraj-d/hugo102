@@ -13,7 +13,7 @@
           	{{ $src:= resources.Get .image }}
 			      {{ $small:= $src.Fill "500x650 center q85 Box" }}
           <div data-image="{{ $small.RelPermalink }}">
-            <img class="img-fluid w-100 " src="{{ $small.RelPermalink }}" alt="product-image">
+            <img class="img-fluid w-100 lazyload" data-src="{{ $small.RelPermalink }}" alt="product-image">
           </div>
           {{ end }}
         </div>

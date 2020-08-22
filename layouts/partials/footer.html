@@ -5,7 +5,7 @@
 		  	<!--get and resize image-->
 			{{ $src:= resources.Get .Site.Params.logo }}
 			{{ $small:= $src.Resize "150x q95 Box" }}
-        <a href="{{ .Site.BaseURL }}"><img src="{{ $small.RelPermalink }}" class="img-fluid"
+        <a href="{{ .Site.BaseURL }}"><img data-src="{{ $small.RelPermalink }}" class="img-fluid lazyload"
             alt="{{ .Site.Title }}"></a>
       </div>
       <div class="col-md-3 col-sm-6">

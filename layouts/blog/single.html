@@ -14,7 +14,7 @@
 			<!--get and resize image-->
           	{{ $src:= resources.Get .Params.Image }}
 			{{ $small:= $src.Resize "730x jpg q85 Box" }}
-          <img src="{{ $small.RelPermalink }}" alt="{{ .Title }}" class="img-fluid w-100 mb-4">
+          <img data-src="{{ $small.RelPermalink }}" alt="{{ .Title }}" class="img-fluid w-100 mb-4 lazyload">
           <div class="content">
             {{.Content}}
           </div>
