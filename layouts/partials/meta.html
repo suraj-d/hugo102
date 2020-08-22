@@ -116,7 +116,7 @@
 				"name": "{{ .Site.Params.Sitename }}",
 				"logo": {
 				"@type": "ImageObject",
-				"url": "{{ `images/favicon.ico` | absURL }}"
+				"url": "{{ `images/logo.jpeg` | absURL }}"
 				}
 			}
 			}
@@ -136,8 +136,8 @@
 			"{{ .link | safeURL }}",
 			{{ end }}
 			], 
-			"name": "{{ .Site.Params.Sitename }}", 
-			"alternateName": "dress material salwar suit manufacturer wholesaler",
+			"name": "{{ .Site.Params.Legalname }}", 
+			"alternateName": "{{ .Site.Params.Sitename }}",
 			"description": "{{ .Site.Params.Description }}",
 			"publisher": {
 				"@type": "Organization",
@@ -145,7 +145,7 @@
 				"alternateName": "{{ .Site.Params.Sitename }}",
 				"logo": {
 					"@type": "ImageObject",
-					"url": "{{ `images/favicon.ico` | absURL }}"
+					"url": "{{ `images/logo.jpeg` | absURL }}"
 					},
 				"location": {
 					"@type": "PostalAddress",
