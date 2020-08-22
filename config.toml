@@ -47,6 +47,13 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   name = "Products"
   URL = "products"
   weight = 1
+  # hasChildren = true
+
+    # [[menu.main]]
+    # parent = "Products"
+    # name = "test"
+    # url = "reseller"
+    # weight = 1
 
   [[menu.main]]
   name = "For Wholesaler"
