@@ -3,7 +3,7 @@
 
 {{ "<!-- JS Plugins -->" | safeHTML }}
 {{ range .Site.Params.plugins.js}}
-<script src="{{ .link | absURL }}"></script>
+<script src="{{ .link | absURL }}" async></script>
 {{ end }}
 
 <!-- snipcart -->
