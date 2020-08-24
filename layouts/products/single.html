@@ -14,11 +14,11 @@
           {{ range .Params.Images }}
             {{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
             <!--get and resize image-->
-            {{ $count := $.Scratch.Get `counter`}}
+            {{ $currentCount := $.Scratch.Get `counter`}}
             {{ $src:= resources.Get .image }}
             {{ $small:= $src.Fill "500x650 center q85 Box" }}
             <div data-image="{{ $small.RelPermalink }}">
-              {{ if ne $count $arrayLength }}
+              {{ if ne $currentCount $arrayLength }}
                   <img class="img-fluid w-100 lazyload" data-src="{{ $small.RelPermalink }}" alt="product-image">
               {{ else }}
                   {{ if $videoID }}
@@ -33,12 +33,7 @@
               {{ end }}
             </div>
           {{ end }}
-
-        
-               
-        
-          
-      </div>
+       </div>
     </div>
 
       <!-- Video Modal -->
