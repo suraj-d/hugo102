@@ -21,9 +21,12 @@
 {{ $script := resources.Get "js/script.js" | minify}}
 <script src="{{ $script.Permalink }}"></script>
 
-{{ "<!-- Search Script -->" | safeHTML }}
-{{ $script := resources.Get "js/search.js" | minify}}
-<script src="{{ $script.Permalink }}"></script>
+
+{{ if eq .Page.Title "Search"}}
+  {{ "<!-- Search Script -->" | safeHTML }}
+  {{ $script := resources.Get "js/search.js" | minify}}
+  <script src="{{ $script.Permalink }}"></script>
+{{ end }}
 
 
 {{ with .Site.Params.googleAnalitycsID }}
