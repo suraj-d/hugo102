@@ -4,6 +4,10 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: document
+  path: content/wholesale/_index.md
+  label: Wholesale
+  match: "**/*"
 - type: directory
   path: content/reseller
   label: Reseller
