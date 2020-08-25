@@ -35,10 +35,10 @@ sections:
   label: Blog
   create: all
   match: "**/*"
-upload_dir: static/images
+upload_dir: assets/images
 public_path: "/images"
 front_matter_path: "/archetypes"
-use_front_matter_path: true
+use_front_matter_path: false
 file_template: ":filename:.md"
 build:
   preview_env:
