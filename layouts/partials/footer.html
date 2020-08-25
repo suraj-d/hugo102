@@ -37,6 +37,7 @@
         </ul>
       </div>
       
+      {{if and (ne .Page.Title "Wholesale") (ne .Page.Title "Reseller") (ne .Page.Title "FAQ") (ne .Page.Title "Contact")}}
       <div class="col-lg-4 col-md-5 ">
         <h5 class="font-weight-medium mb-4 mt-4 mt-lg-0">Whatsapp Chat</h5>
         
@@ -54,6 +55,7 @@
           <button type="submit" value="send" class="btn btn-block btn-outline-primary rounded">Send Now</button>
         </form> -->
       </div>
+      {{ end }}
     </div>
     <div class="row">
       <div class="col-12 text-center py-4">
