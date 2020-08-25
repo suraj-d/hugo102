@@ -1,0 +1,44 @@
+---
+label: New Product
+hide_body: false
+fields:
+- type: text
+  name: productID
+  label: productID
+- type: datetime
+  name: date
+  label: date
+- type: text
+  name: type
+  label: type
+- type: field_group_list
+  name: images
+  label: images
+  fields:
+  - type: file
+    name: image
+    label: image
+- type: text
+  name: video
+  label: video
+- type: text
+  name: price
+  label: price
+- type: text
+  name: priceBefore
+  label: priceBefore
+- type: text
+  name: title
+  label: title
+- type: text
+  name: url
+  label: url
+- type: text
+  name: description
+  label: description
+- type: text
+  name: shortDescription
+  label: shortDescription
+- type: list
+  name: tags
+  label: tags
