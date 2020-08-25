@@ -7,7 +7,6 @@ sections:
 - type: document
   path: content/wholesale/_index.md
   label: Wholesale
-  match: "**/*"
 - type: directory
   path: content/reseller
   label: Reseller

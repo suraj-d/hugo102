@@ -43,3 +43,5 @@ fields:
 - type: list
   name: tags
   label: tags
+pages:
+- content/products/test.md
