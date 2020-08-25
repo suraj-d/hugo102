@@ -5,6 +5,11 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
+  path: content/reseller
+  label: Reseller
+  create: all
+  match: "**/*"
+- type: directory
   path: content/terms-conditions
   label: Terms conditions
   create: all
@@ -15,9 +20,6 @@ sections:
   create: documents
   match: "**/*"
   new_doc_ext: md
-- type: document
-  path: contents/reseller/**/*
-  label: Reseller
 - type: directory
   path: content/faq
   label: Faq
