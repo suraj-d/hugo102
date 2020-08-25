@@ -5,6 +5,7 @@ fields:
 - type: text
   name: productID
   label: productID
+  description: '4 digits '
 - type: datetime
   name: date
   label: date
