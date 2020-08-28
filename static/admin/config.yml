@@ -8,8 +8,8 @@ backend:
 # This line should *not* be indented, save as draft option available
 publish_mode: editorial_workflow
 
-media_folder: "assets/images" # Media files will be stored in the repo under static/images/uploads
-public_folder: "/images" # The src attribute for uploaded media will begin with /images/uploads
+media_folder: "assets/images/products" # Media files will be stored in the repo under static/images/uploads
+public_folder: "/images/products" # The src attribute for uploaded media will begin with /images/uploads
 
 site_url: https://www.sunfashion.store
 display_url: https://www.sunfashion.store
@@ -61,7 +61,7 @@ collections:
       - { label: Video ID,
           name: videoID,
           widget: string,
-          require: true,
+          require: false,
           hint: only video id eg- 5Y35yjJfC2U}
 
       - { label : Price,
