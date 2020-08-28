@@ -1,8 +1,8 @@
 
 backend:
   # test-repo for local testing, replace with git-gateway for deployment
-  # name: test-repo
-  name: git-gateway
+  name: test-repo
+  # name: git-gateway
   branch: master # Branch to update (optional; defaults to master)
 
 # This line should *not* be indented, save as draft option available
@@ -31,7 +31,7 @@ collections:
       - { label: Product ID, 
           name: productID, 
           widget: string, 
-          default: 0025, 
+          default: "0025", 
           require: true,
           hint: 4 digit value eg- 0023}
 
@@ -80,25 +80,25 @@ collections:
 
       - { label: Title, 
           name: title, 
-          widget: string, 
+          widget: text, 
           require: true,
           hint: Shown in product page eg- Jaam cotton salwar suit Design '#'25 }
 
       - { label: URL,
           name: url,
-          widget: string,
+          widget: text,
           require: true,
           hint: Shown as product url eg- Jaam cotton salwar suit with cotton salwar wholesale design25 wholesale}
 
       - { label: Meta Description,
           name: description,
-          widget: string,
+          widget: text,
           require: true,
           hint: Shown in product list page and google search eg- Jaam cotton dress material with work dupatta; 2.10 mtr cotton salwar}
 
       - { label: Short Description,
           name: shortDescription,
-          widget: string,
+          widget: text,
           require: true,
           hint: Shown in product single page eg- Beautiful jaam cotton dress material with work dupatta and 2.10 mtr cotton salwar}
 
@@ -108,5 +108,5 @@ collections:
           default: true}
 
       - { label: Content,
-          name: content,
+          name: body,
           widget: markdown}
