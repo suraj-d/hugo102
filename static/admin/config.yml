@@ -51,7 +51,7 @@ collections:
 
       - { label: Images, 
           name: images, 
-          widget: list, 
+          widget: object, 
           collapsed: true,
           summary: '{{fields.image}}',
           required: true,
