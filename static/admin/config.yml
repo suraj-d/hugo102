@@ -53,7 +53,7 @@ collections:
           name: images, 
           widget: list, 
           collapsed: true,
-          summary: '{{field.image}}',
+          summary: '{{fields.image}}',
           required: true,
           hint: first image will be shown in the product page,
           field: {label: Image, name: image, widget: image, required: true} }
