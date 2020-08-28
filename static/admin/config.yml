@@ -56,6 +56,9 @@ collections:
           summary: '{{fields.image}}',
           required: true,
           hint: first image will be shown in the product page,
+          media_library:
+            config:
+              multiple: true,
           field: {label: Image, name: image, widget: image, required: true} }
 
       - { label: Video ID,
