@@ -51,9 +51,9 @@ collections:
 
       - { label: Images, 
           name: images, 
-          widget: object,
+          widget: list,
           hint: first image will be shown in the product page,
-          field: {label: Image, name: image, widget: image} }
+          fields: [{label: Image, name: image, widget: image}, {label: Text, name: text, widget: text}] }
 
       - { label: Video ID,
           name: videoID,
