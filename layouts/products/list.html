@@ -22,8 +22,10 @@
             <a href="{{ .Permalink }}" class="h4">{{ .Title }}</a>
             <p>{{ .Params.Description }}</p>
             <div class="mb-4">
-              <span class="lead text-primary">{{ .Params.Price }}</span>
-              <del>{{ .Params.PriceBefore }}</del>
+              <span class="lead text-primary">Rs. {{ .Params.Price }}</span>
+              {{ if .Params.PriceBefore }}
+              <del>Rs. {{ .Params.PriceBefore }}</del>
+              {{ end }}
             </div>
 
             {{/*  get update on whatsapp button  */}}

@@ -61,8 +61,10 @@
         {{ end }}
         
         <div class="my-4">
-          <span class="lead text-primary font-weight-medium">{{ .Params.Price }}</span>
-          <del>{{ .Params.PriceBefore }}</del>
+          <span class="lead text-primary font-weight-medium">Rs. {{ .Params.Price }}</span>
+          {{ if .Params.PriceBefore }}
+          <del>Rs. {{ .Params.PriceBefore }}</del>
+          {{ end }}
         </div>
             <div class="row my-2 p-2">
 
