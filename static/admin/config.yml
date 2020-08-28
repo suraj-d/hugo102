@@ -58,11 +58,11 @@ collections:
           hint: first image will be shown in the product page,
           field: {label: Image, name: image, widget: image, required: true} }
 
-      - { label: Video ID,
+      - { label: Video ID (Optional),
           name: videoID,
           widget: string,
           required: false,
-          hint: only video id eg- 5Y35yjJfC2U}
+          hint: only video id eg- 5Y35yjJfC2U; applied to last image}
 
       - { label : Price,
           name: price,
@@ -71,7 +71,7 @@ collections:
           hint: Final price eg- 560,
           default: 560}
 
-      - { label : PriceBefore,
+      - { label : PriceBefore (Optional),
           name: priceBefore,
           widget: number,
           required: false,
