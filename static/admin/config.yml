@@ -32,7 +32,7 @@ collections:
           name: productID, 
           widget: string, 
           default: "0025", 
-          require: true,
+          required: true,
           hint: 4 digit value eg- 0023}
 
       - { label: Date, 
@@ -40,13 +40,13 @@ collections:
           widget: datetime, 
           dateFormat: YYYY-MM-DD, 
           timeFormat: HH:mm:ss, 
-          require: true }
+          required: true }
 
       - { label: Type, 
           name: type, 
           widget: string, 
           default: products, 
-          require: true,
+          required: true,
           hint: must be "products"}
 
       - { label: Images, 
@@ -54,52 +54,52 @@ collections:
           widget: list, 
           collapsed: true,
           summary: '{{fields.image}}',
-          require: true,
+          required: true,
           hint: first image will be shown in the product page,
-          field: {label: Image, name: image, widget: image, require: true} }
+          field: {label: Image, name: image, widget: image, required: true} }
 
       - { label: Video ID,
           name: videoID,
           widget: string,
-          require: false,
+          required: false,
           hint: only video id eg- 5Y35yjJfC2U}
 
       - { label : Price,
           name: price,
           widget: number,
-          require: true,
+          required: true,
           hint: Final price eg- 560,
           default: 560}
 
       - { label : PriceBefore,
           name: priceBefore,
           widget: number,
-          require: false,
+          required: false,
           hint: Final price eg- 999; will be slashed; keep blank if not required,
           default: 999}
 
       - { label: Title, 
           name: title, 
           widget: text, 
-          require: true,
+          required: true,
           hint: Shown in product page eg- Jaam cotton salwar suit Design '#'25 }
 
       - { label: URL,
           name: url,
           widget: text,
-          require: true,
+          required: true,
           hint: Shown as product url eg- Jaam cotton salwar suit with cotton salwar wholesale design25 wholesale}
 
       - { label: Meta Description,
           name: description,
           widget: text,
-          require: true,
+          required: true,
           hint: Shown in product list page and google search eg- Jaam cotton dress material with work dupatta; 2.10 mtr cotton salwar}
 
       - { label: Short Description,
           name: shortDescription,
           widget: text,
-          require: true,
+          required: true,
           hint: Shown in product single page eg- Beautiful jaam cotton dress material with work dupatta and 2.10 mtr cotton salwar}
 
       - { label: Draft,
