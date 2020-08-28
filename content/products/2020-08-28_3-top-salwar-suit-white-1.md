@@ -19,6 +19,7 @@ shortDescription: Beautiful 3 tops dress material with 2 chikenkari work top and
 draft: false
 ---
 *DESIGN 3 TOP WHITE-1*
+
 💐💐💐💐💐💐💐💐💐💐
 
 *NEW COLLECTION*
@@ -37,7 +38,4 @@ draft: false
 
 *DUPATTA- NAZNEEN SHADED (2.10 MTR)*
 
-*RATE -430/-*
-
 *NOTE:- IN PRINTED TOP PRINT CONTAIN ONLY IN FRONT SIDE, BACK SIDE IS BLACK COTTON FABRIC*
-BACK SIDE IS BLACK COTTON FABRIC*
