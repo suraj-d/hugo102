@@ -161,10 +161,17 @@
 		<link rel="shortcut icon" href="{{ `images/favicon.ico` | absURL }} " type="image/x-icon">
 		<link rel="icon" href="{{ `images/favicon.ico` | absURL }} " type="image/x-icon">
 
-		
+		{{/*  netlify cms scriplt  */}}
+		<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
 		{{ "<!-- Search engine crawler tags -->" | safeHTML }}
+		{{ if ne .Section "admin"}}
 		<meta name="robots" content="index,follow" /> 
 		<meta name="googlebot" content="index,follow" />
+		{{ else }}
+		<meta name="robots" content="noindex,nofollow" /> 
+		<meta name="googlebot" content="noindex,nofollow" />
+		{{ end }}
 
 		{{ "<!-- Manifest File tags -->" | safeHTML }}
 		<link rel="manifest" href="{{ .Site.BaseURL }}manifest.json" />
