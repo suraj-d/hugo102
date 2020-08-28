@@ -51,11 +51,9 @@ collections:
 
       - { label: Images, 
           name: images, 
-          widget: object, 
-          collapsed: true,
-          required: true,
+          widget: object,
           hint: first image will be shown in the product page,
-          field: {label: Image, name: image, widget: image, required: true} }
+          field: {label: Image, name: image, widget: image} }
 
       - { label: Video ID,
           name: videoID,
