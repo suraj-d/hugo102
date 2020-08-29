@@ -7,8 +7,8 @@ contact:
     content : "K-329, New Textile Market, Near RKTM, Ring Road, Surat - 395002"
     # other information comes from "config.toml"
 
-  # opennig hour
-  opennigHour:
+  # openig hour
+  openingHour:
     title : "Opening Hours"
     dayTimeList:
       - dayTime : "Monday: 10:00 am – 08:00 pm"
