@@ -42,27 +42,27 @@ material:
     # material item loop
     - title : "Jaam Cotton"
       image : "images/material/jaam-cotton.jpg"
-      #content : ""
+      content : ""
       
     # material item loop
     - title : "Poly Silk"
       image : "images/material/poly-silk.jpg"
-      #content : ""
+      content : ""
       
     # material item loop
     - title : "Chanderi Silk"
       image : "images/material/chanderi-silk.jpg"
-      #content : ""
+      content : ""
       
     # material item loop
     - title : "Linen Cotton"
       image : "images/material/linen.jpg"
-      #content : ""
+      content : ""
       
     # material item loop
     - title : "Nazneen"
       image : "images/material/nazneen.jpg"
-      #content : "Nazneen description"
+      content : ""
 
 ########################### Advantage #########################
 advantage:
