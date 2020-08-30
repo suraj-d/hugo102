@@ -1,0 +1,52 @@
+---
+# product ID
+productID: "0012"
+date: 2020-07-31T08:37:59+05:30
+
+# type must be "products"
+type: "products"
+
+# product Images
+# first image will be shown in the product page
+# add multiple image with - image: "image path with extension"
+images:
+  - image: "Rainbow2-1.jpeg"
+  - image: "Rainbow2-2.jpeg"
+  - image: "Rainbow2-3.jpeg"
+  - image: "Rainbow2-4.jpeg"
+  - image: "Rainbow2-5.jpeg"
+
+# product Price
+price: "500"
+priceBefore: ""
+
+title: "Printed cotton dressmaterial (Rainbow-2)"
+
+# wholesale at end 
+url: "Printed cotton dressmaterial fancy net dupatta rainbow2"
+
+# meta description for google search product list page
+description : "Printed cotton dressmaterial with cotton bottom and fancy net dupatta"
+
+# Product Short Description
+shortDescription: "Beautiful printed cotton dressmaterial with glass beads handwork, matching cotton bottom and fancy net dupatta with embroidery work."
+tags: []
+draft: false
+---
+DESIGN RAINBOW-2
+
+💐💐💐💐💐💐💐💐💐💐
+
+NEW COLLECTION
+
+🌷🌷🌷🌷🌷🌷🌷🌷🌷🌷
+
+FABRIC DETAIL
+
+TOP- COTTON PRINT (2 MTR)
+
+BOTTOM- HEAVY COTTON (2.50 MTR)
+
+DUPATTA- NET WITH EMBROIDERY WORK (2.20 MTR)
+
+RATE -500/-
