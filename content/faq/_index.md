@@ -7,4 +7,4 @@ description : "sun fashion FAQ"
 
 ### Frequently Asked Questions
 
-Below FAQ are some common concerns of our clients, if you have other questions, please just Whatsapp it to [+919820927720](wa.me/919820927720), or use question form below.
+Below FAQ are some common concerns of our clients, if you have other questions, please just Whatsapp it to [+919820927720](https://wa.me/919820927720), or use question form below.
