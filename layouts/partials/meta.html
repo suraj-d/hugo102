@@ -21,11 +21,21 @@
         <meta property="og:url" content="{{ .Permalink }}"/>
 
         
-        {{ "<!-- image tags -->" | safeHTML }}
+		{{ "<!-- image tags -->" | safeHTML }}
+		
+		{{ $sources := (.Resources.ByType "image") }}
+          {{/*  Images array  */}}
+        {{ range .Params.Images }}
+          {{ with . }}
+            {{ $.Scratch.Add "Images" (slice .image) }}
+          {{ end }}
+		{{ end }}
+		  
         {{ with .Params.Images }}
-		{{ range first 1 . }}   
+		{{/*  .Resources looks for images images from that particular folder  */}}
+		{{ range where  $sources ".Name" "in" ($.Scratch.Get "Images") }}  
 		<!--get and resize image-->
-		{{ $src:= resources.Get .image }}
+		{{ $src:= . }}
 		{{ $small:= $src.Fill "800x900 center q85 Box" }}      
 		<meta itemprop="image" content="{{ $small.RelPermalink }}" />
 		<meta property="og:image" content="{{ $small.RelPermalink }}" /> 

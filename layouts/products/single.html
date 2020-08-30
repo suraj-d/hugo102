@@ -11,11 +11,22 @@
           {{ $arrayLength := len .Params.Images}}
           {{ $videoID := .Params.Video}}
           {{ $.Scratch.Set "counter" 0 }}
+          
+          {{ $sources := (.Resources.ByType "image") }}
+          {{/*  Images array  */}}
           {{ range .Params.Images }}
+           {{ with . }}
+            {{ $.Scratch.Add "Images" (slice .image) }}
+            {{ end }}
+          {{ end }}
+          
+          {{/*  .Resources looks for images images from that particular folder  */}}
+          {{ range where  $sources ".Name" "in" ($.Scratch.Get "Images") }}
             {{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
-            <!--get and resize image-->
             {{ $currentCount := $.Scratch.Get `counter`}}
-            {{ $src:= resources.Get .image }}
+
+            <!--get and resize image-->
+            {{ $src:= .}}            
             {{ $small:= $src.Fill "500x650 center q85 Box" }}
             <div data-image="{{ $small.RelPermalink }}">
               {{ if ne $currentCount $arrayLength }}
