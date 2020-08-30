@@ -21,15 +21,15 @@
         <meta property="og:url" content="{{ .Permalink }}"/>
 
         
-		{{ "<!-- image tags -->" | safeHTML }}
+        {{ "<!-- image tags -->" | safeHTML }}
 		
-		{{ $sources := (.Resources.ByType "image") }}
-          {{/*  Images array  */}}
-        {{ range .Params.Images }}
+	{{ $sources := (.Resources.ByType "image") }}
+        {{/*  Images array  */}}
+        {{ range first 1 .Params.Images }}
           {{ with . }}
             {{ $.Scratch.Add "Images" (slice .image) }}
           {{ end }}
-		{{ end }}
+	{{ end }}
 		  
         {{ with .Params.Images }}
 		{{/*  .Resources looks for images images from that particular folder  */}}
