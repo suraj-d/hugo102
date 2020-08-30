@@ -24,6 +24,7 @@
         {{ "<!-- image tags -->" | safeHTML }}
 		
 	{{ $sources := (.Resources.ByType "image") }}
+        {{ with .Params.Images }}
         {{/*  Images array  */}}
         {{ range first 1 .Params.Images }}
           {{ with . }}
@@ -31,7 +32,7 @@
           {{ end }}
 	{{ end }}
 		  
-        {{ with .Params.Images }}
+        
 		{{/*  .Resources looks for images images from that particular folder  */}}
 		{{ range where  $sources ".Name" "in" ($.Scratch.Get "Images") }}  
 		<!--get and resize image-->
