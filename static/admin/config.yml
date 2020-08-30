@@ -28,34 +28,29 @@ collections:
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}_{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
-      - { label: Product ID, name: productID, widget: string, default: "0025", required: true, hint: 4 digit value eg- 0023}
-
+      - { label: Product ID, name: productID, widget: string, default: "0025", required: true, 
+          hint: 4 digit value eg- 0023}
       - { label: Date, name: date, widget: datetime, dateFormat: YYYY-MM-DD, timeFormat: HH:mm:ss, required: true }
-
-      - { label: Type, name: type, widget: string, default: products, required: true, hint: must be "products"}
-
-      - { label: Images, name: images, widget: list, hint: first image will be shown in the product page,
+      - { label: Type, name: type, widget: string, default: products, required: true, 
+          hint: must be "products"}
+      - { label: Images, name: images, widget: list, 
+          hint: first image will be shown in the product page,
           fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string, required: false}] }
-
-      - { label: Video ID, name: videoID, widget: string, required: false, hint: only video id eg- 5Y35yjJfC2U; applied to last image}
-
-      - { label : Price, name: price, widget: number, required: true, hint: Final price eg- 560, default: 560}
-
-      - { label : PriceBefore, name: priceBefore, widget: number, required: false, hint: Final price eg- 999; will be slashed; keep blank if not required, default: 999}
-
-      - { label: Title, name: title, widget: string, required: true, hint: Shown in product page eg- Jaam cotton salwar suit Design '#'25 }
-
+      - { label: Video ID, name: videoID, widget: string, required: false, 
+          hint: only video id eg- 5Y35yjJfC2U; applied to last image}
+      - { label : Price, name: price, widget: number, required: true, 
+          hint: Final price eg- 560, default: 560}
+      - { label : PriceBefore, name: priceBefore, widget: number, required: false, 
+          hint: Final price eg- 999; will be slashed; keep blank if not required, default: 999}
+      - { label: Title, name: title, widget: string, required: true, 
+          hint: Shown in product page eg- Jaam cotton salwar suit Design '#'25 }
       - { label: URL, name: url, widget: string, required: true,
           hint: Shown as product url eg- Jaam cotton salwar suit with cotton salwar wholesale design25 wholesale}
-
       - { label: Meta Description, name: description, widget: string, required: true,
           hint: Shown in product list page and google search eg- Jaam cotton dress material with work dupatta; 2.10 mtr cotton salwar}
-
       - { label: Short Description, name: shortDescription, widget: text, required: true,
           hint: Shown in product single page eg- Beautiful jaam cotton dress material with work dupatta and 2.10 mtr cotton salwar}
-
       - { label: Draft, name: draft, widget: boolean, default: false}
-
       - { label: Content, name: body, widget: markdown}
 
   - name: Pages
@@ -126,7 +121,7 @@ collections:
                     { label: Title, name: title, widget: string},
                     { label: Image, name: image, widget: image},
                     { label: Advantage List, name: advantageList, widget: list,
-                      field: { label: List item, name: listItem, widget: string} }
+                      fields: [{ label: List item, name: listItem, widget: string}] }
                 ]}
 
             - { label: Promo Video, name: video, widget: object,
@@ -188,12 +183,13 @@ collections:
                       fields: [
                           {label: Title, name: title, widge: string},
                           {label: Day time list, name: dayTimeList, widget: list,
-                           field: {label: Day Time, name: dayTime, widget: string} }
+                           fields: [{label: Day Time, name: dayTime, widget: string} ]}
                       ]}
                 ]}
 
             - { label: Map, name: map, widget: object,
-                field: { label: Enable, name: enable, widget: boolean} }
+                fields: [
+                   { label: Enable, name: enable, widget: boolean} ]} 
 
         - file: data/reseller.yml
           label: Reseller
@@ -203,7 +199,7 @@ collections:
                 fields: [
                     {label: Enable, name: enable, widget: boolean},
                     {label: Reseller Detail, name: resellerDetail, widget: list,
-                     field: {label: Title, name: title, widget: string}}
+                     fields: [ {label: Title, name: title, widget: string} ]}
                 ]}
 
         - file: data/wholesale.yml
@@ -214,5 +210,62 @@ collections:
                 fields: [
                     {label: Enable, name: enable, widget: boolean},
                     {label: Wholesale Detail, name: wholesaleDetail, widget: list,
-                     field: {label: Title, name: title, widget: string} }
+                     fields: [{label: Title, name: title, widget: string}] }
                 ]}
+
+  - name: Index
+    label: Index
+    files:
+        - file: content/terms-conditions/_index.md
+          label: Terms-Conditions
+          name: termsConditions
+          fields: [   
+            { label: Title, name: title, widget: string},
+            { label: Date, name: date, widget: datetime},
+            { label: Description, name: description, widget: string, hint: meta description},
+            { label: Content, name: body, widget: markdown} ]
+
+        - file: content/faq/_index.md
+          label: FAQ
+          name: faq
+          fields: [   
+            { label: Title, name: title, widget: string},
+            { label: Date, name: date, widget: datetime},
+            { label: Description, name: description, widget: string, hint: meta description},
+            { label: Content, name: body, widget: markdown} ]
+
+        - file: content/contact/_index.md
+          label: Contact
+          name: contact
+          fields: [   
+            { label: Title, name: title, widget: string},
+            { label: Date, name: date, widget: datetime},
+            { label: Description, name: description, widget: string, hint: meta description},
+            { label: Content, name: body, widget: markdown} ]
+
+        - file: content/reseller/_index.md
+          label: Reseller
+          name: reseller
+          fields: [   
+            { label: Title, name: title, widget: string},
+            { label: Date, name: date, widget: datetime},
+            { label: Description, name: description, widget: string, hint: meta description},
+            { label: Content, name: body, widget: markdown} ]
+
+        - file: content/wholesale/_index.md
+          label: Wholesale
+          name: wholesale
+          fields: [   
+            { label: Title, name: title, widget: string},
+            { label: Date, name: date, widget: datetime},
+            { label: Description, name: description, widget: string, hint: meta description},
+            { label: Content, name: body, widget: markdown} ]
+
+        - file: content/search/_index.md
+          label: Search
+          name: search
+          fields: [   
+            { label: Title, name: title, widget: string},
+            { label: Date, name: date, widget: datetime},
+            { label: Description, name: description, widget: string, hint: meta description},
+            { label: Content, name: body, widget: markdown} ]
