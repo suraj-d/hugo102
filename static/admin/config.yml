@@ -6,7 +6,7 @@ backend:
   branch: master # Branch to update (optional; defaults to master)
 
 # This line should *not* be indented, save as draft option available
-publish_mode: editorial_workflow
+#publish_mode: editorial_workflow
 
 media_folder: "assets/images" # Media files will be stored in the repo under static/images/uploads
 public_folder: "/images" # The src attribute for uploaded media will begin with /images/uploads
