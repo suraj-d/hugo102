@@ -1,4 +1,5 @@
 ---
+sku: 3 top white 1
 productID: "0024"
 date: 2020-08-28T08:06:12.275Z
 type: products
@@ -9,7 +10,7 @@ images:
   - image: whatsapp-image-2020-08-27-at-14.43.024.jpeg
   - image: whatsapp-image-2020-08-27-at-14.43.025.jpeg
   - image: whatsapp-image-2020-08-27-at-14.43.026.jpeg
-price: 560
+price: 630
 priceBefore: ""
 title: 3 top salwar suit White - 1
 url: 3top dressmaterial with cotton salwar nazneen dupatta
