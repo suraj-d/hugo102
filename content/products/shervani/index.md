@@ -4,10 +4,10 @@ productID: "0025"
 date: 2020-09-10T06:50:04.595Z
 type: products
 images:
-  - image: whatsapp-image-2020-08-05-at-18.26.02.jpeg
-  - image: whatsapp-image-2020-08-05-at-18.26.03.jpeg
-  - image: whatsapp-image-2020-08-05-at-18.26.01.jpeg
-  - image: whatsapp-image-2020-08-05-at-18.26.02-1-.jpeg
+  - image: 1.jpeg
+  - image: 2.jpeg
+  - image: 3.jpeg
+  - image: 4.jpeg
 price: 710
 priceBefore: ""
 title: Siyona Chikenkari work dress material (Shervani)
