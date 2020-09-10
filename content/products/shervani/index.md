@@ -6,8 +6,8 @@ type: products
 images:
   - image: whatsapp-image-2020-08-05-at-18.26.02.jpeg
   - image: whatsapp-image-2020-08-05-at-18.26.03.jpeg
-  - image: whatsapp-image-2020-08-05-at-18.26.02-1-.jpeg
   - image: whatsapp-image-2020-08-05-at-18.26.01.jpeg
+  - image: whatsapp-image-2020-08-05-at-18.26.02-1-.jpeg
 price: 710
 priceBefore: ""
 title: Siyona Chikenkari work dress material (Shervani)
@@ -19,7 +19,9 @@ shortDescription: Beautiful siyona chikenkari work suit, all over work and
 draft: false
 ---
 BRAND - 24 CARAT SUIT
+
 DESIGN SHERVANI
+
 💐💐💐💐💐💐💐💐💐💐
 
 NEW COLLECTION
