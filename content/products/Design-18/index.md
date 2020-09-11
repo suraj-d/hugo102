@@ -1,35 +1,23 @@
 ---
-# product ID
+sku: Design-18
 productID: "0014"
 date: 2020-07-29T07:46:23+05:30
-
-# type must be "products"
-type: "products"
-
-# product Images
-# first image will be shown in the product page
-# add multiple image with - image: "image path with extension"
+type: products
 images:
-  - image: "D18-1.jpeg"
-  - image: "D18-2.jpeg"
-  - image: "D18-3.jpeg"
-  - image: "D18-4.jpeg"
-
-# product Price
-price: "650"
+  - image: D18-1.jpeg
+  - image: D18-2.jpeg
+  - image: D18-3.jpeg
+  - image: D18-4.jpeg
+price: 790
 priceBefore: ""
-
 title: "Reyon cotton dress material (Design #18)"
-
-url: "Reyon cotton dress material banarasi dupatta cotton bottom wholesale design18"
-
-# meta description for google search product list page
-description : "Reyon cotton dress material with chanderi jacquard dupatta and 2.5 mtr cotton bottom"
-
-# Product Short Description
-shortDescription: "Beautiful reyon cotton top with french knots and beads handwork, with matching chanderi jacquard dupatta and 2.5 mtr cotton bottom."
-tags: []
+url: Reyon cotton dress material banarasi dupatta cotton bottom wholesale design18
+description: Reyon cotton dress material with chanderi jacquard dupatta and 2.5
+  mtr cotton bottom
+shortDescription: Beautiful reyon cotton top with french knots and beads
+  handwork, with matching chanderi jacquard dupatta and 2.5 mtr cotton bottom.
 draft: false
+tags: []
 ---
 BRAND - 24 CARAT SUIT
 
