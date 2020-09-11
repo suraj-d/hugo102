@@ -1,37 +1,24 @@
 ---
-# product ID
+sku: Design-10
 productID: "0002"
 date: 2020-07-27T10:17:19+05:30
-draft: false
-
-# type must be "products"
-type: "products"
-
-# product Images
-# first image will be shown in the product page
-# add multiple image with - image: "image path with extension"
+type: products
 images:
-  - image: "D10-1.jpeg"
-  - image: "D10-2.jpeg"
-  - image: "D10-3.jpeg"
-  - image: "D10-4.jpeg"
-  - image: "D10-5.jpeg"
-
-# product Price
-price: "630"
+  - image: D10-1.jpeg
+  - image: D10-2.jpeg
+  - image: D10-3.jpeg
+  - image: D10-4.jpeg
+  - image: D10-5.jpeg
+price: 760
 priceBefore: ""
-
 title: "Shelby cotton salwar suit (Design #10)"
-
-url: "Shelby cotton salwar suit material for women jacquard dupatta design10"
-
-# meta description for google search product list page
-description : "Shelby cotton dress material with jacquard duppata and 2.5 mtr cotton bottom"
-
-# Product Short Description
-shortDescription: "Cotton shelby top with handwork design, matching 2.5 mtr cotton bottom and  2.2 mtr jacquard dupatta"
-
-tags: [handwork]
+url: Shelby cotton salwar suit material for women jacquard dupatta design10
+description: Shelby cotton dress material with jacquard duppata and 2.5 mtr cotton bottom
+shortDescription: Cotton shelby top with handwork design, matching 2.5 mtr
+  cotton bottom and  2.2 mtr jacquard dupatta
+draft: false
+tags:
+  - handwork
 ---
 BRAND - 24 CARAT SUIT
 
