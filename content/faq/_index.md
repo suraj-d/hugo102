@@ -2,7 +2,7 @@
 title: FAQ
 date: 2019-10-17T11:22:16+06:00
 draft: false
-description: Need any help
+description: How to start reselling
 ---
 
 ### Frequently Asked Questions
