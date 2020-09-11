@@ -1,14 +1,14 @@
 ---
 sku: Shervani
 productID: "0025"
-date: 2020-09-10T06:50:04.595Z
+date: 2020-09-11T06:46:27.405Z
 type: products
 images:
   - image: 1.jpeg
   - image: 2.jpeg
   - image: 3.jpeg
   - image: 4.jpeg
-price: 710
+price: 720
 priceBefore: ""
 title: Siyona Chikenkari work dress material (Shervani)
 url: chikenkari suit cotton with patiyala wholesale shervani
