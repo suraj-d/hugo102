@@ -1,36 +1,22 @@
 ---
-# product ID
+sku: Rainbow1
 productID: "0011"
 date: 2020-07-31T08:37:59+05:30
-
-# type must be "products"
-type: "products"
-
-# product Images
-# first image will be shown in the product page
-# add multiple image with - image: "image path with extension"
+type: products
 images:
-  - image: "Rainbow1-1.jpeg"
-  - image: "Rainbow1-2.jpeg"
-  - image: "Rainbow1-3.jpeg"
-  - image: "Rainbow1-5.jpeg"
-
-# product Price
-price: "500"
+  - image: Rainbow1-1.jpeg
+  - image: Rainbow1-2.jpeg
+  - image: Rainbow1-3.jpeg
+  - image: Rainbow1-5.jpeg
+price: 600
 priceBefore: ""
-
-title: "Printed cotton dressmaterial (Rainbow-1)"
-
-# wholesale at end 
-url: "Printed cotton dressmaterial fancy net dupatta rainbow1"
-
-# meta description for google search product list page
-description : "Printed cotton dressmaterial with cotton bottom and fancy net dupatta"
-
-# Product Short Description
-shortDescription: "Beautiful printed cotton dressmaterial with glass beads handwork, matching cotton bottom and fancy net dupatta with embroidery work."
-tags: []
+title: Printed cotton dressmaterial (Rainbow-1)
+url: Printed cotton dressmaterial fancy net dupatta rainbow1
+description: Printed cotton dressmaterial with cotton bottom and fancy net dupatta
+shortDescription: Beautiful printed cotton dressmaterial with glass beads
+  handwork, matching cotton bottom and fancy net dupatta with embroidery work.
 draft: false
+tags: []
 ---
 DESIGN RAINBOW-1
 
