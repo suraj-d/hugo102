@@ -1,36 +1,24 @@
 ---
-# product ID
+sku: Design-20-1
 productID: "0018"
 date: 2020-07-29T08:07:59+05:30
-
-# type must be "products"
-type: "products"
-
-# product Images
-# first image will be shown in the product page
-# add multiple image with - image: "image path with extension"
+type: products
 images:
-  - image: "D20-1-1.jpeg"
-  - image: "D20-1-2.jpeg"
-  - image: "D20-1-3.jpeg"
-  - image: "D20-1-4.jpeg"
-  - image: "D20-1-5.jpeg"
-
-# product Price
-price: "530"
+  - image: D20-1-1.jpeg
+  - image: D20-1-2.jpeg
+  - image: D20-1-3.jpeg
+  - image: D20-1-4.jpeg
+  - image: D20-1-5.jpeg
+price: 650
 priceBefore: ""
-
 title: "Jacquard chanderi dress material (Design #20-1)"
-
-url: "Jacqauard chanderi dress material with inner and botton wholesale design20-1"
-
-# meta description for google search product list page
-description : "Jacquard chanderi dress with 4 mtr silk bottom and lining with matching chanderi zari dupatta"
-
-# Product Short Description
-shortDescription: "Beautiful jacquard chanderi zari checks dress with matching 4 mtr bottom plus lining and chanderi zari checks dupatta."
-tags: []
+url: Jacqauard chanderi dress material with inner and botton wholesale design20-1
+description: Jacquard chanderi dress with 4 mtr silk bottom and lining with
+  matching chanderi zari dupatta
+shortDescription: Beautiful jacquard chanderi zari checks dress with matching 4
+  mtr bottom plus lining and chanderi zari checks dupatta.
 draft: false
+tags: []
 ---
 BRAND - 24 CARAT SUIT
 
