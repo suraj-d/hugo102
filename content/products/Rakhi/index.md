@@ -1,36 +1,23 @@
 ---
-# product ID
+sku: Rakhi
 productID: "0019"
 date: 2020-07-29T09:03:31+05:30
-
-# type must be "products"
-type: "products"
-
-# product Images
-# first image will be shown in the product page
-# add multiple image with - image: "image path with extension"
+type: products
 images:
-  - image: "Rakhi-1.jpeg"
-  - image: "Rakhi-2.jpeg"
-  - image: "Rakhi-3.jpeg"
-  - image: "Rakhi-4.jpeg"
-  - image: "Rakhi-5.jpeg"
-
-# product Price
-price: "650"
+  - image: Rakhi-1.jpeg
+  - image: Rakhi-2.jpeg
+  - image: Rakhi-3.jpeg
+  - image: Rakhi-4.jpeg
+  - image: Rakhi-5.jpeg
+price: 790
 priceBefore: ""
-
-title: "Jaam cotton dress material (Rakhi)"
-
-url: "Jaam cotton dress chikankari bottom chanderi dupatta wholesale rakhi"
-
-# meta description for google search product list page
-description : "Jaam cotton dress material with chikankari bottom and chanderi dupatta"
-
-# Product Short Description
-shortDescription: "Beautiful jaam cotton dress with beads and french knot handwork, cotton chikenkari bottom and chanderi zari border dupatta."
-tags: []
+title: Jaam cotton dress material (Rakhi)
+url: Jaam cotton dress chikankari bottom chanderi dupatta wholesale rakhi
+description: Jaam cotton dress material with chikankari bottom and chanderi dupatta
+shortDescription: Beautiful jaam cotton dress with beads and french knot
+  handwork, cotton chikenkari bottom and chanderi zari border dupatta.
 draft: false
+tags: []
 ---
 BRAND - 24 CARAT SUIT
 
