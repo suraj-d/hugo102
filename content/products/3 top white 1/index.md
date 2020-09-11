@@ -10,7 +10,7 @@ images:
   - image: whatsapp-image-2020-08-27-at-14.43.024.jpeg
   - image: whatsapp-image-2020-08-27-at-14.43.025.jpeg
   - image: whatsapp-image-2020-08-27-at-14.43.026.jpeg
-price: 630
+price: 620
 priceBefore: ""
 title: 3 top salwar suit White - 1
 url: 3top dressmaterial with cotton salwar nazneen dupatta
