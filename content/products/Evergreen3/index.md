@@ -1,38 +1,23 @@
 ---
-# product ID
+sku: Evergreen3
 productID: "0005"
 date: 2020-07-31T08:36:57+05:30
-
-# type must be "products"
-type: "products"
-
-# product Images
-# first image will be shown in the product page
-# add multiple image with - image: "image path with extension"
+type: products
 images:
-  - image: "Evergreen3-1.jpeg"
-  - image: "Evergreen3-2.jpeg"
-  - image: "Evergreen3-3.jpeg"
-  - image: "Evergreen3-4.jpeg"
-  - image: "Evergreen3-5.jpeg"
-  - image: "Evergreen3-6.jpeg"
-
-# product Price
-price: "420"
+  - image: Evergreen3-1.jpeg
+  - image: Evergreen3-2.jpeg
+  - image: Evergreen3-3.jpeg
+  - image: Evergreen3-4.jpeg
+  - image: Evergreen3-5.jpeg
+  - image: Evergreen3-6.jpeg
+price: 500
 priceBefore: ""
-
-title: "Cotton bandhej dress material (Evergreen-3)"
-
-# wholesale at end 
-url: "cotton bandhej dressmaterial evergreen3"
-
-# meta description for google search product list page
-description : "Hand dyed cotton dress with cotton bottom and dupatta"
-
-# Product Short Description
-shortDescription: "Beautiful hand dyed cotton dress with matching cottom bottom and dupatta."
-tags: []
+title: Cotton bandhej dress material (Evergreen-3)
+url: cotton bandhej dressmaterial evergreen3
+description: Hand dyed cotton dress with cotton bottom and dupatta
+shortDescription: Beautiful hand dyed cotton dress with matching cottom bottom and dupatta.
 draft: false
+tags: []
 ---
 DESIGN NAME- EVERGREEN-3
 
