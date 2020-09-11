@@ -1,36 +1,25 @@
 ---
-# product ID
+sku: Design-16
 productID: "0010"
 date: 2020-07-29T07:13:26+05:30
-draft: false
-
-# type must be "products"
-type: "products"
-
-# product Images
-# first image will be shown in the product page
-# add multiple image with - image: "image path with extension"
+type: products
 images:
-  - image: "D16-1.jpeg"
-  - image: "D16-2.jpeg"
-  - image: "D16-3.jpeg"
-  - image: "D16-4.jpeg"
-  - image: "D16-5.jpeg"
-  - image: "D16-6.jpeg"
-
-# product Price
-price: "650"
+  - image: D16-1.jpeg
+  - image: D16-2.jpeg
+  - image: D16-3.jpeg
+  - image: D16-4.jpeg
+  - image: D16-5.jpeg
+  - image: D16-6.jpeg
+price: 790
 priceBefore: ""
-
 title: "Jaam cotton dress material (Design #16)"
-
-url: "Jaam cotton dress material satin jacquard dupatta and cotton bottom wholesale design16"
-
-# meta description for google search product list page
-description : "Jaam cottom dress material with satin jacquard dupatta and 2.5 mtr cotton bottom"
-
-# Product Short Description
-shortDescription: "Beautiful jaam cotton top with french knot handwork design, with matching satin jacquard dupatta and 2.5 mtr cotton bottom."
+url: Jaam cotton dress material satin jacquard dupatta and cotton bottom
+  wholesale design16
+description: Jaam cottom dress material with satin jacquard dupatta and 2.5 mtr
+  cotton bottom
+shortDescription: Beautiful jaam cotton top with french knot handwork design,
+  with matching satin jacquard dupatta and 2.5 mtr cotton bottom.
+draft: false
 tags: []
 ---
 BRAND - 24 CARAT SUIT
