@@ -33,7 +33,19 @@
   $('#videoModal2').on('hide.bs.modal', function (e) {
     $("#video2").attr('src', $videoSrc);
   })
-
+  $("#dismissBtn").click(function() { 
+    $("#videoModal").modal('hide'); 
+  });
+  $("#dismissBtn").click(function() { 
+    $("#videoModal2").modal('hide'); 
+  });
+  $('#videoModal').each(function(){
+    var src = $(this).find('iframe').attr('src');
+      $(this).on('click', function(){
+        $(this).find('iframe').attr('src', '');
+        $(this).find('iframe').attr('src', src);
+    });
+  });
 
   // testimonial slider
   $('.testimonial-slider').slick({
