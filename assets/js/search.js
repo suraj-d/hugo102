@@ -48,7 +48,7 @@ var searchFn = function () {
     var search = function (terms) {
         var results = [];
         searchHost.index.forEach(function (item) {
-            if (item.tags) {
+            if (item.title) {
                 var weight_1 = 0;
                 terms.forEach(function (term) {
                     if (item.title.startsWith(term.term)) {
@@ -58,9 +58,6 @@ var searchFn = function () {
                 weight_1 += checkTerms(terms, 1, item.content);
                 weight_1 += checkTerms(terms, 2, item.description);
                 weight_1 += checkTerms(terms, 2, item.subtitle);
-                item.tags.forEach(function (tag) {
-                    weight_1 += checkTerms(terms, 4, tag);
-                });
                 weight_1 += checkTerms(terms, 16, item.title);
                 if (weight_1) {
                     results.push({
@@ -142,7 +139,7 @@ var searchFn = function () {
         searchHost.index = [];
         var dup = {};
         results.forEach(function (result) {
-            if (result.tags && !dup[result.permalink]) {
+            if (result.title && !dup[result.permalink]) {
                 var res = {};
                 res.showTitle = result.title;
                 res.showDescription = result.description;
@@ -150,11 +147,6 @@ var searchFn = function () {
                 res.subtitle = normalize(result.subtitle);
                 res.description = normalize(result.description);
                 res.content = normalize(result.content);
-                var newTags_1 = [];
-                result.tags.forEach(function (tag) {
-                    return newTags_1.push(normalize(tag));
-                });
-                res.tags = newTags_1;
                 res.permalink = result.permalink;
                 res.image = result.image;
                 searchHost.index.push(res);

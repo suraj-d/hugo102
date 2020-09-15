@@ -1,7 +1,7 @@
 {{- $.Scratch.Add "index" slice -}}
 {{- range where .Site.RegularPages "Type" "products" -}}
 
-{{ $search_parameter:=dict "title" .Title "subtitle" .Params.shortDescription "description" .Params.description "tags" .Params.tags  "content" .Content "permalink" .Permalink}}
+{{ $search_parameter:=dict "title" .Title "subtitle" .Params.shortDescription "description" .Params.description "content" .Content "permalink" .Permalink}}
 
 {{ $sources := (.Resources.ByType "image") }}
 
