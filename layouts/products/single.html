@@ -78,12 +78,17 @@
         {{ end }}
         
         <div class="my-4">
-          <span class="lead text-primary font-weight-medium">Rs. {{ .Params.Price }} each</span>
-          {{ if .Params.PriceBefore }}
-          <del>Rs. {{ .Params.PriceBefore }}</del>
+          {{if eq .Params.StockOut true }}
+            <span class="lead text-stockOut font-weight-medium">Stock Out</span>
+          {{ else }}
+            <span class="lead text-primary font-weight-medium">Rs. {{ .Params.Price }} each</span>
+            {{ if .Params.PriceBefore }}
+              <del>Rs. {{ .Params.PriceBefore }}</del>
+            {{ end }}
           {{ end }}
         </div>
-            <div class="row my-2 p-2">
+
+        <div class="row my-2 p-2">
 
               {{/*  get update button  */}}
               {{/*  <div class="mr-1 mb-1">
