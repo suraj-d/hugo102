@@ -1,3 +1,4 @@
 Sitemap: http://www.sunfashion.store/sitemap.xml
 User-agent: *
-Disallow: /admin
+Disallow: /admin/
+Disallow: /search/
