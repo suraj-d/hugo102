@@ -1,13 +1,13 @@
 ######################## default configuration ####################
 baseURL = "https://www.sunfashion.store"
-title = "Designer Ethnic Wear Dress Material Online for Women - Sun Fashion"
+title = "Dress material manufacturer and wholesale supplier in India"
 
 languageCode = "en-us"
 DefaultContentLanguage = "en"
 #theme = "hargo"
 summaryLength = "20"
 Paginate = 15
-PaginatePath = "products"
+PaginatePath = ""
 
 enableEmoji = true
 enableRobotsTXT = true
@@ -45,7 +45,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     
   [[menu.main]]
   name = "Products"
-  URL = "products"
+  URL = "dress-material"
   weight = 1
   # hasChildren = true
 
@@ -56,13 +56,13 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     # weight = 1
 
   [[menu.main]]
-  name = "For Wholesaler"
-  URL = "wholesale"
+  name = "Wholesale"
+  URL = "non-catalog-dress-material-wholesale-supplier-in-surat"
   weight = 2
 
   [[menu.main]]
-  name = "For Reseller"
-  URL = "reseller"
+  name = "Resell"
+  URL = "single-piece-dress-material-at-wholesale-price"
   weight = 3
   
   #[[menu.main]]
@@ -88,17 +88,17 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   ############# footer menu #############
   [[menu.footer]]
   name = "Products"
-  URL = "products"
+  URL = "dress-material"
   weight = 1
 
   [[menu.footer]]
   name = "For Wholesaler"
-  URL = "wholesale"
+  URL = "non-catalog-dress-material-wholesale-supplier-in-surat"
   weight = 2
   
   [[menu.footer]]
-  name = "For Reseller"
-  URL = "reseller"
+  name = "Resell"
+  URL = "single-piece-dress-material-at-wholesale-price"
   weight = 3
 
   #[[menu.footer]]
@@ -141,8 +141,8 @@ sitename = "Sun Fashion"
 legalname = "Sun Fashion and Lifestyle"
 
 # Meta data
-description = "Dress material manufacturer from surat. Cotton dress material, Salwar suit, patiyala available in bluk for wholesaler, retailer,whatsapp reseller"
-keywords = "Wholesale Salwar Kameez, Wholesale Salwar Suit, Salwar Suit Surat, Cotton suit, Patiyala"
+description = "Manufacturer and wholesale supplier of Ladies Dress material in India. Buy non catalogue Dress material, Salwar suit, Churidar material online at wholesale rate. Call or Whatsapp on +91-9820927720"
+keywords = "Wholesale Salwar Kameez, Wholesale Salwar Suit, Salwar Suit Surat, Cotton dress material, single piece dress material at wholesale price, dress material for reseller, wholesale dress materials for business"
 author = "Sun Fashion"
 
 # google map
