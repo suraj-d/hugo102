@@ -7,4 +7,4 @@ description: How to start reselling
 
 ### Frequently Asked Questions
 
-Below FAQ are some common concerns of our clients, if you have other questions, please just Whatsapp it to [+919820927720](https://wa.me/919820927720), or use question form below.
+Below FAQ are some common concerns of our clients, if you have other questions, please just Whatsapp it to [+91-9820927720](https://wa.me/919820927720), or use question form below.
