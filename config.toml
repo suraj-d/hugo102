@@ -130,8 +130,8 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
 #################### output ############################################
 [outputs]
-  home = ["HTML", "RSS", "JSON", "MANIFEST"]
-  #home = ["HTML",  "MANIFEST", "SITEMAP"]
+  home = ["HTML", "RSS", "JSON"]
+  home = ["HTML",  "MANIFEST", "SITEMAP"]
   page = ["HTML", "RSS"]
 
 #################### default parameters ################################
