@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://www.sunfashion.store"
+baseURL = "https://www.sunfashion.store/"
 title = "Dress material manufacturer and wholesale supplier in India"
 
 languageCode = "en-us"
@@ -131,6 +131,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 #################### output ############################################
 [outputs]
   home = ["HTML", "RSS", "JSON"]
+  #home = ["HTML",  "MANIFEST", "SITEMAP"]
   page = ["HTML", "RSS"]
 
 #################### default parameters ################################
