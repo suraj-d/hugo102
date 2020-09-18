@@ -167,6 +167,35 @@
 						}
 		}
 		</script>
+
+		{{ if .IsHome }}
+		{{ "<!-- Local business tags -->" | safeHTML }}
+    		<script type="application/ld+json">
+    		{
+      			"@context": "https://schema.org",
+      			"@type": "ClothingStore",
+      			"@id": "{{ .Permalink }}",
+      			"name": "{{ .Site.Params.Legalname }}",
+      			"address": {
+        			"@type": "PostalAddress",
+        			"streetAddress": "Ring Road",
+        			"addressLocality": "Surat",
+        			"addressRegion": "Gujarat",
+        			"postalCode": "395002",
+        			"addressCountry": "India"
+      				},
+      			"geo": {
+        			"@type": "GeoCoordinates",
+        			"latitude": {{ .Site.Params.mapLatitude }},
+        			"longitude": {{ .Site.Params.72.841687 }}
+      				},
+      			"url": "{{ .Permalink }}",
+      			"telephone": "{{ .Site.Params.Mobile }}",
+      			"priceRange": "$$",
+      			"openingHours": "Mo,Tu,We,Th,Fr,Sa 10:00-20:00"
+      		}
+    		</script>
+		{{ end }}
 		
 		{{ "<!-- Favicon tags -->" | safeHTML }}
 		<link rel="shortcut icon" href="{{ `images/favicon.ico` | absURL }} " type="image/x-icon">
