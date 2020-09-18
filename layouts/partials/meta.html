@@ -170,12 +170,15 @@
 
 		{{ if .IsHome }}
 		{{ "<!-- Local business tags -->" | safeHTML }}
-    		<script type="application/ld+json">
+    		<script defer type="application/ld+json">
     		{
       			"@context": "https://schema.org",
       			"@type": "ClothingStore",
       			"@id": "{{ .Permalink }}",
       			"name": "{{ .Site.Params.Legalname }}",
+			"image": [
+        			{{ `images/logo.jpeg` | absURL }}
+			       ],
       			"address": {
         			"@type": "PostalAddress",
         			"streetAddress": "Ring Road",
