@@ -49,12 +49,12 @@
 		<!--get and resize image-->
 		{{ $src:= resources.Get .Site.Params.Logo }}
 		{{ $small:= $src.Fit "500x center q85 Box" }}
-		<meta itemprop="image" content="{{ `images/logo.jpeg` | absURL }}" />
-		<meta property="og:image" content="{{ `images/logo.jpeg` | absURL }}" /> 
+		<meta itemprop="image" content="{{ .Site.Params.LogoSquare | absURL }}" />
+		<meta property="og:image" content="{{ .Site.Params.LogoSquare | absURL }}" /> 
 		<meta property="og:image:width" content="500" />
 		
-		<meta name="twitter:image" content="{{ `images/logo.jpeg` | absURL }}" />
-		<meta name="twitter:image:src" content="{{ `images/logo.jpeg` | absURL }}" /> 
+		<meta name="twitter:image" content="{{ .Site.Params.LogoSquare | absURL }}" />
+		<meta name="twitter:image:src" content="{{ .Site.Params.LogoSquare | absURL }}" /> 
 
 		{{end}}
 		
