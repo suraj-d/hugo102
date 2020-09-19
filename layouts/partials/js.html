@@ -28,7 +28,7 @@
   <script src="{{ $script.Permalink }}"></script>
 {{ end }}
 
-
+{{ if hugo.IsProduction }}
 {{ with .Site.Params.googleAnalitycsID }}
 {{ "<!-- google analitycs -->" | safeHTML }}
 <script>
@@ -65,6 +65,8 @@ fbq('track', 'PageView');
 <noscript><img height="1" width="1" style="display:none"
 src="https://www.facebook.com/tr?id=1190697014639992&ev=PageView&noscript=1"
 /></noscript>
+
+{{ end }}
 
 
 
