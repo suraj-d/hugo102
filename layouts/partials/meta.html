@@ -127,7 +127,7 @@
 				"name": "{{ .Site.Params.Legalname }}",
 				"logo": {
 				"@type": "ImageObject",
-				"url": "{{ `images/logo.jpeg` | absURL }}"
+				"url": "{{ .Site.Params.LogoSquare | absURL }}"
 				}
 			}
 			}
@@ -156,7 +156,7 @@
 				"alternateName": "{{ .Site.Params.Sitename }}",
 				"logo": {
 					"@type": "ImageObject",
-					"url": "{{ `images/logo.jpeg` | absURL }}"
+					"url": "{{ .Site.Params.LogoSquare | absURL }}"
 					},
 				"location": {
 					"@type": "PostalAddress",
@@ -177,7 +177,7 @@
       			"@id": "{{ .Permalink }}",
       			"name": "{{ .Site.Params.Legalname }}",
 			"image": [
-        			{{ `images/logo.jpeg` | absURL }}
+        			{{ .Site.Params.LogoSquare | absURL }}
 			       ],
       			"address": {
         			"@type": "PostalAddress",
