@@ -136,6 +136,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 #################### default parameters ################################
 [params]
 logo = "images/logo.jpeg"
+logoSquare = "images/logoSquare.jpeg"
 home = "Home"
 sitename = "Sun Fashion"
 legalname = "Sun Fashion and Lifestyle"
