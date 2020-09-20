@@ -167,11 +167,21 @@
 						}
 		}
 		</script>
+		
+		{{ "<!-- Logo tags -->" | safeHTML }}
+		<script type="application/ld+json">
+			{
+			  "@context": "https://schema.org",
+			  "@type": "Organization",
+			  "url": "{{ .Permalink }}",
+			  "logo": "{{ .Site.Params.LogoSquare | absURL }}"
+			}
+		</script>
 
-		{{ if .IsHome }}
 		{{ "<!-- Local business tags -->" | safeHTML }}
+		{{ if .IsHome }}
     		<script defer type="application/ld+json">
-    		{
+			{
       			"@context": "https://schema.org",
       			"@type": "ClothingStore",
       			"@id": "{{ .Permalink }}",
@@ -216,24 +226,21 @@
 		<meta name="googlebot" content="noindex,nofollow" />
 		{{ end }}
 
-		{{ "<!-- Manifest File tags -->" | safeHTML }}
-		
-
 		{{ "<!-- Theme Color tags -->" | safeHTML }}
-
 		<meta name="theme-color" content="#7251a7" /> 
 		<meta name="msapplication-TileColor" content="#7251a7" />
 
-
-	        <meta name="facebook-domain-verification" content="58mrxpvpep0ucwutoe5k26cla9ecmm" />	
-                <meta name="p:domain_verify" content="8af73347878b4d9fef9acfa89d347cf2"/>
+		{{ "<!-- Verification tags -->" | safeHTML }}
+	    <meta name="facebook-domain-verification" content="58mrxpvpep0ucwutoe5k26cla9ecmm" />	
+        <meta name="p:domain_verify" content="8af73347878b4d9fef9acfa89d347cf2"/>
+		
 		<meta name="keywords" content="{{ .Site.Params.Keywords}}" />
 		<meta name="imagemode" content="force" />
 		<meta name="coverage" content="Worldwide" /> 
 		<meta name="distribution" content="Global" />
 		<meta name="HandheldFriendly" content="True" /> 
 		<meta name="msapplication-tap-highlight" content="no" />
-		<meta name="apple-mobile-web-app-title" content="{{ .Site.Params.Legalname }}" /> 
+		<meta name="apple-mobile-web-app-title" content="{{ .Site.Params.Sitename }}" /> 
 		<meta name="apple-mobile-web-app-capable" content="yes" />
 		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 		<meta name="apple-touch-fullscreen" content="yes" />
