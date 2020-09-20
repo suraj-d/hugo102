@@ -153,7 +153,8 @@ mapLongitude = "72.841687"
 mapMarker = "images/marker.png"
 
 # Google Analitycs, create new property
-googleAnalitycsID = "" # Your ID
+googleAnalitycsID = "UA-87351575-4" # Your ID
+facebookPixelID = "1190697014639992"
 
 # Contact Information
 mobile = "9820927720"
