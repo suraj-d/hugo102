@@ -10,7 +10,7 @@ images:
   - image: whatsapp-image-2020-09-30-at-13.55.33.jpeg
 price: 699
 priceBefore: ""
-title: "Jaam cotton salwar suit Design #26"
+title: "Jaam cotton salwar suit (Design #26)"
 url: Jaam cotton salwar suit with cotton salwar design26 wholesale
 description: Jaam cotton dress material with slub cotton with zalar dupatta;
   2.50 mtr cotton salwar
