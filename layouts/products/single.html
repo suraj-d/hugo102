@@ -77,6 +77,7 @@
         <div class="rw-ui-container"></div>
         {{ end }}
         
+	      <!--
         <div class="my-4">
           {{if eq .Params.StockOut true }}
             <span class="lead text-stockOut font-weight-medium">Stock Out</span>
@@ -87,6 +88,7 @@
             {{ end }}
           {{ end }}
         </div>
+	-->
 
         <div class="row my-2 p-2">
 
@@ -100,9 +102,9 @@
                 <a class="btn btn-primary " href="https://wa.me/?text={{.Params.Title}}%0ALink: {{.Permalink}}" data-action="share/whatsapp/share" target="_blank" role="button" rel="nofollow noreferrer noopener" aria-label="share via whatsapp">Share Via Whatsapp</a>
               </div>  */}}
 
-              {{/*  order now button  */}}
+              {{/*  inquiry button  */}}
               <div>
-                <a class="btn btn-primary " href="https://wa.me/919820927720?text=Hi,%0A%0AI would like to place an order for%0A*{{.Params.Title}}*%0ALink: {{.Permalink}}" data-action="share/whatsapp/share" target="_blank" role="button" rel="nofollow noreferrer noopener" aria-label="order now">Order On Whatsapp</a>
+                <a class="btn btn-primary " href="https://wa.me/919820927720?text=Hi,%0A%0ACan I get wholesale rate for%0A*{{.Params.Title}}*%0ALink: {{.Permalink}}" data-action="share/whatsapp/share" target="_blank" role="button" rel="nofollow noreferrer noopener" aria-label="wholesale rate">Get Wholesale Rate</a>
               </div>
               
             </div>
