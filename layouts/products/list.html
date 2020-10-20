@@ -31,12 +31,13 @@
           <div class="card-body">
             <a href="{{ .Permalink }}" class="h4">{{ .Title }}</a>
             <p>{{ .Params.Description }}</p>
-            <div class="mb-4">
+          <!--  <div class="mb-4">
               <span class="lead text-primary">Rs. {{ .Params.Price }}</span>
               {{ if .Params.PriceBefore }}
               <del>Rs. {{ .Params.PriceBefore }}</del>
               {{ end }}
             </div>
+	-->
 
             {{/*  get update on whatsapp button  */}}
             {{/*  <div class="mb-2">
@@ -48,9 +49,9 @@
               <a class="btn btn-sm btn-outline-primary" href="https://wa.me/?text={{ .Params.Title }}%0D%0ALink: {{.Permalink}}" data-action="share/whatsapp/share" target="_blank" role="button" rel="nofollow noreferrer noopener" aria-label="share via whatsapp">Share Via Whatsapp</a>
             </div>  */}}
 
-            {{/*  order now button  */}}
+            {{/*  inqury button  */}}
             <div>
-              <a class="btn btn-sm btn-outline-primary" href="https://wa.me/919820927720?text=Hi,%0A%0AI would like to place an order for%0A*{{.Params.Title}}*%0ALink: {{.Permalink}}" data-action="share/whatsapp/share" target="_blank" role="button" rel="nofollow noreferrer noopener" aria-label="order on whatsapp">Order on Whatsapp</a>
+              <a class="btn btn-sm btn-outline-primary" href="https://wa.me/919820927720?text=Hi,%0A%0ACan I get wholesale rate for%0A*{{.Params.Title}}*%0ALink: {{.Permalink}}" data-action="share/whatsapp/share" target="_blank" role="button" rel="nofollow noreferrer noopener" aria-label="get wholesale rate">Get Wholesale Rate</a>
             </div>
       
             <!--			
