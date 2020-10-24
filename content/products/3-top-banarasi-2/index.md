@@ -1,7 +1,7 @@
 ---
 sku: 3 top banarasi 2
 productID: "0026"
-date: 2020-09-11T07:33:22.381Z
+date: 2020-10-24T09:13:24.495Z
 type: products
 images:
   - image: 1.jpeg
