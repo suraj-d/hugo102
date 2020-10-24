@@ -1,7 +1,7 @@
 ---
 sku: Chanderi-1
 productID: "0032"
-date: 2020-10-24T08:55:59.724Z
+date: 2020-10-24T09:13:49.213Z
 type: products
 images:
   - image: chanderi-1-1-.jpeg
