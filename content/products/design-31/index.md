@@ -4,10 +4,10 @@ productID: "0034"
 date: 2020-12-03T11:00:25.122Z
 type: products
 images:
-  - image: 2.jpeg
   - image: 1.jpeg
-  - image: 4.jpeg
+  - image: 2.jpeg
   - image: 3.jpeg
+  - image: 4.jpeg
   - image: 5.jpeg
 price: 999
 priceBefore: 999
