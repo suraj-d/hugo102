@@ -197,6 +197,15 @@ a:hover {
   }
 }
 
+.breadcrumbs-limit {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100px; // some width  
+}
+
+
+
 textarea.form-control {
   height: 100px;
 }

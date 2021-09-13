@@ -1,7 +1,15 @@
 {{ define "main" }}
 
+
 <section class="section pt-0">
   <div class="container">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb bg-transparent p-0">
+        <li class="breadcrumb-item"><a class="text-dark" href="{{ .Site.BaseURL }}">{{ .Site.Params.home }}</a></li>
+        <li class="breadcrumb-item"><a class="text-dark" href="{{ range first 1 .Site.Menus.main }}{{ .URL | absURL }}{{end}}">{{ range first 1 .Site.Menus.main }}{{ .Name }}{{end}}</a></li>
+        <li class="breadcrumb-item breadcrumbs-limit active" aria-current="page">{{ .Title }}</li>
+      </ol>
+    </nav> 
     <div class="row">
       <div class="col-lg-5 mb-4 mb-lg-0">
         <!-- product image slider -->
@@ -58,13 +66,7 @@
 
       {{/*  description rate title  */}}
       <div class="col-lg-6 offset-lg-1">    
-        <nav aria-label="breadcrumb">
-          <ol class="breadcrumb bg-transparent p-0">
-            <li class="breadcrumb-item"><a class="text-dark" href="{{ .Site.BaseURL }}">{{ .Site.Params.home }}</a></li>
-            <li class="breadcrumb-item"><a class="text-dark" href="{{ range first 1 .Site.Menus.main }}{{ .URL | absURL }}{{end}}">{{ range first 1 .Site.Menus.main }}{{ .Name }}{{end}}</a></li>
-            <li class="breadcrumb-item active" aria-current="page">{{ .Title }}</li>
-          </ol>
-        </nav>  
+         
               
         <h4 class="font-weight-medium mb-3">{{ .Title }}</h4>
         
