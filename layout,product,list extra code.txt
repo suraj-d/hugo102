@@ -1,0 +1,19 @@
+get image from upload file code
+
+
+            
+            {{ $sources := (.Resources.ByType "image") }}
+            
+            {{ range first 1 .Params.Images }}
+              {{ with . }}
+                {{ $.Scratch.Add "Images" (slice .image) }}
+              {{ end }}
+            {{ end }}
+
+			      {{ range where  $sources ".Name" "in" ($.Scratch.Get "Images") }}
+			      <!-- get and resize image-->
+			        {{ $src:= . }}
+			        {{ $small:= $src.Fill "800x900 center q85 Box" }}
+			        <img data-src="{{ $small.RelPermalink }}" alt="product-image" class="card-img-top rounded lazyload">
+              {{ end }}
+              

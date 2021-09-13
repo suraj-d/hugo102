@@ -1,0 +1,34 @@
+get image from upload code
+
+{{ $sources := (.Resources.ByType "image") }}
+          {{/*  Images array  */}}
+          {{ range .Params.Images }}
+           {{ with . }}
+            {{ $.Scratch.Add "Images" (slice .image) }}
+            {{ end }}
+          {{ end }}
+          
+          {{/*  .Resources looks for images images from that particular folder  */}}
+          {{ range where  $sources ".Name" "in" ($.Scratch.Get "Images") }}
+            {{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
+            {{ $currentCount := $.Scratch.Get `counter`}}
+
+            <!--get and resize image-->
+            {{ $src:= .}}            
+            {{ $small:= $src.Fill "500x650 center q85 Box" }}
+            <div data-image="{{ $small.RelPermalink }}">
+              {{ if ne $currentCount $arrayLength }}
+                  <img class="img-fluid w-100 lazyload" data-src="{{ $small.RelPermalink }}" alt="product-image">
+              {{ else }}
+                  {{ if $videoID }}
+
+                  <img class="img-fluid w-100 lazyload ti-control-play" data-src="{{ $small.RelPermalink }}" alt="product-image">
+                  <a data-toggle="modal" data-src="https://www.youtube.com/embed/{{ $videoID }}" data-target="#videoModal" class="text-color video-modal content-center">
+                    <i class="pl-1 ti-control-play bg-gradient btn-play-lg"></i>
+                  </a>
+                  {{ else }}  
+                  <img class="img-fluid w-100 lazyload" data-src="{{ $small.RelPermalink }}" alt="product-image">              
+                  {{ end }}
+              {{ end }}
+            </div>
+          {{ end }}

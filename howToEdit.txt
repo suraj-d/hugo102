@@ -1,0 +1,62 @@
+change site url, logo, name, homepage links, footer links, contact info, opening hours
+-config.toml
+
+update baseURL
+-config.toml
+static/.htaccess update redirect rule
+
+hide page on google
+layouts/robots.txt Disallow: page name
+
+edit home page content
+-data/homepage.yml
+
+edit footer contact info
+-data/contact.yml
+
+edit faq questions
+-data/faq.yml
+
+add product
+-content/product
+-create new .md file
+
+new blog
+-content/blog
+-create new .md file
+
+edit terms and condition
+-content/terms-condition
+-edit _index.md
+
+edit faq page top line
+-content/faq
+-edit line in _index.md
+
+edit contact
+-content/contact
+-edit _index.md
+
+media folder
+-static/images
+-create new folder page wise or add directly in images folder
+
+enable map
+-enable in data/contact
+-uncomment in layouts/partials/js.html
+
+enable snipcart
+-uncomment in layouts/partials/js.html
+-uncomment cart in layouts/partials/header.html
+
+enable ratting
+-enable in config.toml
+
+enable blog
+-uncomment in config.toml
+
+enable review
+-uncomment list in layouts/products/single.html
+
+search setup
+link: https://blog.jeremylikness.com/blog/dynamic-search-in-a-static-hugo-website/

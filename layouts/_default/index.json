@@ -1,0 +1,16 @@
+{{- $.Scratch.Add "index" slice -}}
+{{- range where (where .Site.RegularPages "Type" "products") "StockOut" false -}}
+
+{{ $def_par:=dict "title" .Title "subtitle" .Params.shortDescription "description" .Params.description "tags" .Params.tags  "content" .Content "permalink" .Permalink}}
+
+{{- range first 1 .Params.Images -}}
+
+{{- $img_par:= dict "image" .image -}}
+
+{{ $index_par:= merge $def_par $img_par}}
+
+{{- $.Scratch.Add "index"  $index_par -}}
+
+{{- end -}}    
+{{- end -}}
+{{- $.Scratch.Get "index" | jsonify -}}
