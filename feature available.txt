@@ -1,0 +1,5 @@
+1. mag location
+2. payment gateway
+3. promotion video on homepage
+4. ratting in product page
+5. review in product page
