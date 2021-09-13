@@ -8,7 +8,7 @@ banner:
   button:
     enable : true
     label : "All Products"
-    link : "dress-material"
+    link : "dressmaterials"
   # demo video
   video:
     enable : false
@@ -31,7 +31,7 @@ cta:
   overlayImage : "images/cta-overlay.png"
   button:
     label : "All Products"
-    link : "dress-material"
+    link : "dressmaterials"
 
 ######################## raw material #######################
 material:

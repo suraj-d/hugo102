@@ -45,7 +45,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     
   [[menu.main]]
   name = "Products"
-  URL = "dress-material"
+  URL = "dressmaterials"
   weight = 1
   # hasChildren = true
 
@@ -88,7 +88,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   ############# footer menu #############
   [[menu.footer]]
   name = "Products"
-  URL = "dress-material"
+  URL = "dressmaterials"
   weight = 1
 
   [[menu.footer]]
