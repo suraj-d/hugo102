@@ -17,4 +17,28 @@ shortDescription: Beautiful cotton dressmaterial with chiken salwar
 stockOut: false
 draft: false
 ---
-Top
+<!--StartFragment-->
+
+★ 彡 24 CARAT SUIT © 彡 ★
+
+`COMMITTED TO QUALITY.`
+
+`COMMITTED TO YOU.`
+
+DESIGN #33
+
+💐💐💐💐💐💐💐💐💐💐
+
+NEW COLLECTION
+
+🌷🌷🌷🌷🌷🌷🌷🌷🌷🌷
+
+FABRIC DETAIL
+
+👚TOP - COTTON SILK WITH HAND EMBROIDERY (2 MTR)
+
+👖BOTTOM - COTTON LUCKHNOWI WORK (2 MTR)
+
+🧣DUPATTA - SOFT SHIFFON DUPATTA (2.30 MTR)
+
+<!--EndFragment-->
