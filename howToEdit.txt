@@ -60,3 +60,12 @@ layouts/robots.txt Disallow: page name
 
 18.search setup
 link: https://blog.jeremylikness.com/blog/dynamic-search-in-a-static-hugo-website/
+
+19.change url
+-edit url in config.toml
+-edit in data
+-edit in content/index.md
+
+20.add category in nav base
+-create folder with file index.md and context url, like product index.md
+-edit config.toml to show new category
