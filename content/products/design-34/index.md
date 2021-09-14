@@ -15,7 +15,7 @@ images:
 price: 560
 priceBefore: 999
 title: "Cotton Silk Dress Material (Design #34)"
-url: cotton-silk-dress-material-cotton-salwar
+url: cotton-silk-dress-material-cotton-salwar-design34
 description: Cotton Silk Dress Material with cotton salwar and stylish banarasi dupatta
 stockOut: false
 draft: false
