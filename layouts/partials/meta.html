@@ -23,38 +23,27 @@
         
         {{ "<!-- image tags -->" | safeHTML }}
 		
-	{{ $sources := (.Resources.ByType "image") }}
         {{ with .Params.Images }}
-        {{/*  Images array  */}}
-        {{ range first 1 . }}
-          {{ with . }}
-            {{ $.Scratch.Add "Images" (slice .image) }}
-          {{ end }}
-	{{ end }}
-		  
-        
-		{{/*  .Resources looks for images images from that particular folder  */}}
-		{{ range where  $sources ".Name" "in" ($.Scratch.Get "Images") }}  
-		<!--get and resize image-->
-		{{ $src:= . }}
-		{{ $small:= $src.Fill "800x900 center q85 Box" }}      
-		<meta itemprop="image" content="{{ $small.RelPermalink }}" />
-		<meta property="og:image" content="{{ $small.RelPermalink }}" /> 
-		<meta property="og:image:width" content="800" />
-		<meta property="og:image:height" content="900" />
-		<meta name="twitter:image" content="{{ $small.RelPermalink }}" />
-		<meta name="twitter:image:src" content="{{ $small.RelPermalink }}" /> 
-		{{ end }}
-		{{else}}
-		<!--get and resize image-->
-		{{ $src:= resources.Get .Site.Params.Logo }}
-		{{ $small:= $src.Fit "500x center q85 Box" }}
-		<meta itemprop="image" content="{{ .Site.Params.LogoSquare | absURL }}" />
-		<meta property="og:image" content="{{ .Site.Params.LogoSquare | absURL }}" /> 
-		<meta property="og:image:width" content="500" />
 		
-		<meta name="twitter:image" content="{{ .Site.Params.LogoSquare | absURL }}" />
-		<meta name="twitter:image:src" content="{{ .Site.Params.LogoSquare | absURL }}" /> 
+        	{{/*  Images array  */}}
+			{{ range first 1 . }}
+			<meta itemprop="image" content="{{ .image }}" />
+			<meta property="og:image" content="{{ .image }}" /> 
+			<meta property="og:image:width" content="800" />
+			<meta property="og:image:height" content="900" />
+			<meta name="twitter:image" content="{{ .image }}" />
+			<meta name="twitter:image:src" content="{{ .image }}" /> 
+			{{ end }}
+		  	
+		{{else}}
+			<!--get and resize image-->
+			{{ $src:= resources.Get .Site.Params.Logo }}
+			{{ $small:= $src.Fit "500x center q85 Box" }}
+			<meta itemprop="image" content="{{ .Site.Params.LogoSquare | absURL }}" />
+			<meta property="og:image" content="{{ .Site.Params.LogoSquare | absURL }}" /> 
+			<meta property="og:image:width" content="500" />
+			<meta name="twitter:image" content="{{ .Site.Params.LogoSquare | absURL }}" />
+			<meta name="twitter:image:src" content="{{ .Site.Params.LogoSquare | absURL }}" /> 
 
 		{{end}}
 		
