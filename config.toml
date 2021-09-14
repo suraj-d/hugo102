@@ -11,6 +11,8 @@ PaginatePath = ""
 
 enableEmoji = true
 enableRobotsTXT = true
+disableHugoGeneratorInject = true
+disablePathToLower = true
 canonifyURLs = true
 disqusShortname = ""
 
