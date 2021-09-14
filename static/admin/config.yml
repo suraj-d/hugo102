@@ -26,6 +26,8 @@ collections:
     label: "Product" # Used in the UI
     folder: "content/products" # The path to the folder where the documents are stored
     path: "{{sku}}/index"
+    sortable_fields: ['date', 'title']
+    sort: "date:desc"
     media_folder: "" # Media files will be stored in the repo under static/images/uploads
     public_folder: ""
     create: true # Allow users to create new documents in this collection
@@ -39,7 +41,7 @@ collections:
           hint: must be "products"}
       - { label: Images, name: images, widget: list, 
           hint: first image will be shown in the product page,
-          fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string, required: false}] }
+          fields: [{label: Image, name: image, widget: image}] }
       - { label: Video ID, name: video, widget: string, required: false, 
           hint: only video id eg- 5Y35yjJfC2U; applied to last image}
       - { label : Price, name: price, widget: number, required: true, 
@@ -47,10 +49,10 @@ collections:
       - { label : PriceBefore, name: priceBefore, widget: number, required: false, 
           hint: Final price eg- 999; will be slashed; keep blank if not required, default: 999}
       - { label: Title, name: title, widget: string, required: true, 
-          hint: Shown in product page eg- Jaam cotton salwar suit Design '#'25 }
+          hint: Shown in product page eg- Jaam cotton salwar suit (Design '#'25) }
       - { label: URL, name: url, widget: string, required: true,
-          hint: Shown as product url eg- Jaam cotton salwar suit with cotton salwar wholesale design25 wholesale}
-      - { label: Meta Description, name: description, widget: string, required: true,
+          hint: Shown as product url eg- jaam-cotton-salwar-suit-with-cotton-salwar-wholesale-design25}
+      - { label: SEO Meta Description, name: description, widget: string, required: true,
           hint: Shown in product list page and google search eg- Jaam cotton dress material with work dupatta; 2.10 mtr cotton salwar}
       - { label: Short Description, name: shortDescription, widget: text, required: false,
           hint: Shown in product single page eg- Beautiful jaam cotton dress material with work dupatta and 2.10 mtr cotton salwar}
@@ -62,6 +64,8 @@ collections:
     label: Blog
     folder: content/blog
     path: '{{slug}}/index'
+    sortable_fields: ['date', 'title']
+    sort: 'date:desc'
     media_folder: ""
     public_folder: ""
     create: true
