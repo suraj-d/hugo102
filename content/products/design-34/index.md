@@ -11,7 +11,7 @@ images:
   - image: https://img.fkcdn.com/image/klcmoi80/fabric/z/j/u/yes-unstitched-design-34-sun-fashion-and-lifestyle-original-imagyhtfxzafb3fx.jpeg
   - image: https://img.fkcdn.com/image/kljrvrk0/fabric/3/y/7/yes-unstitched-design-34-sun-fashion-and-lifestyle-original-imagynmtgfwzfuw3.jpeg
   - image: https://img.fkcdn.com/image/krp94sw0/fabric/1/m/i/yes-unstitched-design-34-sun-fashion-and-lifestyle-original-imag5fgugvqqswhz.jpeg
-  - image: https://img.fkcdn.com/image/ksnjp8w0/fabric/q/r/l/yes-2-m-unstitched-2-2-m-design-34-sun-fashion-and-lifestyle-original-imag66cghqyvuhv2.jpeg
+  - image: https://i.postimg.cc/jS8VsBLm/1f.jpg
 price: 560
 priceBefore: 999
 title: "Cotton Silk Dress Material (Design #34)"
