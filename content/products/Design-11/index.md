@@ -12,7 +12,7 @@ images:
 price: 900
 priceBefore: ""
 title: "Linen cotton dress material (Design #11)"
-url: Linen cotton dress material chiken salwar design11
+url: Linen-cotton-dress-material-chiken-salwar-design11
 description: Linen cotton dress material with 2.5 mtr chiken bottom
 shortDescription: Linen cotton dress material with 2.5 mtr chiken bottom
 stockOut: true

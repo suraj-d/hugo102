@@ -14,7 +14,7 @@ images:
 price: 720
 priceBefore: ""
 title: Siyona Chikenkari work dress material (Shervani)
-url: chikenkari suit cotton with patiyala wholesale shervani
+url: chikenkari-suit-cotton-with-patiyala-wholesale-shervani
 description: Siyona Chikenkari work suit with 2.5 mtr cotton salwar and nazneen
     dupatta with fancy lace
 shortDescription: Beautiful siyona chikenkari work suit, all over work and

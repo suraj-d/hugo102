@@ -10,8 +10,7 @@ images:
 price: 790
 priceBefore: ""
 title: "Jaam cotton dress material (Design #16)"
-url: Jaam cotton dress material satin jacquard dupatta and cotton bottom
-    wholesale design16
+url: Jaam-cotton-dress-material-satin-jacquard-dupatta-and-cotton-bottom-wholesale-design16
 description: Jaam cottom dress material with satin jacquard dupatta and 2.5 mtr
     cotton bottom
 shortDescription: Beautiful jaam cotton top with french knot handwork design,

@@ -12,7 +12,7 @@ images:
 price: 620
 priceBefore: ""
 title: 3 top dress material (Banarasi 2)
-url: 3 top banarasi dress material cotton bottom 3 piece combo banarasi 2
+url: 3-top-banarasi-dress-material-cotton-bottom-3-piece-combo-banarasi-2
 description: 3 top combo with 2 chiken kari top and 1 banarasi top, matching
   cotton salwar and dupatta
 shortDescription: 3 piece combo with 2 chikenkari work top and 1 banarasi

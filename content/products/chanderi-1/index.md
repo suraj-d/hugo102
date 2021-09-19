@@ -11,7 +11,7 @@ images:
 price: 560
 priceBefore: 999
 title: "Chanderi silk dress material (Chanderi #1)"
-url: chanderi silk dress material with cotton zari checks dupatta chanderi1
+url: chanderi-silk-dress-material-with-cotton-zari-checks-dupatta-chanderi1
     wholesale
 description: Chanderi silk dress material with cotton zari checks dupatta and 2 mtr salwar
 shortDescription: Beautiful chanderi silk dress material with beads and french

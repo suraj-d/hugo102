@@ -12,7 +12,7 @@ images:
 price: 790
 priceBefore: ""
 title: Jaam cotton dress material (Rakhi)
-url: Jaam cotton dress chikankari bottom chanderi dupatta wholesale rakhi
+url: Jaam-cotton-dress-chikankari-bottom-chanderi-dupatta-wholesale-rakhi
 description: Jaam cotton dress material with chikankari bottom and chanderi dupatta
 shortDescription: Beautiful jaam cotton dress with beads and french knot
   handwork, cotton chikenkari bottom and chanderi zari border dupatta.

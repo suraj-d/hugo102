@@ -10,7 +10,7 @@ images:
 price: 699
 priceBefore: ""
 title: "Jaam cotton salwar suit (Design #28)"
-url: Jaam cotton dress material with organza dupatta design28 wholesale
+url: Jaam-cotton-dress-material-with-organza-dupatta-design28-wholesale
 description: Jaam cotton dress material with organza checks dupatta, 2.50 mtr cotton bottom
 shortDescription: Fancy 2 mtr jaam cotton dress material with 2.40 mtr organza
   checks dupatta and 2.50 mtr cotton bottom

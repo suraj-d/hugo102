@@ -12,7 +12,7 @@ video: 5Y35yjJfC2U
 price: 999
 priceBefore: 999
 title: "Modal chanderi dress material (Chanderi #2)"
-url: modal chanderi silk dress material silk salwar wholesale chanderi2
+url: modal-chanderi-silk-dress-material-silk-salwar-wholesale-chanderi2
 description: Modal chanderi silk dress material with cotton checks dupatta,
     santoon silk salwar
 shortDescription: Beautiful modal chanderi silk dress material with handwork,

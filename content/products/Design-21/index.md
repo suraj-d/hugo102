@@ -12,7 +12,7 @@ images:
 price: 650
 priceBefore: ""
 title: "Jaam cotton dress material (Design #21)"
-url: Jaam cotton dress cotton bottom banarasi dupatta wholesale design21
+url: Jaam-cotton-dress-cotton-bottom-banarasi-dupatta-wholesale-design21
 description: Jaam cotton dress material with 2.5 mtr cotton bottom and jacquard dupatta
 shortDescription: Beautiful jaam cotton dress with glass beads and french knot
   handwork, contrast 2.5 mtr cotton bottom with jacquard banarasi dupatta.

@@ -12,7 +12,7 @@ images:
 price: 560
 priceBefore: 999
 title: "Printed cotton dress material (Design #27)"
-url: printed cotton dress material with printed salwar design27 wholesale
+url: printed-cotton-dress-material-with-printed-salwar-design27-wholesale
 description: "Printed cotton dress material with handwork neck, 2.5 mtr cotton
     printed salwar "
 shortDescription: "Beautifully printed cotton dress material with handwork neck

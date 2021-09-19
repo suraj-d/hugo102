@@ -11,7 +11,7 @@ images:
 price: 560
 priceBefore: 999
 title: "Kota doria cutwork dress material (Design #32)"
-url: Kota doria cutwork dress material silk salwar and inner wholesale design32
+url: Kota-doria-cutwork-dress-material-silk-salwar-and-inner-wholesale-design32
 description: Kota doria cutwork dress material with one side cutwork border
     dupatta, 2.5 mtr silk salwar
 shortDescription: Beautiful Kota doria cutwork with handwork dress material, 2.2

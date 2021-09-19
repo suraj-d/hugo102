@@ -11,7 +11,7 @@ images:
 price: 790
 priceBefore: ""
 title: "Reyon cotton dress material (Design #18)"
-url: Reyon cotton dress material banarasi dupatta cotton bottom wholesale design18
+url: Reyon-cotton-dress-material-banarasi-dupatta-cotton-bottom-wholesale-design18
 description: Reyon cotton dress material with chanderi jacquard dupatta and 2.5
   mtr cotton bottom
 shortDescription: Beautiful reyon cotton top with french knots and beads

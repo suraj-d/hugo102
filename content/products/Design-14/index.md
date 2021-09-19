@@ -10,7 +10,7 @@ images:
 price: 830
 priceBefore: ""
 title: "Jaam cotton dress material (Design #14)"
-url: Jaam cotton dress material banarasi dupatta design14
+url: Jaam-cotton-dress-material-banarasi-dupatta-design14
 description: Jaam cotton dress material with banarasi dupatta and 2.5 mtr bottom
 shortDescription: Beautiful jaam cotton dress material with 36" banarasi dupatta
     and matching 2.5 mtr cotton bottom.

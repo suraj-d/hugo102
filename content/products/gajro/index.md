@@ -10,7 +10,7 @@ images:
 price: 640
 priceBefore: ""
 title: Cotton dress material with Embroidery work (Gajro)
-url: cotton dress material embroidery banarasi dupatta gajro
+url: cotton-dress-material-embroidery-banarasi-dupatta-gajro
 description: Cotton dress material with Embroidery work and banarasi dupatta
 shortDescription: Cotton dress material with embroidery neck work, cotton salwar
   with matching banarasi dupatta

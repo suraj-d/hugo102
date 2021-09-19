@@ -12,7 +12,7 @@ price: 560
 priceBefore: 999
 title: "Cotton dress material (Design #33)"
 url: cotton-dressmaterials-design33-wholesale
-description: Cotton dressmaterial with dupatta
+description:-Cotton-dressmaterial-with-dupatta-design33
 shortDescription: Beautiful cotton dressmaterial with chiken salwar
 stockOut: false
 draft: false

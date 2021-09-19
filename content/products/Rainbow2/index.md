@@ -12,7 +12,7 @@ images:
 price: 600
 priceBefore: ""
 title: Printed cotton dressmaterial (Rainbow-2)
-url: Printed cotton dressmaterial fancy net dupatta rainbow2
+url: Printed-cotton-dressmaterial-fancy-net-dupatta-rainbow2
 description: Printed cotton dressmaterial with cotton bottom and fancy net dupatta
 shortDescription: Beautiful printed cotton dressmaterial with glass beads
     handwork, matching cotton bottom and fancy net dupatta with embroidery work.

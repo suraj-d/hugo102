@@ -13,7 +13,7 @@ images:
 price: 860
 priceBefore: ""
 title: Jaam cotton dress material (White Walker)
-url: Jaam cotton dress material with chikenkari salwar
+url: Jaam-cotton-dress-material-with-chikenkari-salwar
 description: Jaam cotton dress material with 2.50 mtr cotton salwar whitewalker
 shortDescription: Beautiful jaam cotton dress material with fancy lace dupatta
   and 2.50 mtr chikenkari work salwar

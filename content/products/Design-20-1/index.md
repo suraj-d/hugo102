@@ -13,7 +13,7 @@ images:
 price: 650
 priceBefore: ""
 title: "Jacquard chanderi dress material (Design #20-1)"
-url: Jacqauard chanderi dress material with inner and botton wholesale design20-1
+url: Jacqauard-chanderi-dress-material-with-inner-and-botton-wholesale-design20-1
 description: Jacquard chanderi dress with 4 mtr silk bottom and lining with
   matching chanderi zari dupatta
 shortDescription: Beautiful jacquard chanderi zari checks dress with matching 4

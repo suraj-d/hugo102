@@ -12,7 +12,7 @@ images:
 price: 760
 priceBefore: ""
 title: "Selby cotton salwar suit (Design #09)"
-url: Selby cotton salwar suit jacquard dupatta wholesale design09
+url: Selby-cotton-salwar-suit-jacquard-dupatta-wholesale-design09
 description: Shelby cotton salwar suit with jacquard dupatta, 2.5 mtr cotton bottom
 shortDescription: Beautiful shelby cotton salwar suit with matching 2.5 mtr
   cotton bottom and jacquard dupatta.

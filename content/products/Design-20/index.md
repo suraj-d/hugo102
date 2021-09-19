@@ -11,7 +11,7 @@ images:
 price: 650
 priceBefore: ""
 title: "Jaam cotton salwar suit (Design #20)"
-url: Jaam cotton suit jacquard dupatta cotton salwar wholesale design20
+url: Jaam-cotton-suit-jacquard-dupatta-cotton-salwar-wholesale-design20
 description: Jaam cotton salwar suit with contrast jacquard dupatta and 2.5 mtr
     cotton bottom
 shortDescription: Beautiful jaam cotton dress with beads handwork and contrast

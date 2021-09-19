@@ -9,7 +9,7 @@ images:
 price: 720
 priceBefore: ""
 title: "Cotton front and back printed suit (Design #23)"
-url: Printed cotton suit cotton bottom banarasi dupatta wholesale design23
+url: Printed-cotton-suit-cotton-bottom-banarasi-dupatta-wholesale-design23
 description: Printed cotton suit with 2.5 mtr cotton bottom and multi color banarasi dupatta
 shortDescription: Beautiful front and back printed cotton suit 46" length with
     mirror and glass beads handwork, 2.5 mtr cotton bottom and multi colored

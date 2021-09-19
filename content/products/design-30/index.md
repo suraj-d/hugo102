@@ -12,7 +12,7 @@ images:
 price: 560
 priceBefore: 999
 title: "Kota checks cut work dress material (Design #30)"
-url: kota checks cut work dress material with fancy dupatta design30 wholesale
+url: kota-checks-cut-work-dress-material-with-fancy-dupatta-design30-wholesale
 description: Kota checks cut work dress material with one side border dupatta,
     2.5 mtr silk bottom
 shortDescription: Authentic kota checks cutwork dress material with silk lining,

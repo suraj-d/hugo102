@@ -13,7 +13,7 @@ images:
 price: 760
 priceBefore: ""
 title: "Shelby cotton salwar suit (Design #10)"
-url: Shelby cotton salwar suit material for women jacquard dupatta design10
+url: Shelby-cotton-salwar-suit-material-for-women-jacquard-dupatta-design10
 description: Shelby cotton dress material with jacquard duppata and 2.5 mtr cotton bottom
 shortDescription: Cotton shelby top with handwork design, matching 2.5 mtr
     cotton bottom and  2.2 mtr jacquard dupatta

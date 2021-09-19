@@ -12,7 +12,7 @@ images:
 price: 720
 priceBefore: ""
 title: Jaam cotton dress material (Lalkaptan)
-url: Jaam cotton dress material chanderi dupatta and cotton bottom lalkaptan
+url: Jaam-cotton-dress-material-chanderi-dupatta-and-cotton-bottom-lalkaptan
 description: Jaam cotton dress with chanderi dupatta and 2.5 mtr cotton bottom
 shortDescription: Beautiful jaam cotton dress in red color with beads and french
   knots handwork, with matching chanderi zari checks dupatta and 2.5 mtr cotton

@@ -11,7 +11,7 @@ images:
 price: 560
 priceBefore: 999
 title: "Jaam Cotton dress material (Design #29)"
-url: jaam cotton dress material with fancy cotton dupatta design29 wholesale
+url: jaam-cotton-dress-material-with-fancy-cotton-dupatta-design29-wholesale
 description: Jaam cotton dress material with fancy cotton dupatta, 2.5 mtr cotton bottom
 shortDescription: Authentic jaam cottondress material with french knot and
     aabhla handwork, 2.3 mtr cotton dupatta and 2.5 mtr cotton bottom.
