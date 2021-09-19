@@ -33,12 +33,7 @@
         <div class="sticky-top top-100">
         <h3 class="mb-4">Share your details</h3>
         
-        <form>
-          <input type="text" class="form-control mb-2" id="name" name="name" placeholder="Your Name">
-          <input type="text" class="form-control mb-2" id="location" name="location" placeholder="Your Location">
-          <textarea name="message" id="message" class="form-control mb-2" placeholder="Your Details"></textarea>
-          <button type="button" value="send" class="btn btn-block btn-outline-primary rounded contactUs">Whatsapp</button>
-        </form>
+        {{ partial  "whatsapp-chat.html" . }}
         
         <!-- <form action="{{ .Site.Params.contact.formAction }}" method="POST">
           <input type="text" class="form-control mb-2" id="name" name="name" placeholder="Your Name">

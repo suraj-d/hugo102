@@ -35,15 +35,9 @@
         {{ end }}
       </div>
       <div class="col-lg-4">
-        <h3 class="
-        mb-4">Whatsapp Chat</h3>
+        <h3 class="mb-4">WhatsApp Chat</h3>
 
-        <form>
-          <input type="text" class="form-control mb-2" id="name" name="name" placeholder="Your Name">
-          <input type="text" class="form-control mb-2" id="location" name="location" placeholder="Your Location">
-          <textarea name="message" id="message" class="form-control mb-2" placeholder="Your Message"></textarea>
-          <button type="button" value="send" class="btn btn-block btn-outline-primary rounded contactUs">Start Now</button>
-        </form>
+        {{ partial  "whatsapp-chat.html" . }}
 
         <!-- <form action="{{ .Site.Params.contact.formAction }}" method="POST">
           <input type="text" class="form-control mb-2" id="name" name="name" placeholder="Your Name">
