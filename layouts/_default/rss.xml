@@ -36,11 +36,12 @@
       {{with .Params.Images}}
         {{range first 1 .}}
           <image_link>{{ .image }}</image_link>
+          <mobile_link>{{ .image }}</mobile_link  >
         {{end}}
       {{end}}
       <price>{{.Params.price}} INR</price>
       <id>{{.Params.sku }}</id>
-      <availability>in_stock</availability>
+      <availability>InStock</availability>
       <brand>Sun Fashion And Lifestyle</brand>
     </item>
     
