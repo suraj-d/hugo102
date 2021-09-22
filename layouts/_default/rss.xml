@@ -57,7 +57,7 @@
       <g:min_transit_time>5</g:min_transit_time>
       <g:max_transit_time>7</g:max_transit_time> -->
       </g:shipping>
-      <g:google_product_category>Apparel & Accessories > Clothing > Dresses</g:google_product_category>
+      <g:google_product_category>2271</g:google_product_category>
 
       </item>
     {{ end }}
