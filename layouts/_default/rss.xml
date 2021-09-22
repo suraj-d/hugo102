@@ -48,9 +48,13 @@
       <g:price>{{.Params.price}}.00 INR</g:price>
       <g:brand>Sun Fashion And Lifestyle</g:brand>
       <g:shipping>
-      <g:country>India</g:country>
+      <g:country>IND</g:country>
       <g:service>Standard</g:service>
       <g:price>80.00 INR</g:price>
+      <!-- <g:min_handling_time>1</g:min_handling_time>
+      <g:max_handling_time>3</g:max_handling_time>
+      <g:min_transit_time>5</g:min_transit_time>
+      <g:max_transit_time>7</g:max_transit_time> -->
       </g:shipping>
       <!-- <g:google_product_category>Apparel &amp; Accessories &gt; Apparel &gt; Dresses</g:google_product_category> -->
 
