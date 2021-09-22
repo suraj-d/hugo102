@@ -14,7 +14,7 @@ title: "Lucknowi chikankari dress material with sequins (Design #41)"
 url: lucknowi-chikankari-dress-material-sequins-design41
 description: Luckknowi chiken work on cotton dress material, cotton salwar and
   banarasi dupatta
-stockOut: false
+stockOut: true
 draft: false
 ---
 <!--StartFragment-->
