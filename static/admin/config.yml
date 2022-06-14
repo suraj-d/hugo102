@@ -80,10 +80,10 @@ collections:
       - { label: Content, name: body, widget: markdown}
 
   - name: 'pages'
-    label: 'Pages Datas'
+    label: 'Pages Text'
     files:
         - file: data/homepage.yml
-          label: Homepage
+          label: Homepage Text
           name: home
           fields: 
             - { label: Banner, name: banner, widget: object, media_folder: "assets/images/products", public_folder: "/images/products", 
@@ -180,7 +180,7 @@ collections:
                 ]}
         
         - file: data/faq.yml
-          label: FAQ
+          label: FAQ Text
           name: faq
           fields: 
             - { label: FAQ, name: faq, widget: object,
@@ -194,7 +194,7 @@ collections:
                 ]}
 
         - file: data/contact.yml
-          label: Contact
+          label: Contact Text
           name: contact
           fields:
             - { label: Contact, name: contact, widget: object,
@@ -218,7 +218,7 @@ collections:
                    { label: Enable, name: enable, widget: boolean} ]} 
 
         - file: data/reseller.yml
-          label: Reseller
+          label: Reseller Text
           name: reseller
           fields:
             - { label: Reseller, name: reseller, widget: object,
@@ -229,7 +229,7 @@ collections:
                 ]}
 
         - file: data/wholesale.yml
-          label: Wholesale
+          label: Wholesale Text
           name: wholesale
           fields:
             - { label: Wholesale, name: wholesale, widget: object,
@@ -240,10 +240,10 @@ collections:
                 ]}
 
   - name: 'index'
-    label: 'Index.md Files'
+    label: 'Webpages (index.md)'
     files:
         - file: content/terms-conditions/_index.md
-          label: Terms-Conditions
+          label: Terms-Conditions Page
           name: termsConditions
           fields: [   
             { label: Title, name: title, widget: string},
@@ -252,7 +252,7 @@ collections:
             { label: Content, name: body, widget: markdown} ]
 
         - file: content/faq/_index.md
-          label: FAQ
+          label: FAQ Page
           name: faq
           fields: [   
             { label: Title, name: title, widget: string},
@@ -261,7 +261,7 @@ collections:
             { label: Content, name: body, widget: markdown} ]
 
         - file: content/contact/_index.md
-          label: Contact
+          label: Contact Page
           name: contact
           fields: [   
             { label: Title, name: title, widget: string},
@@ -270,7 +270,7 @@ collections:
             { label: Content, name: body, widget: markdown} ]
 
         - file: content/reseller/_index.md
-          label: Reseller
+          label: Reseller Page
           name: reseller
           fields: [   
             { label: Title, name: title, widget: string},
@@ -279,7 +279,7 @@ collections:
             { label: Content, name: body, widget: markdown} ]
 
         - file: content/wholesale/_index.md
-          label: Wholesale
+          label: Wholesale Page
           name: wholesale
           fields: [   
             { label: Title, name: title, widget: string},
@@ -288,7 +288,7 @@ collections:
             { label: Content, name: body, widget: markdown} ]
 
         - file: content/search/_index.md
-          label: Search
+          label: Search Page
           name: search
           fields: [   
             { label: Title, name: title, widget: string},
