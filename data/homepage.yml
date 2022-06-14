@@ -19,7 +19,7 @@ about:
   image: https://fkmpimages.flixcart.com/iu-pre-catalog-images-feed-52022-1/1655025264173-a8bf6d3e754e4555-47F2789643F52BDC8C1CD40E3A7BA850
 cta:
   midEnable: true
-  bottomEnable: false
+  bottomEnable: true
   title: Check out our latest collection
   content: Available for limited time only. Grab one while you still can!
   image: https://fkmpimages.flixcart.com/iu-pre-catalog-images-feed-52022-1/1655025242991-a8bf6d3e754e4555-A8067C714C6F78E584AE2317D9DC2442
