@@ -1,10 +1,11 @@
 <!-- call to  action -->
 {{ with .Site.Data.homepage.cta }}
 <section class="section-md bg-gradient position-relative">
-	<!--get and resize image-->
-	{{ $src:= resources.Get .overlayImage }}
-	{{ $smallOverlay:= $src }}
-  <img data-src="{{ $smallOverlay.RelPermalink }}" class="img-fluid overlay-image lazyload" alt="{{.title | markdownify}}">
+  <!--get and resize image-->
+  {{ $src:= resources.Get .overlayImage }}
+  {{ $smallOverlay:= $src }}
+  <img data-src="{{ $smallOverlay.RelPermalink }}" class="img-fluid overlay-image lazyload"
+    alt="{{.title | markdownify}}">
   <div class="container">
     <div class="row">
       <div class="col-lg-8 col-md-7">
@@ -15,10 +16,8 @@
         {{ end }}
       </div>
       <div class="col-lg-4 col-md-5 position-relative">
-			<!--get and resize image-->
-			{{ $src:= resources.Get .image }}
-			{{ $small:= $src.Fill "400x350 center q85 Box" }}
-        <img class="cta-image rounded lazyload" data-src="{{ $small.RelPermalink }}" alt="{{.title | markdownify}}">
+        <!--get and resize image-->
+        <img class="cta-image rounded lazyload" data-src="{{ .image }}" height="380" alt="{{.title | markdownify}}">
       </div>
     </div>
   </div>

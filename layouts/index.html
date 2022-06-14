@@ -34,10 +34,8 @@
         {{ end }}
       </div>
       <div class="col-lg-7 col-md-6 order-1 order-lg-2">
-    <!--get and resize image-->
-		{{ $src:= resources.Get .image}}
-		{{ $small:= $src.Fill "600x600 center q85 Box" }}
-        <img data-src="{{ $small.RelPermalink }}" alt="{{ .title | markdownify }}" class="img-fluid rounded lazyload">
+        <!--get and resize image-->
+        <img data-src="{{ .image }}" width="600" alt="{{ .title | markdownify }}" class="img-fluid rounded lazyload">
       </div>
     </div>
   </div>
@@ -53,10 +51,8 @@
   <div class="container">
     <div class="row justify-content-around align-items-center">
       <div class="col-lg-5 col-md-6">
-		<!--get and resize image-->
-		{{ $src:= resources.Get .image }}
-		{{ $small:= $src.Fill "445x500 center q85 Box" }}
-        <img class="img-fluid rounded lazyload" data-src="{{ $small.RelPermalink }}" alt="{{ .title | markdownify }}">
+        <!--get and resize image-->
+        <img class="img-fluid rounded lazyload" data-src="{{ .image }}" height="500" alt="{{ .title | markdownify }}">
       </div>
       <div class="col-md-6 col-lg-5">
         <h2>{{ .title | markdownify }}</h2>
@@ -88,10 +84,11 @@
       {{ range .materialItem }}
       <div class="col-lg-3 col-md-4 col-sm-6">
         <div class="card border-0 text-center">
-			<!--get and resize image-->
-		{{ $src:= resources.Get .image }}
-		{{ $small:= $src.Fill "255x255 center q85 Box" }}
-          <img data-src="{{ $small.RelPermalink }}" alt="{{ .title | markdownify }}" class="card-img-top border-0 rounded lazyload">
+          <!--get and resize image-->
+          {{ $src:= resources.Get .image }}
+          {{ $small:= $src.Fill "255x255 center q85 Box" }}
+          <img data-src="{{ $small.RelPermalink }}" alt="{{ .title | markdownify }}"
+            class="card-img-top border-0 rounded lazyload">
           <div class="card-body">
             <h4>{{ .title | markdownify }}</h4>
             <p>{{ .content | markdownify }}</p>
@@ -122,10 +119,8 @@
         </ul>
       </div>
       <div class="col-md-6">
-		<!--get and resize image-->
-		{{ $src:= resources.Get .image }}
-		{{ $small:= $src.Fill "500x500 center q85 Box" }}
-        <img data-src="{{ $small.RelPermalink }}" class="img-fluid rounded lazyload" alt="{{ .title | markdownify }}">
+        <!--get and resize image-->
+        <img data-src="{{ .image }}" height="500" class="img-fluid rounded lazyload" alt="{{ .title | markdownify }}">
       </div>
     </div>
   </div>
@@ -142,10 +137,9 @@
     <div class="row align-items-center justify-content-between">
       <div class="col-lg-5 col-md-5">
         <div class="img-border rounded mb-5 mb-md-0">
-		<!--get and resize image-->
-		{{ $src:= resources.Get .videoThumb }}
-		{{ $small:= $src.Resize "445x q85 Box" }}
-          <img data-src="{{ $small.RelPermalink }}" alt="{{.title | markdownify}}" class="img-fluid rounded lazyload">
+          <!--get and resize image-->
+          <img data-src="{{ .videoThumb }}" width="445" alt="{{.title | markdownify}}"
+            class="img-fluid rounded lazyload">
           <a data-toggle="modal" data-src="{{ .videoURL | safeURL }}" data-target="#videoModal2"
             class="text-color video-modal content-center"><i class="ti-control-play bg-gradient btn-play-lg"></i></a>
           <!-- Modal -->
@@ -182,25 +176,25 @@
         {{ end }}
       </div>
       <!-- get pages where type is product and sort it by product id and stockout is false-->
-      
+
       {{ $productPageOnly:= where (where .Site.RegularPages "Type" "eq" "products") "Params.StockOut" false}}
-      {{ range first 6  (sort $productPageOnly ".Params.date" "desc"  ) }}
+      {{ range first 6 (sort $productPageOnly ".Params.date" "desc" ) }}
       <div class="col-lg-4 col-sm-6 mb-4">
         <div class="card border-0 text-center">
           <a href="{{ .Permalink }}">
-            
+
             {{ range first 1 .Params.Images }}
             <img data-src="{{ .image }}" alt="product-image" class="card-img-top rounded lazyload">
             {{ end }}
-            
+
             <!-- get image from upload and resize code paste below -->
-          
+
           </a>
           <div class="card-body">
             <a href="{{ .Permalink }}" class="h4">{{ .Title }}</a>
             <p>{{ .Params.Description }}</p>
-		
-	<!--
+
+            <!--
             <div class="mb-4">
               <span class="lead text-primary">Rs. {{ .Params.Price }}</span>
               {{ if .Params.PriceBefore}}
@@ -208,40 +202,42 @@
               {{ end }}
             </div>
 	-->
-		  
-            {{/*  send update button  */}}
-            {{/*  <div class="mb-2">
-              <a class="btn btn-sm btn-outline-primary" href="https://wa.me/919820927720?text=Hi,%0ASend update for {{ .Params.Title }}%0ALink: {{.Permalink}}" data-action="share/whatsapp/share" target="_blank" role="button" rel="nofollow noreferrer noopener" aria-label="get update on whatsapp">Get update on Whatsapp</a>      	
-            </div>  */}}
 
-            {{/*  share on whatsapp button  */}}
-            {{/*  <div>
-              <a class="btn btn-sm btn-outline-primary" href="https://wa.me/?text={{ .Params.Title }}%0D%0ALink: {{.Permalink}}" data-action="share/whatsapp/share" target="_blank" rel="nofollow noreferrer noopener" role="button" aria-label="share via whatsapp">Share Via Whatsapp</a>
-            </div>  */}}
+            {{/* send update button */}}
+            {{/* <div class="mb-2">
+              <a class="btn btn-sm btn-outline-primary"
+                href="https://wa.me/919820927720?text=Hi,%0ASend update for {{ .Params.Title }}%0ALink: {{.Permalink}}"
+                data-action="share/whatsapp/share" target="_blank" role="button" rel="nofollow noreferrer noopener"
+                aria-label="get update on whatsapp">Get update on Whatsapp</a>
+            </div> */}}
 
-            {{/*  inquiry button  */}}
+            {{/* share on whatsapp button */}}
+            {{/* <div>
+              <a class="btn btn-sm btn-outline-primary"
+                href="https://wa.me/?text={{ .Params.Title }}%0D%0ALink: {{.Permalink}}"
+                data-action="share/whatsapp/share" target="_blank" rel="nofollow noreferrer noopener" role="button"
+                aria-label="share via whatsapp">Share Via Whatsapp</a>
+            </div> */}}
+
+            {{/* inquiry button */}}
             <div>
-              <a class="btn btn-sm btn-outline-primary" 
-                  href="https://wa.me/919820927720?text=Hi,%0A%0ACan I get wholesale rate for%0A*{{.Params.Title}}*%0ALink: {{.Permalink}}" 
-                  data-action="share/whatsapp/share" 
-                  target="_blank" role="button" rel="nofollow noreferrer noopener" 
-                  aria-label="wholesale rate">
-                  <img src="https://i.postimg.cc/XNfdkTm9/whatsapp-inside-white.png" 
-                        alt="" 
-                        height="25px" 
-                        width="25px">
-                  Get Wholesale Rate
+              <a class="btn btn-sm btn-outline-primary"
+                href="https://wa.me/919820927720?text=Hi,%0A%0ACan I get wholesale rate for%0A*{{.Params.Title}}*%0ALink: {{.Permalink}}"
+                data-action="share/whatsapp/share" target="_blank" role="button" rel="nofollow noreferrer noopener"
+                aria-label="wholesale rate">
+                <img src="https://i.postimg.cc/XNfdkTm9/whatsapp-inside-white.png" alt="" height="25px" width="25px">
+                Get Wholesale Rate
               </a>
             </div>
 
-			<!--
+            <!--
             <button class="snipcart-add-item btn btn-sm btn-outline-primary" data-item-id="{{ .Params.ProductID }}"
               data-item-name="{{ .Title }}" {{ range first 1 .Params.Images }} data-item-image="{{ .image | absURL }}"
               {{ end }} data-item-price="{{ .Params.Price }}" data-item-url="{{ .Permalink }}">
               Add to cart
             </button>
 			-->
-            
+
           </div>
         </div>
       </div>
@@ -267,9 +263,9 @@
       <div class="col-4">
         <div class="card border-primary text-center">
           <div class="card-body">
- 			<!--get and resize image-->
-			{{ $src:= resources.Get .image }}
-			{{ $small:= $src.Resize "98x q85 Box" }}
+            <!--get and resize image-->
+            {{ $src:= resources.Get .image }}
+            {{ $small:= $src.Resize "98x q85 Box" }}
             <img data-src="{{ $small.RelPermalink }}" class="client-img lazyload" alt="{{ .name | markdownify }}">
             <p class="quoted">{{ .content | markdownify }}</p>
             <h6 class="font-weight-medium">{{ .name | markdownify }}</h6>

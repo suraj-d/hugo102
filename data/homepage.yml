@@ -3,7 +3,7 @@ banner:
   title: Designer Ethnic Wear Collection
   content: Beautiful 3 piece Dress material, available in vivid color combination
     to make you look elegant and stylish amoung your friends and family
-  image: images/D25-1.jpeg
+  image: https://fkmpimages.flixcart.com/iu-pre-catalog-images-feed-42022-1/1652870847635-a8bf6d3e754e4555-7F6EEA37E8928E66B82C516DFA36964C
   button:
     enable: true
     label: All Products
@@ -16,12 +16,12 @@ about:
   title: About Our Product
   content: Manufacturing designer ethnic wear, salwar suits, patiyala for women.
     Available in bulk quantity for wholesaler, retailers and resellers.
-  image: images/D11-1.jpeg
+  image: https://fkmpimages.flixcart.com/iu-pre-catalog-images-feed-52022-1/1655025264173-a8bf6d3e754e4555-47F2789643F52BDC8C1CD40E3A7BA850
 cta:
   enable: true
   title: Check out our latest collection
   content: Available for limited time only. Grab one while you still can!
-  image: images/white-walker-1.jpeg
+  image: https://fkmpimages.flixcart.com/iu-pre-catalog-images-feed-52022-1/1655025242991-a8bf6d3e754e4555-A8067C714C6F78E584AE2317D9DC2442
   overlayImage: images/cta-overlay.png
   button:
     label: All Products
@@ -49,7 +49,7 @@ material:
 advantage:
   enable: false
   title: Advantages Of Using <br> Our Product
-  image: images/white-walker-1.jpeg
+  image: https://fkmpimages.flixcart.com/iu-pre-catalog-images-feed-42022-1/1652870316226-a8bf6d3e754e4555-5408554E7834F8F544EB85D8F500FD90
   advantageList:
     - listItem: Best quality dress materials
     - listItem: Affortables rates
@@ -58,7 +58,7 @@ video:
   enable: false
   title: How To Use This Product?
   content: ""
-  videoThumb: images/video-thumb.jpg
+  videoThumb: https://fkmpimages.flixcart.com/iu-pre-catalog-images-feed-42022-1/1652870304171-a8bf6d3e754e4555-9F5F02B5664C94A1464C6AE50E8AA8CC
   videoURL: https://www.youtube.com/embed/wf4F2-9UXUo
 products:
   enable: true
