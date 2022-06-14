@@ -4,7 +4,6 @@ title = "Sun Fashion | Dress material manufacturer in India"
 
 languageCode = "en-us"
 DefaultContentLanguage = "en"
-#theme = "hargo"
 summaryLength = "20"
 Paginate = 15
 PaginatePath = ""
@@ -49,23 +48,23 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   name = "Products"
   URL = "dressmaterials"
   weight = 1
-  # hasChildren = true
+  hasChildren = false
 
-    # [[menu.main]]
-    # parent = "Products"
-    # name = "test"
-    # url = "reseller"
-    # weight = 1
+    [[menu.main]]
+    parent = "Products"
+    name = "Wester Tops"
+    url = "dressmaterials"
+    weight = 1
 
-  [[menu.main]]
-  name = "Wholesale"
-  URL = "non-catalog-dress-material-wholesale-supplier-in-surat"
-  weight = 2
+  #[[menu.main]]
+  #name = "Wholesale"
+  #URL = "non-catalog-dress-material-wholesale-supplier-in-surat"
+  #weight = 2
 
-  [[menu.main]]
-  name = "Resell"
-  URL = "single-piece-dress-material-at-wholesale-price"
-  weight = 3
+  #[[menu.main]]
+  #name = "Resell"
+  #URL = "single-piece-dress-material-at-wholesale-price"
+  #weight = 3
   
   #[[menu.main]]
   #name = "Blog"
@@ -93,15 +92,15 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   URL = "dressmaterials"
   weight = 1
 
-  [[menu.footer]]
-  name = "For Wholesaler"
-  URL = "non-catalog-dress-material-wholesale-supplier-in-surat"
-  weight = 2
+  # [[menu.footer]]
+  # name = "For Wholesaler"
+  # URL = "non-catalog-dress-material-wholesale-supplier-in-surat"
+  # weight = 2
   
-  [[menu.footer]]
-  name = "Resell"
-  URL = "single-piece-dress-material-at-wholesale-price"
-  weight = 3
+  #[[menu.footer]]
+  #name = "Resell"
+  #URL = "single-piece-dress-material-at-wholesale-price"
+  #weight = 3
 
   #[[menu.footer]]
   #name = "Blog"
