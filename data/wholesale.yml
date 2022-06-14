@@ -1,6 +1,5 @@
 wholesale:
-  enable: true
-
+  enable: false
   wholesaleDetail:
     - title: Visiting card
     - title: Agency reference (if any)
