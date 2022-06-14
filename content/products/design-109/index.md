@@ -11,7 +11,7 @@ images:
 price: 560
 priceBefore: 999
 title: "Cotton silk Embroidery Dress Material (Design #109)"
-url: cotton-dress-material-sequins-embroidery-desing108
+url: cotton-dress-material-sequins-embroidery-desing109
 description: Sequins embroidered dress matetial with stylish dupatta
 stockOut: false
 draft: false
