@@ -4,10 +4,10 @@ productID: "0025"
 date: 2022-06-14T09:38:15.530Z
 type: products
 images:
-  - image: https://fkmpimages.flixcart.com/iu-pre-catalog-images-feed-52022-1/1655025270215-a8bf6d3e754e4555-6065B169F36C3F53FFD878C0347BBAAE
-  - image: https://fkmpimages.flixcart.com/iu-pre-catalog-images-feed-52022-1/1655025264173-a8bf6d3e754e4555-47F2789643F52BDC8C1CD40E3A7BA850
-  - image: https://fkmpimages.flixcart.com/iu-pre-catalog-images-feed-52022-1/1655025249478-a8bf6d3e754e4555-BC7599F88F4B317F64322504FB84173F
-  - image: https://fkmpimages.flixcart.com/iu-pre-catalog-images-feed-52022-1/1655025242991-a8bf6d3e754e4555-A8067C714C6F78E584AE2317D9DC2442
+  - image: https://img.fkcdn.com/image/l4bn5ow0/fabric/a/g/o/yes-2-35-m-unstitched-2-2-m-design-108-sun-fashion-and-lifestyle-original-imagf8qrrjegvpjy.jpeg
+  - image: https://img.fkcdn.com/image/l4bn5ow0/fabric/i/l/g/yes-2-35-m-unstitched-2-2-m-design-108-sun-fashion-and-lifestyle-original-imagf8qrdbrmhapk.jpeg
+  - image: https://img.fkcdn.com/image/l4bn5ow0/fabric/n/g/1/yes-2-35-m-unstitched-2-2-m-design-108-sun-fashion-and-lifestyle-original-imagf8qrc4kjvzgy.jpeg
+  - image: https://img.fkcdn.com/image/l4bn5ow0/fabric/q/o/e/yes-2-35-m-unstitched-2-2-m-design-108-sun-fashion-and-lifestyle-original-imagf8qrxbav9tv5.jpeg
 price: 560
 priceBefore: 999
 title: "Cotton silk Sequins Embroidery Dress Material (Design #108)"
