@@ -10,7 +10,7 @@ images:
   - image: https://img.fkcdn.com/image/kqe3low0/fabric/z/z/h/yes-unstitched-design-48-sun-fashion-and-lifestyle-original-imag4et3bdqrpzcg.jpeg
 price: 560
 priceBefore: 999
-title: "Chanderi embroidered dress material (Design #48"
+title: "Chanderi embroidered dress material (Design #48)"
 url: chander-silk-embroidery-dress-material-design48
 description: Cut work embroidered dress material with cotton salwar
 stockOut: false
