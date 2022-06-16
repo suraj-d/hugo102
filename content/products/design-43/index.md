@@ -13,7 +13,7 @@ images:
   - image: https://img.fkcdn.com/image/kql8sy80/fabric/u/q/k/yes-unstitched-design-43-sun-fashion-and-lifestyle-original-imag4kgyjqturbpk.jpeg
 price: 560
 priceBefore: 999
-title: Cotton Embroidery dress material
+title: "Cotton Embroidery dress material (Design #43)"
 url: cotton-embroidery-dress-material-design43
 description: Embroidered cotton dress material with cotton bottom
 stockOut: false
