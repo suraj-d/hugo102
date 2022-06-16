@@ -4,11 +4,9 @@ productID: "0007"
 date: 2020-07-27T10:17:31+05:30
 type: products
 images:
-  - image: D13-1.jpeg
-  - image: D13-2.jpeg
-  - image: D13-3.jpeg
-  - image: D13-4.jpeg
-  - image: D13-5.jpeg
+  - image: https://i.postimg.cc/mDLgm2qd/D-no-13-2.jpg
+  - image: https://i.postimg.cc/LsMXZVVF/D-no-13-1.jpg
+  - image: https://i.postimg.cc/ZngYYPqg/D-no-13-4.jpg
 price: 830
 priceBefore: ""
 title: "Jaam cotton salwar suit (Design #13)"

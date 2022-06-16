@@ -7,8 +7,6 @@ images:
   - image: https://img.fkcdn.com/image/kmjhw280/fabric/g/3/b/yes-unstitched-design-17-sun-fashion-and-lifestyle-original-imagff3vgrcnq4hm.jpeg
 
   - image: https://img.fkcdn.com/image/kmjhw280/fabric/i/j/m/yes-unstitched-design-17-sun-fashion-and-lifestyle-original-imagff3vxyghydfm.jpeg
-
- 
 price: 790
 priceBefore: ""
 title: "Jaam cotton salwar suit (Design #17)"
