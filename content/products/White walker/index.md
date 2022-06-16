@@ -4,12 +4,8 @@ productID: "0022"
 date: 2020-07-26T15:30:41+05:30
 type: products
 images:
-  - image: white-walker-1.jpeg
-  - image: white-walker-2.jpeg
-  - image: white-walker-3.jpeg
-  - image: white-walker-4.jpeg
-  - image: white-walker-5.jpeg
-  - image: white-walker-6.jpeg
+  - image: https://i.postimg.cc/vmvKtQ5H/Whats-App-Image-2020-03-16-at-13.jpg
+  - image: https://i.postimg.cc/sXDNntJP/Whats-App-Image-2020-03-16-at-13.jpg
 price: 860
 priceBefore: ""
 title: Jaam cotton dress material (White Walker)

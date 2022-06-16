@@ -4,11 +4,10 @@ productID: "0019"
 date: 2020-07-29T09:03:31+05:30
 type: products
 images:
-  - image: Rakhi-1.jpeg
-  - image: Rakhi-2.jpeg
-  - image: Rakhi-3.jpeg
-  - image: Rakhi-4.jpeg
-  - image: Rakhi-5.jpeg
+  - image: https://i.postimg.cc/Nj2YDr0G/Rakhi-1.jpg
+  - image: https://i.postimg.cc/mZVbgsq4/Rakhi-3.jpg
+  - image: https://i.postimg.cc/bNJqG5ct/Rakhi-4.jpg
+  - image: https://i.postimg.cc/TY4fncfH/Rakhi-2.jpg
 price: 790
 priceBefore: ""
 title: Jaam cotton dress material (Rakhi)

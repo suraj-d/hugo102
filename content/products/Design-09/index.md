@@ -4,11 +4,9 @@ productID: "0001"
 date: 2020-07-27T10:17:01+05:30
 type: products
 images:
-  - image: D09-1.jpeg
-  - image: D09-2.jpeg
-  - image: D09-3.jpeg
-  - image: D09-4.jpeg
-  - image: D09-5.jpeg
+  - image: https://i.postimg.cc/tg4Z7Jg3/Whats-App-Image-2019-11-28-at-11.jpg
+  - image: https://i.postimg.cc/fWtdxVf5/Whats-App-Image-2019-11-28-at-11.jpg
+  - image: https://i.postimg.cc/3J2Dcz6v/Whats-App-Image-2019-11-28-at-11.jpg
 price: 760
 priceBefore: ""
 title: "Selby cotton salwar suit (Design #09)"

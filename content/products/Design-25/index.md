@@ -4,10 +4,10 @@ productID: "0023"
 date: 2020-07-26T15:30:41+05:30
 type: products
 images:
-  - image: D25-1.jpeg
-  - image: D25-2.jpeg
-  - image: D25-3.jpeg
-  - image: D25-4.jpeg
+  - image: https://i.postimg.cc/SsXBGBdX/Whats-App-Image-2020-07-02-at-17.jpg
+  - image: https://i.postimg.cc/MGHNWChs/Whats-App-Image-2020-07-02-at-17.jpg
+  - image: https://i.postimg.cc/5NwMTMVL/Whats-App-Image-2020-07-02-at-17.jpg
+  - image: https://i.postimg.cc/CLp3j6q1/Whats-App-Image-2020-07-02-at-17.jpg
 video: 5Y35yjJfC2U
 price: 720
 priceBefore: ""

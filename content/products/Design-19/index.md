@@ -4,11 +4,8 @@ productID: "0015"
 date: 2020-07-29T07:53:08+05:30
 type: products
 images:
-  - image: D19-1.jpeg
-  - image: D19-2.jpeg
-  - image: D19-3.jpeg
-  - image: D19-4.jpeg
-  - image: D19-5.jpeg
+  - image: https://i.postimg.cc/hvDGvPcF/D-no-19-2.jpg
+  - image: https://i.postimg.cc/X72rZFrs/D-no-19-3.jpg
 price: 900
 priceBefore: ""
 title: "Linen cotton salwar suit (Design #19)"
