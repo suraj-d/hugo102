@@ -12,7 +12,7 @@ images:
 price: 790
 priceBefore: ""
 title: "Jaam cotton salwar suit (Design #17)"
-url: Jaam-cotton-ladies-salwar-suit-printed-salwar-and-dupatta-wholesale-design15
+url: Jaam-cotton-ladies-salwar-suit-printed-salwar-and-dupatta-wholesale-design17
 description: Jaam cotton salwar suit with printed mal dupatta and 2.5 mtr printed bottom
 shortDescription: Beautiful jaam cotton top with french knot handwork design,
   heavy printed cotton bottom with matching printed mal dupatta.
