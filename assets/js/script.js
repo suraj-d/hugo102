@@ -108,24 +108,20 @@ $('.contactUs').click(function () {
     location = $('#location').val();
     message = $('#message').val();
     contactNumber = 9820927720;
-    url ="https://wa.me/91"+contactNumber+"?text=Hi, ";
+    url ="https://wa.me/91"+contactNumber+"?text= ";
 
-    if (name != "" || location != "" || message != "") {
-           
-      if(name != ""){
-        url += "I am "+name;
-      }
-      
-      if(location != "" && name == ""){
-        url += "I am from "+location;
-      }else if(location != "" && name !=""){
-        url += " from "+location;
-      }
-           
-      if (message != "") {
-        url += "%0A"+message;
-      }
-      
+  if (name != "") {
+    url += "Hi, I am " + name
+
+    if (location != "") {
+      url += " from "+location;
+    }
+
+    if (message == "") {
+      message = "I am interested in your product"
+    }
+    url += "%0A" + message;
+    
       //open in new page
       window.open(url,"_blank"); 
       
@@ -133,10 +129,37 @@ $('.contactUs').click(function () {
       $('#name').val("");
       $('#location').val("");
       $('#message').val("");
+  } else{
+    alert("Enter your name please.")
+  }
 
-    }else{
-      alert("Enter your name, location and message.")
-    }
+    // if (name != "" || location != "" || message != "") {
+           
+    //   if(name != ""){
+    //     url += "I am "+name;
+    //   }
+      
+    //   if(location != "" && name == ""){
+    //     url += "I am from "+location;
+    //   }else if(location != "" && name !=""){
+    //     url += " from "+location;
+    //   }
+           
+    //   if (message != "") {
+    //     url += "%0A"+message;
+    //   }
+      
+    //   //open in new page
+    //   window.open(url,"_blank"); 
+      
+    //   //clear text field
+    //   $('#name').val("");
+    //   $('#location').val("");
+    //   $('#message').val("");
+
+    // }else{
+    //   alert("Enter your name, location and message.")
+    // }
 
   })
 
