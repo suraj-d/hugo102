@@ -46,80 +46,79 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     
   [[menu.main]]
   name = "Products"
-  URL = "dressmaterials"
+  parent = ""
+  url = "dressmaterials"
   weight = 1
-  hasChildren = false
 
-    [[menu.main]]
-    parent = "Products"
-    name = "Wester Tops"
-    url = "dressmaterials"
-    weight = 1
+ 
 
   #[[menu.main]]
   #name = "Wholesale"
-  #URL = "non-catalog-dress-material-wholesale-supplier-in-surat"
+  #url = "non-catalog-dress-material-wholesale-supplier-in-surat"
   #weight = 2
 
   #[[menu.main]]
   #name = "Resell"
-  #URL = "single-piece-dress-material-at-wholesale-price"
+  #url = "single-piece-dress-material-at-wholesale-price"
   #weight = 3
   
   #[[menu.main]]
   #name = "Blog"
-  #URL = "blog"
+  #url = "blog"
   #weight = 4
   
   [[menu.main]]
   name = "FAQ"
-  URL = "faq"
+  parent = ""
+  url = "faq"
   weight = 5
   
   [[menu.main]]
   name = "Contact"
-  URL = "contact"
+  parent = ""
+  url = "contact"
   weight = 6
 
   [[menu.main]]
   name = "Search"
-  URL = "search"
+  parent = ""
+  url = "search"
   weight = 7
 
   ############# footer menu #############
   [[menu.footer]]
   name = "Products"
-  URL = "dressmaterials"
+  url = "dressmaterials"
   weight = 1
 
   # [[menu.footer]]
   # name = "For Wholesaler"
-  # URL = "non-catalog-dress-material-wholesale-supplier-in-surat"
+  # url = "non-catalog-dress-material-wholesale-supplier-in-surat"
   # weight = 2
   
   #[[menu.footer]]
   #name = "Resell"
-  #URL = "single-piece-dress-material-at-wholesale-price"
+  #url = "single-piece-dress-material-at-wholesale-price"
   #weight = 3
 
   #[[menu.footer]]
   #name = "Blog"
-  #URL = "blog"
+  #url = "blog"
   #weight = 4
 
   [[menu.footer]]
   name = "FAQ"
-  URL = "faq"
+  url = "faq"
   weight = 5
   
   [[menu.footer]]
   name = "Terms & Conditions"
-  URL = "terms-conditions"
+  url = "terms-conditions"
   weight = 6
   
   [[menu.footer]]
   name = "Contact"
-  URL = "contact"
+  url = "contact"
   weight = 7
 
 #################### language ##########################################
@@ -156,6 +155,7 @@ mapMarker = "images/marker.png"
 # Google Analitycs, create new property
 googleAnalitycsID = "UA-87351575-4" # Your ID
 facebookPixelID = "1190697014639992"
+gtagGA4 = "G-5PDW802GMK"
 
 # Contact Information
 mobile = "9820927720"
