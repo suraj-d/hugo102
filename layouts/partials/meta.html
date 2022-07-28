@@ -207,6 +207,18 @@
 <meta name="facebook-domain-verification" content="a6pfp4d2u7cj4fz9xth296sa74yg77" />	
 <meta name="p:domain_verify" content="8af73347878b4d9fef9acfa89d347cf2"/>
 
+{{"<!-- Global site tag (gtag.js) - Google Analytics -->" | safeHTML}}
+{{ with .Site.Params.gtagGA4 }}
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{ . }}"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', '{{ . }}');
+  </script>
+{{ end }}
+
 <meta name="keywords" content="{{ .Site.Params.Keywords}}" />
 <meta name="imagemode" content="force" />
 <meta name="coverage" content="Worldwide" /> 
