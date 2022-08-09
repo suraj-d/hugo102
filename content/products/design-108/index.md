@@ -16,14 +16,10 @@ description: Cotton silk dress material with sequins embroidery and stylish dupa
 stockOut: false
 draft: false
 ---
-Fabric Detail
+### Fabric Detail
+- Top: Cotton silk 2.2 mtr
+- Dupatta: Cotton silk 2.2 mtr
+- Bottom: Cotton 2 mtr
+- Sequins Embroidered
 
-Top: Cotton silk 2.2 mtr
-
-Dupatta: Cotton silk 2.2 mtr
-
-Bottom: Cotton 2 mtr
-
-Work: Sequins Embroidered
-
-Unstitched Dress Material
+### Unstitched Dress Material

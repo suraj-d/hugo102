@@ -18,7 +18,7 @@ description: Cotton slub printed dress material
 stockOut: false
 draft: false
 ---
-## Fabric Detail
+### Fabric Detail
 - Top- Cotton Slub (2 mtr)
 - Botton- Poly Cotton (2 mtr)
 - Dupatta- Chiffon (2.2 mtr)

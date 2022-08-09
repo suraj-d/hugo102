@@ -16,7 +16,7 @@ description: Cotton embroidered salwar suit dress material
 stockOut: false
 draft: false
 ---
-# Fabric Detail
+### Fabric Detail
 - Top- Cotton (2 mtr)
 - Botton- Poly Cotton (2 mtr)
 - Dupatta- Cotton Silk (2.2 mtr)

@@ -14,7 +14,7 @@ description: Cotton silk sequins embroidered salwar suit dress material
 stockOut: false
 draft: false
 ---
-# Fabric Detail
+### Fabric Detail
 - Top- Poly Cotton (2 mtr)
 - Botton- Poly Cotton (2 mtr)
 - Dupatta- Poly Cotton (2.2 mtr)

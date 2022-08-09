@@ -16,7 +16,7 @@ description: Cotton silk crochet sequins embroidered salwar suit dress material
 stockOut: false
 draft: false
 ---
-## Fabric Detail
+### Fabric Detail
 - Top- Cotton silk (2.2 mtr)
 - Botton- Poly cotton (2 mtr)
 - Dupatta- Cotton silk (2.2 mtr)
