@@ -15,8 +15,9 @@ stockOut: false
 draft: false
 ---
 ## Fabric detail
-- T﻿op- Cotton print 2.25 meter
-- Bottom- Cotton print 2.10 meter
-- Dupatta- Cotton print 2.25 meter
 
-#﻿## Unstitched dress material
+* T﻿op- Cotton print 2.25 meter
+* Bottom- Cotton print 2.10 meter
+* Dupatta- Cotton print 2.25 meter
+
+#### Unstitched dress material
