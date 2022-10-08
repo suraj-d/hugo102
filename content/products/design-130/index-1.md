@@ -4,8 +4,6 @@ productID: "0025"
 date: 2022-10-08T08:09:20.247Z
 type: products
 images:
-  - image: https://fkmpimages.flixcart.com/iu-pre-catalog-images-feed/1663854456184-a8bf6d3e754e4555-65CB2FCFA5773879259A0655F26F8D59
-  - image: https://fkmpimages.flixcart.com/iu-pre-catalog-images-feed/1663854442928-a8bf6d3e754e4555-0DEC4CF35CE935BA65CB410700CE3158
   - image: https://fkmpimages.flixcart.com/iu-pre-catalog-images-feed/1665150675419-a8bf6d3e754e4555-DDBBD63DFA903C997E676E34742895AC
   - image: https://fkmpimages.flixcart.com/iu-pre-catalog-images-feed/1665150658158-a8bf6d3e754e4555-D268DABD4E1A6D59B991CDE9D83A053E
   - image: https://fkmpimages.flixcart.com/iu-pre-catalog-images-feed/1665150673878-a8bf6d3e754e4555-911B89B779FFF074F8BD57228DFD5CD0
